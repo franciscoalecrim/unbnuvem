@@ -8,6 +8,8 @@ HADOOP_PATH=
 HADOOP_BIN=
 HADOOP_JAR=/usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
 
+sudo apt-get install iotop
+
 echo "Iniciando o monitoramento"
 rm -rf monitoramento
 mkdir monitoramento
