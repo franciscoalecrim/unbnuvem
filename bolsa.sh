@@ -3,7 +3,7 @@
 #  Parametros
 ###
 ANO=2017
-MESES=1
+MESES=12
 HADOOP_PATH=
 HADOOP_BIN=
 HADOOP_JAR=/usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
@@ -32,13 +32,18 @@ done
 rm -f bolsa_consolidada.csv
 CONT=1
 while [ "$CONT" -le $MESES ]; do
-  if [ "`ls | grep dados/${ANO}${CONT_S}_BolsaFamiliaFolhaPagamento.csv`" == "" ]; then
+  if [ "$CONT" -le 9 ]; then
+    CONT_S=0$CONT
+  else
+    CONT_S=$CONT
+  fi
+  if [ "`ls | grep ${ANO}${CONT_S}_BolsaFamiliaFolhaPagamento.csv`" == "" ]; then
     echo "\nDescompactando dados/${ANO}$CONT_S.zip"
     unzip -o "dados/${ANO}${CONT_S}.zip"
   else
     echo "${ANO}${CONT_S}_BolsaFamiliaFolhaPagamento.csv já existe"
   fi
-  cat "dados/${ANO}${CONT_S}_BolsaFamiliaFolhaPagamento.csv" >> bolsa_consolidada.csv
+  cat "${ANO}${CONT_S}_BolsaFamiliaFolhaPagamento.csv" >> bolsa_consolidada.csv
   CONT=$(($CONT + 1))
 done
 ${HADOOP_BIN}hdfs dfs -mkdir /input
