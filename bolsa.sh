@@ -7,6 +7,8 @@ MESES=1
 HADOOP_PATH=
 HADOOP_BIN=
 HADOOP_JAR=/usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
+
+echo "Iniciando o monitoramento"
 rm -rf monitoramento
 mkdir monitoramento
 date +"%T" > monitoramento/inicio.txt
@@ -16,6 +18,7 @@ echo $! > monitor_cpu.pid
 echo $! > monitor_io.pid
 ./monitor_memory.sh &
 echo $! > monitor_memory.pid
+
 #####
 #  Baixando arquivos do portal da transparência
 #####
@@ -64,4 +67,10 @@ do
    ${HADOOP_BIN}hadoop jar $HADOOP_JAR grep /input/bolsa_consolidada.csv /output_${ESTADO} "${ESTADO}\t"
    ${HADOOP_BIN}hdfs dfs -cat /output_${ESTADO}/part-r-00000 >> resultado.txt
 done
+
+echo "Finalizando o monitoramento"
+kill -9 $(cat monitor_cpu.pid)
+kill -9 $(cat monitor_io.pid)
+kill -9 $(cat monitor_memory.pid)
+
 date +"%T" > monitoramento/final.txt
