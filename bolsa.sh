@@ -22,6 +22,13 @@ echo $! > monitor_memory.pid
 #####
 echo "Baixando arquivos do portal da transparência\n"
 ./baixar_dados.sh
+
+echo "Aguardando"
+while [ "$(ls dados/pids)" != "" ]; do
+  sleep 10
+  echo "."
+done
+
 rm -f bolsa_consolidada.csv
 CONT=1
 while [ "$CONT" -le $MESES ]; do
