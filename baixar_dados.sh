@@ -33,7 +33,7 @@ while [ true ]; do
     if [ "$(ps -aux | grep $x | wc -l)" == "1" ]; then
       #echo "Removendo $x"
       rm $x  
-    else
+    #else
       #echo "N remover $x"
     fi
   done
