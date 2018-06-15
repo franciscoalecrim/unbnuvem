@@ -6,40 +6,40 @@ ANO=2017
 MESES=12
 HADOOP_JAR=/usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
 WORKLOAD=workload2
-sudo apt-get install iotop
+
 echo "------------------------ Inicio ----------------------------"
-
 rm -rf $WORKLOAD
-mkdir -p $WORKLOAD/monitoramento
 
-echo "Iniciando o monitoramento"
-date +"%T" > $WORKLOAD/monitoramento/inicio.txt
+###
+#  Iniciando o monitoramento
+###
+./monitoramento.sh start $WORKLOAD
 
-./monitor_cpu.sh $WORKLOAD &
-echo $! > $WORKLOAD/monitor_cpu.pid
-
-./monitor_io.sh $WORKLOAD &
-echo $! > $WORKLOAD/monitor_io.pid
-
-./monitor_memory.sh $WORKLOAD &
-echo $! > $WORKLOAD/monitor_memory.pid
-
-echo "Executando WORKLOAD 2 - Contando as ocorrencias de NIS em 2017 (Verificar se existe alguem com mais de 1)"
-
+###
+#  Execução do Workload
+###
+echo "Executando WORKLOAD 2 - Contando as ocorrencias de NIS em 2017"
 hadoop jar $HADOOP_JAR grep /input/${ANO}*.csv /output/$WORKLOAD "\t\d\d\d\d\d\d\d\d\d\d\d\d\d\d\t"
+hdfs dfs -cat /output/$WORKLOAD/part-r-00000 > $WORKLOAD/resultado.txt
+echo "Consolidando os dados"
+rm -rf workload2/resultado_consolidado.txt
+CONT=32
+while [ "$CONT" != "0" ]; do
+  echo $CONT $(grep -e "^${CONT}" workload2/resultado.txt | wc -l) >> workload2/resultado_consolidado.txt
+  CONT=$(($CONT - 1))
+done
+
+###
+#  Imprimindo o resultado
+###
+echo "Imprimindo resultado"
+cat workload2/resultado_consolidado.txt
 
 echo "${WORKLOAD} finalizado"
 
-echo "Imprimindo resultado"
-
-hdfs dfs -cat /output/$WORKLOAD/part-r-00000 > $WORKLOAD/resultado.txt
-./workload2_consolida.sh
-
-echo "Finalizando o monitoramento"
-kill -9 $(cat $WORKLOAD/monitor_cpu.pid)
-kill -9 $(cat $WORKLOAD/monitor_io.pid)
-kill -9 $(cat $WORKLOAD/monitor_memory.pid)
-rm -rf $WORKLOAD/*.pid
-date +"%T" > $WORKLOAD/monitoramento/final.txt
+###
+#  Finalizando o monitoramento
+###
+./monitoramento.sh start $WORKLOAD
 
 echo "-------------------------------Fim-----------------------------"
