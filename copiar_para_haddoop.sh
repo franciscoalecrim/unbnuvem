@@ -8,6 +8,7 @@ MESES=12
 echo "Limpando hadoop"
 
 hdfs dfs -rm -r -f /input
+hdfs dfs -rm -r -f /output*
 hdfs dfs -mkdir /input
 
 CONT=1
@@ -22,3 +23,5 @@ while [ "$CONT" -le $MESES ]; do
   hdfs dfs -copyFromLocal dados/${ANO}${CONT_S}_BolsaFamiliaFolhaPagamento.csv /input
   CONT=$(($CONT + 1))
 done
+
+echo "Copia finalizada"
