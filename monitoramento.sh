@@ -1,8 +1,8 @@
 #!/bin/bash
-$COMANDO=$1
-$WORKLOAD=$2
+COMANDO=$1
+WORKLOAD=$2
 
-if [ "$COMANDO" == "start"]; then
+if [ "$COMANDO" == "start" ]; then
   mkdir -p $WORKLOAD/monitoramento/pids/
   
   echo "Iniciando o monitoramento"
@@ -25,7 +25,7 @@ if [ "$COMANDO" == "start"]; then
   echo $! > $WORKLOAD/monitoramento/pids/monitor_network.pid
 fi
 
-if [ "$COMANDO" == "stop"]; then
+if [ "$COMANDO" == "stop" ]; then
   echo "Finalizando o monitoramento"
   kill -9 $(cat $WORKLOAD/monitoramento/pids/monitor_cpu.pid)
   kill -9 $(cat $WORKLOAD/monitoramento/pids/monitor_io.pid)

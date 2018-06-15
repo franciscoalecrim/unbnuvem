@@ -11,9 +11,9 @@ mkdir dados/pids
 #  INstalando pre requisitos
 #####
 echo "Instalando pre requisitos"
-sudo apt-get install iotop
-sudo apt-get install unzip
-sudo apt-get install iftop
+sudo apt-get install -y iotop
+sudo apt-get install -y unzip
+sudo apt-get install -y iftop
 
 #####
 #  Baixando arquivos do portal da transparência
@@ -52,6 +52,10 @@ while [ true ]; do
    echo "." 
    sleep 5
   fi
+done
+
+while [ "$(ps -aux | grep wget | wc -l)" != "1" ]; do
+  sleep 5
 done
 
 #####
