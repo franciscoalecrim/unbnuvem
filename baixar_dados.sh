@@ -6,6 +6,15 @@ ANO=2017
 MESES=12
 mkdir dados
 mkdir dados/pids
+
+#####
+#  INstalando pre requisitos
+#####
+echo "Instalando pre requisitos"
+sudo apt-get install iotop
+sudo apt-get install unzip
+sudo apt-get install iftop
+
 #####
 #  Baixando arquivos do portal da transparência
 #####
@@ -27,16 +36,14 @@ while [ "$CONT" -le $MESES ]; do
   CONT=$(($CONT + 1))
 done
 echo "Aguardando"
+sleep 5
 cd dados/pids
 while [ true ]; do
   echo "Verificando processos ativos..."
   for x in *; do
     echo $x
     if [ "$(ps -aux | grep $x | wc -l)" == "1" ]; then
-      #echo "Removendo $x"
       rm $x  
-    #else
-      #echo "N remover $x"
     fi
   done
   if [ "$(ls)" == "" ]; then
