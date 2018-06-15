@@ -48,6 +48,41 @@
   
 - Workload 2 - Calcular a frequência de recebimentos de bolsa familia por NIS agrupado pela quantidade
 
+```
+32 2
+31 2
+30 3
+29 4
+28 5
+27 1
+26 4
+25 21
+24 16
+23 819
+22 740
+21 773
+20 858
+19 1727
+18 3361
+17 2299
+16 9239
+15 7130
+14 58038
+13 34272
+12 11220885
+11 217775
+10 318090
+9 210881
+8 353757
+7 258417
+6 860774
+5 960261
+4 430025
+3 385628
+2 380178
+1 12180822
+```
+
 ##### Nuvens
 - Google Cloud - Região (us-east1-b - Carolina do Sul/US)
   - Serviço: Dataproc  
