@@ -49,7 +49,7 @@
   
 - Workload 2 - Calcular a frequência de recebimentos de bolsa familia por NIS agrupado pela quantidade
   
-  *Nesse caso **11220885** receberam o bolsa família **12** vezes e **12180822** apenas **uma** vez*
+  *Nesse caso **11220885** pessoas receberam o bolsa família **12** vezes em 2017 e **12180822** apenas **uma** vez. Observe que **819** pessoas receberam o benefício **23** vezes*
   
   ```
   Qtde de bolsas recebidas Qtde de NIS
@@ -73,7 +73,7 @@
   15 7130
   14 58038
   13 34272
-  **12 11220885**
+  12 11220885
   11 217775
   10 318090
   9 210881
@@ -84,7 +84,7 @@
   4 430025
   3 385628
   2 380178
-  **1 12180822**
+  1 12180822
   ```
 
 ##### Nuvens
