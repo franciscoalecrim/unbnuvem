@@ -54,6 +54,9 @@ while [ true ]; do
   fi
 done
 
+#####
+#  Descompactando arquivos para CSV
+#####
 echo "Descompactando arquivos"
 cd ../..
 CONT=1
@@ -94,4 +97,4 @@ while [ true ]; do
   fi
 done
 
-echo "Finalizado"
+echo "Processo de copia Finalizado"
