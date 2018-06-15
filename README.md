@@ -17,6 +17,7 @@
 - Workload 1 - Calcular a quantidade de bolsas família pagos em 2017 por estado
   
   ```
+  Qtde de bolsas  Estado
   21510356        BA
   17631560        SP
   13462414        PE
@@ -47,8 +48,11 @@
   ```
   
 - Workload 2 - Calcular a frequência de recebimentos de bolsa familia por NIS agrupado pela quantidade
-
+  
+  *Nesse caso **11220885** pessoas receberam o bolsa família **12** vezes em 2017 e **12180822** apenas **uma** vez. Observe que **819** pessoas receberam o benefício **23** vezes*
+  
   ```
+  Qtde de bolsas recebidas Qtde de NIS
   32 2
   31 2
   30 3
