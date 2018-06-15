@@ -17,6 +17,7 @@
 - Workload 1 - Calcular a quantidade de bolsas família pagos em 2017 por estado
   
   ```
+  Qtde de bolsas  Estado
   21510356        BA
   17631560        SP
   13462414        PE
@@ -48,7 +49,8 @@
   
 - Workload 2 - Calcular a frequência de recebimentos de bolsa familia por NIS agrupado pela quantidade
 
-  ```
+  
+  Qtde de bolsas recebidas Qtde de NIS```
   32 2
   31 2
   30 3
