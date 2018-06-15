@@ -48,6 +48,7 @@
   ```
   
 - Workload 2 - Calcular a frequência de recebimentos de bolsa familia por NIS agrupado pela quantidade
+  
   *Nesse caso 11220885 receberam o bolsa família 12 vezes e 12180822 apenas uma vez*
   
   ```
