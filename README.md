@@ -63,3 +63,25 @@ cd projetonuvem
 
 ##### Monitoramento
 Os dados de monitoramentos serão gerados nos diretórios: [workload]/monitoramento
+Comandos:
+ - CPU (top)
+ ```
+ echo `date +'%s'` `sudo top -bc -d 1 -n 1 | grep -m1 -e '%Cpu'`
+ ```
+ 
+ - IO (iotop)
+ ```
+ echo `date +'%s'` `sudo iotop -b -a -k -t -o -n 1 -d 1 | grep "Actual DISK"` `sudo iotop -b -a -k -t -o -n 1 -d 1 | grep "Total DISK"` 
+ ```
+ 
+ - Memoria (top)
+ ```
+ echo `date +'%s'` `sudo top -bc -d 1 -n 1 | grep -m1 -e 'KiB Mem'`
+ ```
+ 
+ - Rede (iftop)
+ ```
+ echo `date +"%s"` `sudo iftop -t -p -s 1 | grep "send rate"` `sudo iftop -t -p -s 1 | grep "receive rate"`
+ ```
+ 
+ 
