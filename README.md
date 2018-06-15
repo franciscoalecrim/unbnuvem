@@ -11,7 +11,7 @@ Aleteia Patricia F. de Araújo Von Paumgartten
 - Lucelia
 
 ##### Objetivo
-Executar workloads hadoops em diferentes provedores de núvem
+Executar workloads hadoop em diferentes provedores de núvem
 
 ##### Workloads
 - Workload 1 - Calcular a quantidade de bolsas família pagos em 2017 por estado
