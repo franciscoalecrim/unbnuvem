@@ -32,7 +32,8 @@ echo "${WORKLOAD} finalizado"
 
 echo "Imprimindo resultado"
 
-hdfs dfs -cat /output/$WORKLOAD/part-r-00000 | grep "^2"
+hdfs dfs -cat /output/$WORKLOAD/part-r-00000 > $WORKLOAD/resultado.txt
+./workload2_consolida.sh
 
 echo "Finalizando o monitoramento"
 kill -9 $(cat $WORKLOAD/monitor_cpu.pid)
