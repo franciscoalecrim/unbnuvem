@@ -40,6 +40,6 @@ echo "${WORKLOAD} finalizado"
 ###
 #  Finalizando o monitoramento
 ###
-./monitoramento.sh start $WORKLOAD
+./monitoramento.sh stop $WORKLOAD
 
 echo "-------------------------------Fim-----------------------------"
