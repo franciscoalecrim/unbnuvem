@@ -26,7 +26,8 @@ echo "${WORKLOAD} finalizado"
 #  Imprimindo o resultado
 ###
 echo "Imprimindo resultado"
-hdfs dfs -cat /output/$WORKLOAD/part-r-00000
+hdfs dfs -cat /output/$WORKLOAD/part-r-00000 > $WORKLOAD/resultado.txt
+cat $WORKLOAD/resultado.txt
 
 ###
 #  Finalizando o monitoramento
