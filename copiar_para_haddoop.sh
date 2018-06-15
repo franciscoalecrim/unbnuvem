@@ -7,11 +7,8 @@ MESES=12
 
 echo "Limpando hadoop"
 
-hdfs dfs -rm /input/*
-hdfs dfs -rmdir /input
+hdfs dfs -rm -r -f /input
 hdfs dfs -mkdir /input
-touch dados/consolidado.csv
-hdfs dfs -copyFromLocal dados/consolidado.csv /input
 
 CONT=1
 echo "Copiando arquivos"
@@ -23,6 +20,5 @@ while [ "$CONT" -le $MESES ]; do
   fi
   echo "Copiando ${ANO}${CONT_S}_BolsaFamiliaFolhaPagamento.csv"
   hdfs dfs -copyFromLocal dados/${ANO}${CONT_S}_BolsaFamiliaFolhaPagamento.csv /input
-  hdfs dfs -appendToFile dados/${ANO}${CONT_S}_BolsaFamiliaFolhaPagamento.csv /input/consolidado.csv
   CONT=$(($CONT + 1))
 done
