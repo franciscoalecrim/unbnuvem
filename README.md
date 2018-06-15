@@ -143,10 +143,10 @@ l DISK WRITE : 161.47 K/s
  Rede (iftop)
  ```
  echo `date +"%s"` `sudo iftop -t -p -s 1 | grep "send rate"` `sudo iftop -t -p -s 1 | grep "receive rate"`
- ``
+ ```
  
-Rede (saída)
-```
+  Rede (saída)
+ ``` 
 1529085653 Total send rate: 33.7Kb 33.7Kb 33.7Kb Total receive rate: 20.7Kb 20.7Kb 20.7Kb Total send and receive rate: 105Kb 105Kb 105Kb
 
 1529085661 Total send rate: 42.4Kb 42.4Kb 42.4Kb Total receive rate: 13.4Kb 13.4Kb 13.4Kb Total send and receive rate: 62.6Kb 62.6Kb 62.6Kb
