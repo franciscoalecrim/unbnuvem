@@ -24,31 +24,42 @@ Executar workloads hadoop em diferentes provedores de núvem
     - Workers: 1 x 4 Cores 8 RAM HD 32Gb
   
 - AWS - Região (Carolina do Norte/US)
-  - Criação de KeyPair (para acessar das máquinas)
+  - Criação de KeyPair (para acessar às máquinas)
   - Criação de Grupo de Segurança (para liberar acesso à porta 22 SSH)
   - Serviço: EMR
     - Master: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
     - Workers: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
  
 ##### Utilização
-- Aprovisionar a núvem com as seguintes características:
+- Aprovisionar a núvem
 - Acessar a máquina master remota
 - Baixar este projeto
-> git clone https://github.com/leonardoreboucas/projetonuvem.git
 
-> cd projetonuvem
+```
+git clone https://github.com/leonardoreboucas/projetonuvem.git
+```
+
+```
+cd projetonuvem
+```
 
 - Baixar os dados do Portal da transparência
-> ./baixar_dados.sh
-
+```
+./baixar_dados.sh
+```
 - Copiar dados para o Hadoop
-> ./copiar_para_hadoop.sh
-
+```
+./copiar_para_hadoop.sh
+```
 - Executar Workload 1
-> ./workload1.sh
+```
+./workload1.sh
+```
 
 - Executar Workload 2
-> ./workload2.sh
+```
+./workload2.sh
+```
 
 ##### Monitoramento
 Os dados de monitoramentos serão gerados nos diretórios: [workload]/monitoramento
