@@ -15,6 +15,37 @@
 
 ##### Workloads
 - Workload 1 - Calcular a quantidade de bolsas família pagos em 2017 por estado
+  
+  ```
+  21510356        BA
+  17631560        SP
+  13462414        PE
+  12457106        MG
+  12284805        CE
+  11601055        MA
+  10969235        PA
+  9384842 RJ
+  6093673 PB
+  5288845 PI
+  4758758 AL
+  4542636 AM
+  4329379 PR
+  4313072 RS
+  4085884 RN
+  3705041 GO
+  3251315 SE
+  2023333 ES
+  1913055 MT
+  1515803 MS
+  1502019 TO
+  1407727 SC
+  1033412 RO
+  1010360 AC
+  967168  DF
+  792596  AP
+  548550  RR
+  ```
+  
 - Workload 2 - Calcular a frequência de recebimentos de bolsa familia por NIS agrupado pela quantidade
 
 ##### Nuvens
