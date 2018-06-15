@@ -64,7 +64,7 @@ cd projetonuvem
 ##### Monitoramento
 Os dados de monitoramentos serão gerados nos diretórios: [workload]/monitoramento
 Monitores:
- - CPU (top)
+ CPU (top)
  ```
  echo `date +'%s'` `sudo top -bc -d 1 -n 1 | grep -m1 -e '%Cpu'`
  ```
@@ -88,12 +88,12 @@ Monitores:
  
  
  
- - IO (iotop)
+ IO (iotop)
  ```
  echo `date +'%s'` `sudo iotop -b -a -k -t -o -n 1 -d 1 | grep "Actual DISK"` `sudo iotop -b -a -k -t -o -n 1 -d 1 | grep "Total DISK"` 
  ```
  
- - IO (saída)
+ IO (saída)
  ```
 1529085963 18:06:03 Actual DISK READ: 0.00 K/s | Actual DISK WRITE: 0.00 K/s 18:06:04 Total DISK READ : 0.00 K/s | Total
  DISK WRITE : 0.00 K/s
@@ -114,12 +114,12 @@ l DISK WRITE : 161.47 K/s
  ```
  
  
- - Memoria (top)
+ Memória (top)
  ```
  echo `date +'%s'` `sudo top -bc -d 1 -n 1 | grep -m1 -e 'KiB Mem'`
  ```
  
- - Memoria (saída)
+ Memória (saída)
  ```
 1529085945 KiB Mem: 3800612 total, 3583308 used, 217304 free, 9372 buffers
 1529085946 KiB Mem: 3800612 total, 3567392 used, 233220 free, 9372 buffers
@@ -140,23 +140,24 @@ l DISK WRITE : 161.47 K/s
 1529085964 KiB Mem: 3800612 total, 3569828 used, 230784 free, 9396 buffers
  ```
   
- - Rede (iftop)
+ Rede (iftop)
  ```
  echo `date +"%s"` `sudo iftop -t -p -s 1 | grep "send rate"` `sudo iftop -t -p -s 1 | grep "receive rate"`
  ``
  
- - Rede (saída)
- ```
- 1529085871 Total send rate: 180Kb 180Kb 180Kb Total receive rate: 13.9Kb 13.9Kb 13.9Kb Total send and receive rate: 182Kb 182Kb 182Kb
-1529085878 Total send rate: 31.0Kb 31.0Kb 31.0Kb Total receive rate: 19.3Kb 19.3Kb 19.3Kb Total send and receive rate: 49.1Kb 49.1Kb 49.1Kb
-1529085886 Total send rate: 139Kb 139Kb 139Kb Total receive rate: 20.2Kb 20.2Kb 20.2Kb Total send and receive rate: 34.6Kb 34.6Kb 34.6Kb
-1529085892 Total send rate: 67.9Kb 67.9Kb 67.9Kb Total receive rate: 20.6Kb 20.6Kb 20.6Kb Total send and receive rate: 98.4Kb 98.4Kb 98.4Kb
-1529085898 Total send rate: 155Kb 155Kb 155Kb Total receive rate: 15.9Kb 15.9Kb 15.9Kb Total send and receive rate: 23.6Kb 23.6Kb 23.6Kb
-1529085904 Total send rate: 161Kb 161Kb 161Kb Total receive rate: 12.4Kb 12.4Kb 12.4Kb Total send and receive rate: 18.8Kb 18.8Kb 18.8Kb
-1529085910 Total send rate: 30.5Kb 30.5Kb 30.5Kb Total receive rate: 20.2Kb 20.2Kb 20.2Kb Total send and receive rate: 61.0Kb 61.0Kb 61.0Kb
-1529085917 Total send rate: 6.37Kb 6.37Kb 6.37Kb Total receive rate: 30.8Kb 30.8Kb 30.8Kb Total send and receive rate: 76.3Kb 76.3Kb 76.3Kb
-1529085925 Total send rate: 75.2Kb 75.2Kb 75.2Kb Total receive rate: 22.4Kb 22.4Kb 22.4Kb Total send and receive rate: 58.9Kb 58.9Kb 58.9Kb
-1529085931 Total send rate: 64.5Kb 64.5Kb 64.5Kb Total receive rate: 10.1Kb 10.1Kb 10.1Kb Total send and receive rate: 14.2Kb 14.2Kb 14.2Kb
- ```
- 
- 
+Rede (saída)
+```
+1529085653 Total send rate: 33.7Kb 33.7Kb 33.7Kb Total receive rate: 20.7Kb 20.7Kb 20.7Kb Total send and receive rate: 105Kb 105Kb 105Kb
+1529085661 Total send rate: 42.4Kb 42.4Kb 42.4Kb Total receive rate: 13.4Kb 13.4Kb 13.4Kb Total send and receive rate: 62.6Kb 62.6Kb 62.6Kb
+1529085667 Total send rate: 6.25Kb 6.25Kb 6.25Kb Total receive rate: 16.1Kb 16.1Kb 16.1Kb Total send and receive rate: 106Kb 106Kb 106Kb
+1529085673 Total send rate: 85.9Kb 85.9Kb 85.9Kb Total receive rate: 22.4Kb 22.4Kb 22.4Kb Total send and receive rate: 34.9Kb 34.9Kb 34.9Kb
+1529085680 Total send rate: 5.21Kb 5.21Kb 5.21Kb Total receive rate: 21.1Kb 21.1Kb 21.1Kb Total send and receive rate: 57.1Kb 57.1Kb 57.1Kb
+1529085687 Total send rate: 55.6Kb 55.6Kb 55.6Kb Total receive rate: 16.1Kb 16.1Kb 16.1Kb Total send and receive rate: 21.3Kb 21.3Kb 21.3Kb
+1529085693 Total send rate: 4.55Kb 4.55Kb 4.55Kb Total receive rate: 17.9Kb 17.9Kb 17.9Kb Total send and receive rate: 39.3Kb 39.3Kb 39.3Kb
+1529085700 Total send rate: 16.9Kb 16.9Kb 16.9Kb Total receive rate: 15.9Kb 15.9Kb 15.9Kb Total send and receive rate: 215Kb 215Kb 215Kb
+1529085707 Total send rate: 220Kb 220Kb 220Kb Total receive rate: 14.8Kb 14.8Kb 14.8Kb Total send and receive rate: 49.5Kb 49.5Kb 49.5Kb
+1529085714 Total send rate: 26.4Kb 26.4Kb 26.4Kb Total receive rate: 15.0Kb 15.0Kb 15.0Kb Total send and receive rate: 20.8Kb 20.8Kb 20.8Kb
+1529085721 Total send rate: 85.9Kb 85.9Kb 85.9Kb Total receive rate: 14.7Kb 14.7Kb 14.7Kb Total send and receive rate: 24.1Kb 24.1Kb 24.1Kb
+1529085728 Total send rate: 145Kb 145Kb 145Kb Total receive rate: 17.3Kb 17.3Kb 17.3Kb Total send and receive rate: 152Kb 152Kb 152Kb
+1
+```
