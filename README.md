@@ -148,16 +148,26 @@ l DISK WRITE : 161.47 K/s
 Rede (saída)
 ```
 1529085653 Total send rate: 33.7Kb 33.7Kb 33.7Kb Total receive rate: 20.7Kb 20.7Kb 20.7Kb Total send and receive rate: 105Kb 105Kb 105Kb
+
 1529085661 Total send rate: 42.4Kb 42.4Kb 42.4Kb Total receive rate: 13.4Kb 13.4Kb 13.4Kb Total send and receive rate: 62.6Kb 62.6Kb 62.6Kb
+
 1529085667 Total send rate: 6.25Kb 6.25Kb 6.25Kb Total receive rate: 16.1Kb 16.1Kb 16.1Kb Total send and receive rate: 106Kb 106Kb 106Kb
+
 1529085673 Total send rate: 85.9Kb 85.9Kb 85.9Kb Total receive rate: 22.4Kb 22.4Kb 22.4Kb Total send and receive rate: 34.9Kb 34.9Kb 34.9Kb
+
 1529085680 Total send rate: 5.21Kb 5.21Kb 5.21Kb Total receive rate: 21.1Kb 21.1Kb 21.1Kb Total send and receive rate: 57.1Kb 57.1Kb 57.1Kb
+
 1529085687 Total send rate: 55.6Kb 55.6Kb 55.6Kb Total receive rate: 16.1Kb 16.1Kb 16.1Kb Total send and receive rate: 21.3Kb 21.3Kb 21.3Kb
+
 1529085693 Total send rate: 4.55Kb 4.55Kb 4.55Kb Total receive rate: 17.9Kb 17.9Kb 17.9Kb Total send and receive rate: 39.3Kb 39.3Kb 39.3Kb
+
 1529085700 Total send rate: 16.9Kb 16.9Kb 16.9Kb Total receive rate: 15.9Kb 15.9Kb 15.9Kb Total send and receive rate: 215Kb 215Kb 215Kb
+
 1529085707 Total send rate: 220Kb 220Kb 220Kb Total receive rate: 14.8Kb 14.8Kb 14.8Kb Total send and receive rate: 49.5Kb 49.5Kb 49.5Kb
+
 1529085714 Total send rate: 26.4Kb 26.4Kb 26.4Kb Total receive rate: 15.0Kb 15.0Kb 15.0Kb Total send and receive rate: 20.8Kb 20.8Kb 20.8Kb
+
 1529085721 Total send rate: 85.9Kb 85.9Kb 85.9Kb Total receive rate: 14.7Kb 14.7Kb 14.7Kb Total send and receive rate: 24.1Kb 24.1Kb 24.1Kb
+
 1529085728 Total send rate: 145Kb 145Kb 145Kb Total receive rate: 17.3Kb 17.3Kb 17.3Kb Total send and receive rate: 152Kb 152Kb 152Kb
-1
 ```
