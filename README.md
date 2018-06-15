@@ -1,12 +1,12 @@
-# Tópicos de Computação em Nuvem - 2018/01
+# UNB / Tópicos de Computação em Nuvem - 2018/01
 ### Projeto Prático
 
 ##### Professora 
-Aleteia
+Aleteia Patricia F. de Araújo Von Paumgartten
 
 ##### Alunos
 - Hudson
-- Francisco Alecrin
+- Francisco Keppler S. Alecrim
 - Leonardo Rebouças de Carvalho
 - Lucelia
 
@@ -17,13 +17,22 @@ Executar workloads hadoops em diferentes provedores de núvem
 - Workload 1 - Calcular a quantidade de bolsas família pagos em 2017 por estado
 - Workload 2 - Calcular a frequência de recebimentos de bolsa familia por NIS agrupado pela quantidade
 
+##### Nuvens
+- Google Cloud - Região (us-east1-b - Carolina do Sul/US)
+  - Serviço: Dataproc  
+    - Master: 1 x 2 Cores 3,75 RAM HD 32Gb
+    - Workers: 3 x 2 Cores 3,75 RAM HD 32Gb
+  
+- AWS - Região (Carolina do Norte/US)
+  - Criação de KeyPair (para acessar das máquinas)
+  - Criação de Grupo de Segurança (para liberar acesso à porta 22 SSH)
+  - Serviço: EMR
+    - Master: 1 x c4.large (2 Cores 3,8 RAM HD 32Gb)
+    - Workers: 3 x c4.large (2 Cores 3,75 RAM HD 32Gb)
+ 
 ##### Utilização
-
 - Aprovisionar a núvem com as seguintes características:
-  - SO: Debian
-  - 1 Master 2 CPU 10GB RAM HD 100GB
-  - 3 Workers 2 CPU 10GB RAM HD 100GB
-
+- Acessar a máquina master remota
 - Baixar este projeto
 > git clone https://github.com/leonardoreboucas/projetonuvem.git
 > cd projetonuvem
