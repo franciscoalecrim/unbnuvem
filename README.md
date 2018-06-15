@@ -20,21 +20,22 @@ Executar workloads hadoops em diferentes provedores de núvem
 ##### Nuvens
 - Google Cloud - Região (us-east1-b - Carolina do Sul/US)
   - Serviço: Dataproc  
-    - Master: 1 x 2 Cores 3,75 RAM HD 32Gb
-    - Workers: 3 x 2 Cores 3,75 RAM HD 32Gb
+    - Master: 1 x 4 Cores 8 RAM HD 32Gb
+    - Workers: 1 x 4 Cores 8 RAM HD 32Gb
   
 - AWS - Região (Carolina do Norte/US)
   - Criação de KeyPair (para acessar das máquinas)
   - Criação de Grupo de Segurança (para liberar acesso à porta 22 SSH)
   - Serviço: EMR
-    - Master: 1 x c4.large (2 Cores 3,8 RAM HD 32Gb)
-    - Workers: 3 x c4.large (2 Cores 3,75 RAM HD 32Gb)
+    - Master: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
+    - Workers: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
  
 ##### Utilização
 - Aprovisionar a núvem com as seguintes características:
 - Acessar a máquina master remota
 - Baixar este projeto
 > git clone https://github.com/leonardoreboucas/projetonuvem.git
+
 > cd projetonuvem
 
 - Baixar os dados do Portal da transparência
