@@ -50,7 +50,8 @@
 - Workload 2 - Calcular a frequência de recebimentos de bolsa familia por NIS agrupado pela quantidade
 
   
-  Qtde de bolsas recebidas Qtde de NIS```
+  ```
+  Qtde de bolsas recebidas Qtde de NIS
   32 2
   31 2
   30 3
