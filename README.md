@@ -25,4 +25,20 @@ Executar workloads hadoops em diferentes provedores de núvem
   - 3 Workers 2 CPU 10GB RAM HD 100GB
 
 - Baixar este projeto
-``git clone https://github.com/leonardoreboucas/projetonuvem.git```
+> git clone https://github.com/leonardoreboucas/projetonuvem.git
+> cd projetonuvem
+
+- Baixar os dados do Portal da transparência
+> ./baixar_dados.sh
+
+- Copiar dados para o Hadoop
+> ./copiar_para_hadoop.sh
+
+- Executar Workload 1
+> ./workload1.sh
+
+- Executar Workload 2
+> ./workload2.sh
+
+##### Monitoramento
+Os dados de monitoramentos serão gerados nos diretórios: [workload]/monitoramento
