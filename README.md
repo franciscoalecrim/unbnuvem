@@ -88,6 +88,7 @@
   ```
 
 ##### Nuvens
+Configuração utilizada durante a criação dos scripts:
 - Google Cloud - Região (us-east1-b - Carolina do Sul/US)
   - Serviço: Dataproc  
     - Master: 1 x 4 Cores 8 RAM HD 32Gb
@@ -100,6 +101,19 @@
     - Master: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
     - Workers: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
  
+Configuração utilizada durante a primeira coleta dos scripts(1 master e 4 workers):
+- Google Cloud - Região (us-east1-b - Carolina do Sul/US)
+  - Serviço: Dataproc  
+    - Master: 1 x 4 Cores 8 RAM HD 32Gb
+    - Workers: 4 x 4 Cores 8 RAM HD 32Gb
+  
+- AWS - Região (Carolina do Norte/US)
+  - Criação de KeyPair (para acessar às máquinas)
+  - Criação de Grupo de Segurança (para liberar acesso à porta 22 SSH)
+  - Serviço: EMR
+    - Master: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
+    - Workers: 4 x m4.large (4 Cores 8 RAM HD 32Gb)
+ 
 ##### Utilização
 - Aprovisionar a núvem
 - Acessar a máquina master remota
@@ -107,6 +121,9 @@
 
   ```
   git clone https://github.com/leonardoreboucas/projetonuvem.git
+	ou 
+
+  git clone https://github.com/franciscoalecrim/unbnuvem.git
   ```
 
   ```
@@ -130,6 +147,13 @@
   ```
   ./workload2.sh
   ```
+
+- Múltiplas execuções podem ser feitas utilizando o script abaixo que realiza 5 execuções
+  ```
+  ./multiplas_execucoes.sh
+  ```
+
+
 
 ##### Monitoramento
 Os dados de monitoramentos serão gerados nos diretórios: [workload]/monitoramento

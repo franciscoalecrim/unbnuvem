@@ -9,6 +9,7 @@ WORKLOAD=workload2
 
 echo "------------------------ Inicio ----------------------------"
 rm -rf $WORKLOAD
+hdfs dfs -rm -r -f /output*
 
 ###
 #  Iniciando o monitoramento
