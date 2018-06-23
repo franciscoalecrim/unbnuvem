@@ -14,6 +14,11 @@ echo "Instalando pre requisitos"
 sudo apt-get install -y iotop
 sudo apt-get install -y unzip
 sudo apt-get install -y iftop
+sudo sed -i 's/enable=0/enable=1/g'  /etc/yum.repos.d/epel.repo
+sudo yum repolist 
+sudo yum install -y iotop
+sudo yum install -y unzip
+sudo yum install -y iftop
 
 #####
 #  Baixando arquivos do portal da transparência
