@@ -15,6 +15,7 @@ hdfs dfs -rm -r -f /output*
 #  Iniciando o monitoramento
 ###
 ./monitoramento.sh start $WORKLOAD
+./nodes_configurar_monitorar.sh monitorar start $WORKLOAD
 
 ###
 #  Execução do Wokload
@@ -33,6 +34,7 @@ cat $WORKLOAD/resultado.txt
 ###
 #  Finalizando o monitoramento
 ###
+./nodes_configurar_monitorar.sh monitorar stop $WORKLOAD
 ./monitoramento.sh stop $WORKLOAD
 
 echo "-------------------------------Fim-----------------------------"
