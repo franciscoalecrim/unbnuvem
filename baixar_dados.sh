@@ -47,7 +47,7 @@ while [ true ]; do
   echo "Verificando processos ativos..."
   for x in *; do
     echo $x
-    if [ "$(ps -aux | grep $x | wc -l)" == "1" ]; then
+    if [ "$(ps -aux | grep zip | grep $x | wc -l)" == "1" ]; then
       rm $x  
     fi
   done
