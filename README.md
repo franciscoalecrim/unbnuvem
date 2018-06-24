@@ -161,7 +161,14 @@ Configuração utilizada durante a primeira coleta dos scripts(1 master e 4 work
   ```
   ssh-keygen -t rsa 
   ```
-
+- Testar script de coletas multiplas 
+  ```
+  ./nodes_configurar_monitorar.sh
+  ```
+- Realizar configuração caso consiga fazer os SSHs sem senha
+  ```
+  ./nodes_configurar_monitorar.sh configurar
+  ```
 - Múltiplas execuções podem ser feitas utilizando o script abaixo que realiza 5 execuções
   ```
   ./multiplas_execucoes.sh
