@@ -171,7 +171,9 @@ Configuração utilizada durante a primeira coleta dos scripts(1 master e 4 work
   ```
 - Múltiplas execuções podem ser feitas utilizando o script abaixo que realiza 5 execuções
   ```
-  ./multiplas_execucoes.sh
+  screen
+  ./multiplas_execucoes.sh > colegaNuvemX.log 2>&1
+  press ctrl+a+d
   ```
 
 
