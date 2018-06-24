@@ -113,6 +113,20 @@ Configuração utilizada durante a primeira coleta dos scripts(1 master e 4 work
   - Serviço: EMR
     - Master: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
     - Workers: 4 x m4.large (4 Cores 8 RAM HD 32Gb)
+
+Configuração utilizada durante a primeira coleta dos scripts(1 master e 4 workers):
+- Google Cloud - Região (us-east1-b - Carolina do Sul/US)
+  - Serviço: Dataproc  
+    - Master: 1 x 2 Cores 3,75 RAM HD 32Gb
+    - Workers: 2 x 2 Cores 3,75 RAM HD 32Gb
+  
+- AWS - Região (Carolina do Norte/US)
+  - Criação de KeyPair (para acessar às máquinas)
+  - Criação de Grupo de Segurança (para liberar acesso à porta 22 SSH)
+  - Serviço: EMR
+    - Master: 1 x c4.large (2 Cores 3,75 RAM HD 32Gb)
+    - Workers: 2 x c4.large (2 Cores 3,75 RAM HD 32Gb)
+ 
  
 ##### Utilização
 - Aprovisionar a núvem
@@ -138,14 +152,14 @@ Configuração utilizada durante a primeira coleta dos scripts(1 master e 4 work
   ```
   ./copiar_para_hadoop.sh
   ```
-- Executar Workload 1
-  ```
-  ./workload1.sh
-  ```
 
-- Executar Workload 2
+- Mexer no arquivo nodes_IPs
   ```
-  ./workload2.sh
+  vim nodes_IPs
+  ```
+- Se Google Cloud realizar a troca de chaves SSH sem senha
+  ```
+  ssh-keygen -t rsa 
   ```
 
 - Múltiplas execuções podem ser feitas utilizando o script abaixo que realiza 5 execuções

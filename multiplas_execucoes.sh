@@ -10,4 +10,5 @@ for i in $(seq 1 5); do
 	mv workload2 execucao$i/. 
 	date
 	mv 172.* execucao$i/. 
+	mv 10.* execucao$i/. 
 done 
