@@ -148,6 +148,10 @@ Configuração utilizada durante a primeira coleta dos scripts(1 master e 4 work
   ```
   ./baixar_dados.sh
   ```
+- Se AWS 
+  ```
+   sudo -u hdfs hdfs dfsadmin -safemode leave
+   ```
 - Copiar dados para o Hadoop
   ```
   ./copiar_para_hadoop.sh
@@ -171,9 +175,7 @@ Configuração utilizada durante a primeira coleta dos scripts(1 master e 4 work
   ```
 - Múltiplas execuções podem ser feitas utilizando o script abaixo que realiza 5 execuções
   ```
-  screen
-  ./multiplas_execucoes.sh > colegaNuvemX.log 2>&1
-  press ctrl+a+d
+  ./multiplas_execucoes.sh
   ```
 
 
