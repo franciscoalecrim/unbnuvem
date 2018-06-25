@@ -11,27 +11,27 @@ fi
 execute_cluster () {
 	for server in $(cat nodes_IPs); do 
 		echo "executing on server: 	 	$server  command $1"
-		ssh  $server "$1"
+		ssh -i chave.pem $server "$1"
 	done 
 }
 
 execute_cluster_background () {
 	for server in $(cat nodes_IPs); do 
 		echo "executing on server: 	 	$server  command $1"
-		ssh  $server "$1"  &
+		ssh -i chave.pem $server "$1"  &
 	done 
 }
 enviar_arquivo () {
 	for server in $(cat nodes_IPs); do 
 		echo "enviando on server: 	 	$server  file $1"
-		scp  $1  $server:
+		scp -i chave.pem $1  $server:
 	done 
 }
 
 enviar_diretorio () {
 	for server in $(cat nodes_IPs); do 
 		echo "enviando on server: 	 	$server  file $1"
-		scp -r   $1  $server:
+		scp -r  -i chave.pem $1  $server:
 	done 
 }
 
@@ -40,13 +40,19 @@ baixar_diretorio () {
 	for server in $(cat nodes_IPs); do 
 		echo "enviando on server: 	 	$server  file $1"
 		mkdir $server
-		scp -r    $server:$1 $server/. 
+		scp -r  -i chave.pem  $server:$1 $server/. 
 	done 
 }
 
 
 if [ "$1" == "configurar" ]; then 
 	execute_cluster "hostname"
+	execute_cluster "sudo sed -i 's/enabled=0/enabled=1/g'  /etc/yum.repos.d/epel.repo        "
+	execute_cluster "cat /etc/yum.repos.d/epel.repo"
+	execute_cluster "sudo yum repolist                                                      "
+	execute_cluster "sudo yum install -y iotop                                              "
+	execute_cluster "sudo yum install -y unzip                                              "
+	execute_cluster "sudo yum install -y iftop                                              "
 	execute_cluster "sudo apt-get install -y iotop                                          "
 	execute_cluster "sudo apt-get install -y unzip                                          "
 	execute_cluster "sudo apt-get install -y iftop                                          "
@@ -65,7 +71,8 @@ if [ "$1" == "monitorar" ]; then
 fi 
 
 
-execute_cluster "hostname"
+	execute_cluster "ps aux | grep monitor | grep -v heartbeat  "
+execute_cluster "rm -rf teste teste1 workload1 workload2"
 
 echo "escolher entra as opcoes: monitorar e configurar "
 

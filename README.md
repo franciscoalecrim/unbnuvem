@@ -101,7 +101,7 @@ Configuração utilizada durante a criação dos scripts:
     - Master: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
     - Workers: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
  
-Configuração utilizada durante a primeira coleta dos scripts(1 master e 4 workers):
+Configuração utilizada durante a primeira coleta dos scripts(1 master e 4 workers) - será chamado de COLETA 2 :
 - Google Cloud - Região (us-east1-b - Carolina do Sul/US)
   - Serviço: Dataproc  
     - Master: 1 x 4 Cores 8 RAM HD 32Gb
@@ -114,18 +114,18 @@ Configuração utilizada durante a primeira coleta dos scripts(1 master e 4 work
     - Master: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
     - Workers: 4 x m4.large (4 Cores 8 RAM HD 32Gb)
 
-Configuração utilizada durante a primeira coleta dos scripts(1 master e 4 workers):
+Configuração utilizada durante a primeira coleta dos scripts(1 master e 2 workers) - será chamado de COLETA 5 :
 - Google Cloud - Região (us-east1-b - Carolina do Sul/US)
   - Serviço: Dataproc  
-    - Master: 1 x 2 Cores 3,75 RAM HD 32Gb
-    - Workers: 2 x 2 Cores 3,75 RAM HD 32Gb
+    - Master: 1 x 2 Cores 8 RAM HD 32Gb
+    - Workers: 2 x 2 Cores 8 RAM HD 32Gb
   
 - AWS - Região (Carolina do Norte/US)
   - Criação de KeyPair (para acessar às máquinas)
   - Criação de Grupo de Segurança (para liberar acesso à porta 22 SSH)
   - Serviço: EMR
-    - Master: 1 x c4.large (2 Cores 3,75 RAM HD 32Gb)
-    - Workers: 2 x c4.large (2 Cores 3,75 RAM HD 32Gb)
+    - Master: 1 x m4.large (2 Cores 8 RAM HD 32Gb)
+    - Workers: 2 x m4.large (2 Cores 8 RAM HD 32Gb)
  
  
 ##### Utilização
