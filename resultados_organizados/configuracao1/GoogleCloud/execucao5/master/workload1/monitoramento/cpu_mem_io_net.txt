@@ -1,0 +1,2554 @@
+Tue Jun 26 10:31:02 UTC 2018
+TEMPOS 1530009062
+TEMPO 20180626103102
+top - 10:31:03 up  7:41,  1 user,  load average: 0.64, 0.24, 0.25
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  7882164 used,   315280 free,    69936 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4731836 cached Mem
+10:31:03 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:31:03 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     4.80Kb     4.80Kb     4.80Kb     1.20KB
+     ti-in-f95.1e100.net                      <=       208b       208b       208b        52B
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     1.37Kb     1.37Kb     1.37Kb       350B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       656b       656b       656b       164B
+     189.6.12.181                             <=       640b       640b       640b       160B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     5.82Kb     5.82Kb     5.82Kb
+Total receive rate:                                  2.20Kb     2.20Kb     2.20Kb
+Total send and receive rate:                         8.01Kb     8.01Kb     8.01Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     5.81Kb     2.20Kb     8.01Kb
+Cumulative (sent/received/total):                    1.45KB       562B     2.00KB
+============================================================================================
+
+Tue Jun 26 10:31:06 UTC 2018
+TEMPOS 1530009066
+TEMPO 20180626103106
+top - 10:31:06 up  7:41,  1 user,  load average: 0.64, 0.24, 0.25
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8052788 used,   144656 free,    69940 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669208 cached Mem
+10:31:06 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:31:06 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     1.17Kb     1.17Kb     1.17Kb       300B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     3.49Kb     3.49Kb     3.49Kb       894B
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     1.54Kb     1.54Kb     1.54Kb       395B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     1.54Kb     1.54Kb     1.54Kb
+Total receive rate:                                  5.04Kb     5.04Kb     5.04Kb
+Total send and receive rate:                         6.58Kb     6.58Kb     6.58Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     1.54Kb     5.03Kb     6.58Kb
+Cumulative (sent/received/total):                      395B     1.26KB     1.64KB
+============================================================================================
+
+Tue Jun 26 10:31:10 UTC 2018
+TEMPOS 1530009070
+TEMPO 20180626103110
+top - 10:31:10 up  7:41,  1 user,  load average: 0.75, 0.27, 0.26
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8048032 used,   149412 free,    69952 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669220 cached Mem
+10:31:10 Total DISK READ :       0.00 K/s | Total DISK WRITE :     123.08 K/s
+10:31:10 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+10:31:10  4819 be/4 yarn          0.00 K      4.00 K  0.00 %  0.00 % java -Dproc_resourcemanager -Xmx1000m -Dhadoop.log.dir=/var/log/hadoop-yarn -Dyarn.log.dir=/var/log/hadoop-yarn -Dhadoop.log.file=yarn-yarn-resourcemanager-cluster-again-m.log -Dyarn.log.file=yarn-yarn-resourcemanager-cluster-again-m.log -Dyarn.home.dir= -Dyarn.id.str=yarn -Dhadoop.root.logger=INFO,RFA -Dyarn.root.logger=INFO,RFA -Djava.library.path=/usr/lib/hadoop/lib/native -Dyarn.policy.file=hadoop-policy.xml -Xmx3202m -Dhadoop.log.dir=/var/log/hadoop-yarn -Dyarn.log.dir=/var/log/hadoop-yarn -Dhadoop.log.file=yarn-yarn-resourcemanager-cluster-again-m.log -Dyarn.log.file=yarn-yarn-resourcemanager-cluster-again-m.log -Dyarn.home.dir=/usr/lib/hadoop-yarn -Dhadoop.home.dir=/usr/lib/hadoop -Dhadoop.root.logger=INFO,RFA -Dyarn.root.logger=INFO,RFA -Djava.library.path=/usr/lib/hadoop/lib/native -classpath /etc/hadoop/conf:/etc/hadoop/conf:/etc/hadoop/conf:/usr/lib/hadoop/lib/*:/usr/lib/hadoop/.//*:/usr/lib/hadoop-hdfs/./:/usr/lib/hadoop-hdfs/lib/*:/usr/lib/hadoop-hdfs/.//*:/usr/lib/hadoop-yarn/lib/*:/usr/lib/hadoop-yarn/.//*:/usr/lib/hadoop-mapreduce/lib/*:/usr/lib/hadoop-mapreduce/.//*:/usr/lib/hadoop-yarn/.//*:/usr/lib/hadoop-yarn/lib/*:/usr/lib/spark/yarn/*::/etc/hadoop/conf/rm-config/log4j.properties org.apache.hadoop.yarn.server.resourcemanager.ResourceManager
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     8.79Kb     8.79Kb     8.79Kb     2.20KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     15.1Kb     15.1Kb     15.1Kb     3.78KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       720b       720b       720b       180B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     3.61Kb     3.61Kb     3.61Kb       925B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       376b       376b       376b        94B
+     metadata.google.internal                 <=       440b       440b       440b       110B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     9.86Kb     9.86Kb     9.86Kb
+Total receive rate:                                  19.2Kb     19.2Kb     19.2Kb
+Total send and receive rate:                         29.0Kb     29.0Kb     29.0Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     9.85Kb     19.2Kb     29.0Kb
+Cumulative (sent/received/total):                    2.46KB     4.79KB     7.26KB
+============================================================================================
+
+Tue Jun 26 10:31:15 UTC 2018
+TEMPOS 1530009075
+TEMPO 20180626103115
+top - 10:31:15 up  7:42,  1 user,  load average: 0.77, 0.28, 0.26
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8047244 used,   150200 free,    69964 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669244 cached Mem
+10:31:15 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:31:15 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>      189Kb      189Kb      189Kb     47.1KB
+     108.177.125.95                           <=     3.14Kb     3.14Kb     3.14Kb       805B
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     3.75Kb     3.75Kb     3.75Kb       960B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     6.48Kb     6.48Kb     6.48Kb     1.62KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+--------------------------------------------------------------------------------------------
+Total send rate:                                      193Kb      193Kb      193Kb
+Total receive rate:                                  11.7Kb     11.7Kb     11.7Kb
+Total send and receive rate:                          204Kb      204Kb      204Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      193Kb     11.7Kb      204Kb
+Cumulative (sent/received/total):                    48.2KB     2.92KB     51.1KB
+============================================================================================
+
+Tue Jun 26 10:31:19 UTC 2018
+TEMPOS 1530009079
+TEMPO 20180626103119
+top - 10:31:19 up  7:42,  1 user,  load average: 0.71, 0.28, 0.26
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8033956 used,   163488 free,    69972 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669252 cached Mem
+10:31:19 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:31:19 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     70.9Kb     70.9Kb     70.9Kb     17.7KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     5.61Kb     5.61Kb     5.61Kb     1.40KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     3.34Kb     3.34Kb     3.34Kb       856B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     6.28Kb     6.28Kb     6.28Kb     1.57KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     74.2Kb     74.2Kb     74.2Kb
+Total receive rate:                                  11.9Kb     11.9Kb     11.9Kb
+Total send and receive rate:                         86.1Kb     86.1Kb     86.1Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     74.2Kb     11.9Kb     86.1Kb
+Cumulative (sent/received/total):                    18.6KB     2.97KB     21.5KB
+============================================================================================
+
+Tue Jun 26 10:31:23 UTC 2018
+TEMPOS 1530009083
+TEMPO 20180626103123
+top - 10:31:23 up  7:42,  1 user,  load average: 0.65, 0.27, 0.26
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8033180 used,   164264 free,    69980 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669256 cached Mem
+10:31:24 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:31:24 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     8.97Kb     8.97Kb     8.97Kb     2.24KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     15.3Kb     15.3Kb     15.3Kb     3.83KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     9.34Kb     9.34Kb     9.34Kb
+Total receive rate:                                  17.4Kb     17.4Kb     17.4Kb
+Total send and receive rate:                         26.7Kb     26.7Kb     26.7Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     9.34Kb     17.4Kb     26.7Kb
+Cumulative (sent/received/total):                    2.34KB     4.35KB     6.68KB
+============================================================================================
+
+Tue Jun 26 10:31:28 UTC 2018
+TEMPOS 1530009088
+TEMPO 20180626103128
+top - 10:31:28 up  7:42,  1 user,  load average: 0.60, 0.27, 0.26
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8033556 used,   163888 free,    69988 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669280 cached Mem
+10:31:28 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:31:28 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     3.71Kb     3.71Kb     3.71Kb       950B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     9.12Kb     9.12Kb     9.12Kb     2.28KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       832b       832b       832b       208B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     4.18Kb     4.18Kb     4.18Kb     1.04KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>     2.16Kb     2.16Kb     2.16Kb       553B
+     metadata.google.internal                 <=     2.03Kb     2.03Kb     2.03Kb       520B
+   4 cluster-again-m.c.ivory-nectar-208109.i  =>       528b       528b       528b       132B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     7.20Kb     7.20Kb     7.20Kb
+Total receive rate:                                  15.5Kb     15.5Kb     15.5Kb
+Total send and receive rate:                         22.7Kb     22.7Kb     22.7Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     7.20Kb     15.5Kb     22.7Kb
+Cumulative (sent/received/total):                    1.80KB     3.87KB     5.67KB
+============================================================================================
+
+Tue Jun 26 10:31:32 UTC 2018
+TEMPOS 1530009092
+TEMPO 20180626103132
+top - 10:31:32 up  7:42,  1 user,  load average: 0.55, 0.26, 0.25
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032728 used,   164716 free,    69996 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669280 cached Mem
+10:31:32 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:31:32 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     32.5Kb     32.5Kb     32.5Kb     8.13KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     4.44Kb     4.44Kb     4.44Kb     1.11KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     3.34Kb     3.34Kb     3.34Kb       856B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     6.29Kb     6.29Kb     6.29Kb     1.57KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     35.9Kb     35.9Kb     35.9Kb
+Total receive rate:                                  10.7Kb     10.7Kb     10.7Kb
+Total send and receive rate:                         46.6Kb     46.6Kb     46.6Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     35.9Kb     10.7Kb     46.6Kb
+Cumulative (sent/received/total):                    8.97KB     2.68KB     11.6KB
+============================================================================================
+
+Tue Jun 26 10:31:35 UTC 2018
+TEMPOS 1530009095
+TEMPO 20180626103135
+top - 10:31:36 up  7:42,  1 user,  load average: 0.55, 0.26, 0.25
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032964 used,   164480 free,    69996 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669292 cached Mem
+10:31:36 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:31:36 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     12.5Kb     12.5Kb     12.5Kb     3.13KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     9.23Kb     9.23Kb     9.23Kb     2.31KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     8.09Kb     8.09Kb     8.09Kb     2.02KB
+     108.177.125.95                           <=     1.86Kb     1.86Kb     1.86Kb       475B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     21.0Kb     21.0Kb     21.0Kb
+Total receive rate:                                  13.1Kb     13.1Kb     13.1Kb
+Total send and receive rate:                         34.1Kb     34.1Kb     34.1Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     21.0Kb     13.1Kb     34.1Kb
+Cumulative (sent/received/total):                    5.25KB     3.29KB     8.53KB
+============================================================================================
+
+Tue Jun 26 10:31:39 UTC 2018
+TEMPOS 1530009099
+TEMPO 20180626103139
+top - 10:31:39 up  7:42,  1 user,  load average: 0.51, 0.26, 0.25
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8033020 used,   164424 free,    70000 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669308 cached Mem
+10:31:39 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:31:39 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     3.49Kb     3.49Kb     3.49Kb       894B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     7.39Kb     7.39Kb     7.39Kb     1.85KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       924b       924b       924b       231B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     3.79Kb     3.79Kb     3.79Kb       970B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>         0b         0b         0b         0B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     4.39Kb     4.39Kb     4.39Kb
+Total receive rate:                                  11.3Kb     11.3Kb     11.3Kb
+Total send and receive rate:                         15.7Kb     15.7Kb     15.7Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     4.39Kb     11.3Kb     15.7Kb
+Cumulative (sent/received/total):                    1.10KB     2.83KB     3.93KB
+============================================================================================
+
+Tue Jun 26 10:31:43 UTC 2018
+TEMPOS 1530009103
+TEMPO 20180626103143
+top - 10:31:43 up  7:42,  1 user,  load average: 0.47, 0.25, 0.25
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032992 used,   164452 free,    70000 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669320 cached Mem
+10:31:43 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:31:43 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     32.9Kb     32.9Kb     32.9Kb     8.21KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     11.6Kb     11.6Kb     11.6Kb     2.91KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       320b       320b       320b        80B
+     metadata.google.internal                 <=       320b       320b       320b        80B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     33.5Kb     33.5Kb     33.5Kb
+Total receive rate:                                  14.0Kb     14.0Kb     14.0Kb
+Total send and receive rate:                         47.5Kb     47.5Kb     47.5Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     33.5Kb     14.0Kb     47.5Kb
+Cumulative (sent/received/total):                    8.38KB     3.50KB     11.9KB
+============================================================================================
+
+Tue Jun 26 10:31:47 UTC 2018
+TEMPOS 1530009107
+TEMPO 20180626103147
+top - 10:31:48 up  7:42,  1 user,  load average: 0.43, 0.25, 0.25
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032716 used,   164728 free,    70008 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669320 cached Mem
+10:31:48 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:31:48 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     3.88Kb     3.88Kb     3.88Kb       992B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     8.04Kb     8.04Kb     8.04Kb     2.01KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       752b       752b       752b       188B
+     metadata.google.internal                 <=     1.14Kb     1.14Kb     1.14Kb       293B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     4.98Kb     4.98Kb     4.98Kb
+Total receive rate:                                  11.2Kb     11.2Kb     11.2Kb
+Total send and receive rate:                         16.2Kb     16.2Kb     16.2Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     4.98Kb     11.2Kb     16.2Kb
+Cumulative (sent/received/total):                    1.25KB     2.81KB     4.05KB
+============================================================================================
+
+Tue Jun 26 10:31:52 UTC 2018
+TEMPOS 1530009112
+TEMPO 20180626103152
+top - 10:31:52 up  7:42,  1 user,  load average: 0.40, 0.25, 0.25
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032312 used,   165132 free,    70008 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669336 cached Mem
+10:31:52 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:31:52 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     3.71Kb     3.71Kb     3.71Kb       950B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     8.42Kb     8.42Kb     8.42Kb     2.11KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     4.08Kb     4.08Kb     4.08Kb
+Total receive rate:                                  10.5Kb     10.5Kb     10.5Kb
+Total send and receive rate:                         14.6Kb     14.6Kb     14.6Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     4.08Kb     10.5Kb     14.6Kb
+Cumulative (sent/received/total):                    1.02KB     2.62KB     3.64KB
+============================================================================================
+
+Tue Jun 26 10:31:56 UTC 2018
+TEMPOS 1530009116
+TEMPO 20180626103156
+top - 10:31:56 up  7:42,  1 user,  load average: 0.36, 0.24, 0.25
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8037572 used,   159872 free,    70012 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669348 cached Mem
+10:31:56 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:31:56 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     3.34Kb     3.34Kb     3.34Kb       856B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     6.68Kb     6.68Kb     6.68Kb     1.67KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     1.43Kb     1.43Kb     1.43Kb       367B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     5.49Kb     5.49Kb     5.49Kb     1.37KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     4.78Kb     4.78Kb     4.78Kb
+Total receive rate:                                  12.2Kb     12.2Kb     12.2Kb
+Total send and receive rate:                         16.9Kb     16.9Kb     16.9Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     4.77Kb     12.2Kb     16.9Kb
+Cumulative (sent/received/total):                    1.19KB     3.04KB     4.24KB
+============================================================================================
+
+Tue Jun 26 10:32:01 UTC 2018
+TEMPOS 1530009121
+TEMPO 20180626103201
+top - 10:32:01 up  7:42,  1 user,  load average: 0.36, 0.24, 0.25
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8036644 used,   160800 free,    70016 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669364 cached Mem
+10:32:01 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:32:01 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     8.93Kb     8.93Kb     8.93Kb     2.23KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     12.2Kb     12.2Kb     12.2Kb     3.05KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     1.09Kb     1.09Kb     1.09Kb       279B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     4.18Kb     4.18Kb     4.18Kb     1.04KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     10.0Kb     10.0Kb     10.0Kb
+Total receive rate:                                  16.4Kb     16.4Kb     16.4Kb
+Total send and receive rate:                         26.4Kb     26.4Kb     26.4Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     10.0Kb     16.4Kb     26.4Kb
+Cumulative (sent/received/total):                    2.50KB     4.09KB     6.60KB
+============================================================================================
+
+Tue Jun 26 10:32:05 UTC 2018
+TEMPOS 1530009125
+TEMPO 20180626103205
+top - 10:32:05 up  7:42,  1 user,  load average: 0.33, 0.24, 0.25
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8037436 used,   160008 free,    70024 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669376 cached Mem
+10:32:05 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:32:05 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>      129Kb      129Kb      129Kb     32.2KB
+     108.177.125.95                           <=     3.64Kb     3.64Kb     3.64Kb       933B
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     23.9Kb     23.9Kb     23.9Kb     5.97KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     3.24Kb     3.24Kb     3.24Kb       829B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>     3.34Kb     3.34Kb     3.34Kb       856B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     6.30Kb     6.30Kb     6.30Kb     1.57KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                      156Kb      156Kb      156Kb
+Total receive rate:                                  13.2Kb     13.2Kb     13.2Kb
+Total send and receive rate:                          169Kb      169Kb      169Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      156Kb     13.2Kb      169Kb
+Cumulative (sent/received/total):                    39.0KB     3.29KB     42.3KB
+============================================================================================
+
+Tue Jun 26 10:32:09 UTC 2018
+TEMPOS 1530009129
+TEMPO 20180626103209
+top - 10:32:09 up  7:42,  1 user,  load average: 0.31, 0.23, 0.24
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8036836 used,   160608 free,    70028 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669384 cached Mem
+10:32:10 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:32:10 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     3.71Kb     3.71Kb     3.71Kb       950B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     9.12Kb     9.12Kb     9.12Kb     2.28KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       832b       832b       832b       208B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     4.18Kb     4.18Kb     4.18Kb     1.04KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     4.52Kb     4.52Kb     4.52Kb
+Total receive rate:                                  13.3Kb     13.3Kb     13.3Kb
+Total send and receive rate:                         17.8Kb     17.8Kb     17.8Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     4.52Kb     13.3Kb     17.8Kb
+Cumulative (sent/received/total):                    1.13KB     3.32KB     4.46KB
+============================================================================================
+
+Tue Jun 26 10:32:14 UTC 2018
+TEMPOS 1530009134
+TEMPO 20180626103214
+top - 10:32:14 up  7:42,  1 user,  load average: 0.28, 0.23, 0.24
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8036996 used,   160448 free,    70032 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669396 cached Mem
+10:32:14 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:32:14 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     6.30Kb     6.30Kb     6.30Kb     1.57KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     8.34Kb     8.34Kb     8.34Kb     2.08KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       532b       532b       532b       133B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       528b       528b       528b       132B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     7.33Kb     7.33Kb     7.33Kb
+Total receive rate:                                  10.5Kb     10.5Kb     10.5Kb
+Total send and receive rate:                         17.9Kb     17.9Kb     17.9Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     7.33Kb     10.5Kb     17.9Kb
+Cumulative (sent/received/total):                    1.83KB     2.64KB     4.47KB
+============================================================================================
+
+Tue Jun 26 10:32:17 UTC 2018
+TEMPOS 1530009137
+TEMPO 20180626103217
+top - 10:32:17 up  7:43,  1 user,  load average: 0.26, 0.22, 0.24
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8036140 used,   161304 free,    70040 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669404 cached Mem
+10:32:17 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:32:17 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     39.4Kb     39.4Kb     39.4Kb     9.86KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     12.1Kb     12.1Kb     12.1Kb     3.03KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     6.38Kb     6.38Kb     6.38Kb     1.59KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     5.49Kb     5.49Kb     5.49Kb     1.37KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     45.8Kb     45.8Kb     45.8Kb
+Total receive rate:                                  17.6Kb     17.6Kb     17.6Kb
+Total send and receive rate:                         63.4Kb     63.4Kb     63.4Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     45.8Kb     17.6Kb     63.4Kb
+Cumulative (sent/received/total):                    11.5KB     4.40KB     15.9KB
+============================================================================================
+
+Tue Jun 26 10:32:21 UTC 2018
+TEMPOS 1530009141
+TEMPO 20180626103221
+top - 10:32:22 up  7:43,  1 user,  load average: 0.24, 0.22, 0.24
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8036296 used,   161148 free,    70040 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669416 cached Mem
+10:32:22 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:32:22 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     3.71Kb     3.71Kb     3.71Kb       951B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     8.80Kb     8.80Kb     8.80Kb     2.20KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     1.64Kb     1.64Kb     1.64Kb       420B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     7.89Kb     7.89Kb     7.89Kb     1.97KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     5.36Kb     5.36Kb     5.36Kb
+Total receive rate:                                  16.7Kb     16.7Kb     16.7Kb
+Total send and receive rate:                         22.1Kb     22.1Kb     22.1Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     5.35Kb     16.7Kb     22.0Kb
+Cumulative (sent/received/total):                    1.34KB     4.17KB     5.51KB
+============================================================================================
+
+Tue Jun 26 10:32:26 UTC 2018
+TEMPOS 1530009146
+TEMPO 20180626103226
+top - 10:32:26 up  7:43,  1 user,  load average: 0.24, 0.22, 0.24
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8037120 used,   160324 free,    70048 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669432 cached Mem
+10:32:26 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:32:26 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     6.30Kb     6.30Kb     6.30Kb     1.58KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     8.10Kb     8.10Kb     8.10Kb     2.03KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     1.27Kb     1.27Kb     1.27Kb       326B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     5.80Kb     5.80Kb     5.80Kb     1.45KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     7.57Kb     7.57Kb     7.57Kb
+Total receive rate:                                  13.9Kb     13.9Kb     13.9Kb
+Total send and receive rate:                         21.5Kb     21.5Kb     21.5Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     7.57Kb     13.9Kb     21.5Kb
+Cumulative (sent/received/total):                    1.89KB     3.48KB     5.37KB
+============================================================================================
+
+Tue Jun 26 10:32:29 UTC 2018
+TEMPOS 1530009149
+TEMPO 20180626103229
+top - 10:32:29 up  7:43,  1 user,  load average: 0.22, 0.22, 0.24
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8036584 used,   160860 free,    70056 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669448 cached Mem
+10:32:29 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:32:29 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     26.8Kb     26.8Kb     26.8Kb     6.71KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     8.18Kb     8.18Kb     8.18Kb     2.05KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       456b       456b       456b       114B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>         0b         0b         0b         0B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     27.3Kb     27.3Kb     27.3Kb
+Total receive rate:                                  10.4Kb     10.4Kb     10.4Kb
+Total send and receive rate:                         37.7Kb     37.7Kb     37.7Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     27.3Kb     10.4Kb     37.7Kb
+Cumulative (sent/received/total):                    6.82KB     2.60KB     9.42KB
+============================================================================================
+
+Tue Jun 26 10:32:34 UTC 2018
+TEMPOS 1530009154
+TEMPO 20180626103234
+top - 10:32:34 up  7:43,  1 user,  load average: 0.20, 0.21, 0.24
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8036796 used,   160648 free,    70064 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669448 cached Mem
+10:32:34 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:32:34 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     30.2Kb     30.2Kb     30.2Kb     7.56KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     8.80Kb     8.80Kb     8.80Kb     2.20KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     10.5Kb     10.5Kb     10.5Kb     2.63KB
+     108.177.125.95                           <=     2.06Kb     2.06Kb     2.06Kb       527B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>     3.71Kb     3.71Kb     3.71Kb       951B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     8.42Kb     8.42Kb     8.42Kb     2.11KB
+   4 cluster-again-m.c.ivory-nectar-208109.i  =>       568b       568b       568b       142B
+     ti-in-f95.1e100.net                      <=     1.56Kb     1.56Kb     1.56Kb       400B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     45.0Kb     45.0Kb     45.0Kb
+Total receive rate:                                  20.8Kb     20.8Kb     20.8Kb
+Total send and receive rate:                         65.9Kb     65.9Kb     65.9Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     45.0Kb     20.8Kb     65.9Kb
+Cumulative (sent/received/total):                    11.3KB     5.21KB     16.5KB
+============================================================================================
+
+Tue Jun 26 10:32:38 UTC 2018
+TEMPOS 1530009158
+TEMPO 20180626103238
+top - 10:32:38 up  7:43,  1 user,  load average: 0.18, 0.21, 0.24
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8036132 used,   161312 free,    70072 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669464 cached Mem
+10:32:38 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:32:38 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     4.86Kb     4.86Kb     4.86Kb     1.22KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     7.38Kb     7.38Kb     7.38Kb     1.84KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       456b       456b       456b       114B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     5.31Kb     5.31Kb     5.31Kb
+Total receive rate:                                  9.43Kb     9.43Kb     9.43Kb
+Total send and receive rate:                         14.7Kb     14.7Kb     14.7Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     5.30Kb     9.42Kb     14.7Kb
+Cumulative (sent/received/total):                    1.33KB     2.36KB     3.68KB
+============================================================================================
+
+Tue Jun 26 10:32:41 UTC 2018
+TEMPOS 1530009161
+TEMPO 20180626103241
+top - 10:32:41 up  7:43,  1 user,  load average: 0.17, 0.20, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8036324 used,   161120 free,    70072 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669468 cached Mem
+10:32:42 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:32:42 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     40.9Kb     40.9Kb     40.9Kb     10.2KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     13.2Kb     13.2Kb     13.2Kb     3.30KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     33.1Kb     33.1Kb     33.1Kb     8.28KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     6.18Kb     6.18Kb     6.18Kb     1.54KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>         0b         0b         0b         0B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     74.0Kb     74.0Kb     74.0Kb
+Total receive rate:                                  19.5Kb     19.5Kb     19.5Kb
+Total send and receive rate:                         93.5Kb     93.5Kb     93.5Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     74.0Kb     19.5Kb     93.5Kb
+Cumulative (sent/received/total):                    18.5KB     4.88KB     23.4KB
+============================================================================================
+
+Tue Jun 26 10:32:45 UTC 2018
+TEMPOS 1530009165
+TEMPO 20180626103245
+top - 10:32:45 up  7:43,  1 user,  load average: 0.17, 0.20, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8036180 used,   161264 free,    70076 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669480 cached Mem
+10:32:45 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:32:45 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     12.0Kb     12.0Kb     12.0Kb     3.00KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     7.50Kb     7.50Kb     7.50Kb     1.88KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     12.4Kb     12.4Kb     12.4Kb
+Total receive rate:                                  9.55Kb     9.55Kb     9.55Kb
+Total send and receive rate:                         21.9Kb     21.9Kb     21.9Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     12.4Kb     9.55Kb     21.9Kb
+Cumulative (sent/received/total):                    3.09KB     2.39KB     5.48KB
+============================================================================================
+
+Tue Jun 26 10:32:49 UTC 2018
+TEMPOS 1530009169
+TEMPO 20180626103249
+top - 10:32:49 up  7:43,  1 user,  load average: 0.16, 0.20, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8035688 used,   161756 free,    70084 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669488 cached Mem
+10:32:49 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:32:49 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     4.07Kb     4.07Kb     4.07Kb     1.02KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     10.2Kb     10.2Kb     10.2Kb     2.54KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       716b       716b       716b       179B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     3.38Kb     3.38Kb     3.38Kb       866B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       752b       752b       752b       188B
+     metadata.google.internal                 <=     1.14Kb     1.14Kb     1.14Kb       293B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     5.50Kb     5.50Kb     5.50Kb
+Total receive rate:                                  14.7Kb     14.7Kb     14.7Kb
+Total send and receive rate:                         20.2Kb     20.2Kb     20.2Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     5.50Kb     14.7Kb     20.2Kb
+Cumulative (sent/received/total):                    1.38KB     3.68KB     5.05KB
+============================================================================================
+
+Tue Jun 26 10:32:53 UTC 2018
+TEMPOS 1530009173
+TEMPO 20180626103253
+top - 10:32:54 up  7:43,  1 user,  load average: 0.14, 0.20, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8036180 used,   161264 free,    70092 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669500 cached Mem
+10:32:54 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:32:54 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     26.8Kb     26.8Kb     26.8Kb     6.71KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     7.48Kb     7.48Kb     7.48Kb     1.87KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     27.2Kb     27.2Kb     27.2Kb
+Total receive rate:                                  9.54Kb     9.54Kb     9.54Kb
+Total send and receive rate:                         36.8Kb     36.8Kb     36.8Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     27.2Kb     9.53Kb     36.8Kb
+Cumulative (sent/received/total):                    6.80KB     2.38KB     9.19KB
+============================================================================================
+
+Tue Jun 26 10:32:58 UTC 2018
+TEMPOS 1530009178
+TEMPO 20180626103258
+top - 10:32:58 up  7:43,  1 user,  load average: 0.13, 0.19, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8035176 used,   162268 free,    70100 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669508 cached Mem
+10:32:58 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:32:58 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     5.69Kb     5.69Kb     5.69Kb     1.42KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     10.5Kb     10.5Kb     10.5Kb     2.63KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       532b       532b       532b       133B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     6.21Kb     6.21Kb     6.21Kb
+Total receive rate:                                  12.6Kb     12.6Kb     12.6Kb
+Total send and receive rate:                         18.8Kb     18.8Kb     18.8Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     6.20Kb     12.6Kb     18.8Kb
+Cumulative (sent/received/total):                    1.55KB     3.14KB     4.69KB
+============================================================================================
+
+Tue Jun 26 10:33:02 UTC 2018
+TEMPOS 1530009182
+TEMPO 20180626103302
+top - 10:33:02 up  7:43,  1 user,  load average: 0.12, 0.19, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8035072 used,   162372 free,    70108 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669516 cached Mem
+10:33:02 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:33:02 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     44.5Kb     44.5Kb     44.5Kb     11.1KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     11.3Kb     11.3Kb     11.3Kb     2.83KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     39.4Kb     39.4Kb     39.4Kb     9.86KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     12.8Kb     12.8Kb     12.8Kb     3.21KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     84.0Kb     84.0Kb     84.0Kb
+Total receive rate:                                  24.1Kb     24.1Kb     24.1Kb
+Total send and receive rate:                          108Kb      108Kb      108Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     84.0Kb     24.1Kb      108Kb
+Cumulative (sent/received/total):                    21.0KB     6.04KB     27.0KB
+============================================================================================
+
+Tue Jun 26 10:33:06 UTC 2018
+TEMPOS 1530009186
+TEMPO 20180626103306
+top - 10:33:06 up  7:43,  1 user,  load average: 0.12, 0.19, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8035696 used,   161748 free,    70108 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669524 cached Mem
+10:33:06 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:33:06 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     69.6Kb     69.6Kb     69.6Kb     17.4KB
+     108.177.125.95                           <=     1.88Kb     1.88Kb     1.88Kb       481B
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     32.9Kb     32.9Kb     32.9Kb     8.21KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     11.6Kb     11.6Kb     11.6Kb     2.91KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       456b       456b       456b       114B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+--------------------------------------------------------------------------------------------
+Total send rate:                                      103Kb      103Kb      103Kb
+Total receive rate:                                  15.6Kb     15.6Kb     15.6Kb
+Total send and receive rate:                          118Kb      118Kb      118Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      103Kb     15.5Kb      118Kb
+Cumulative (sent/received/total):                    25.7KB     3.89KB     29.6KB
+============================================================================================
+
+Tue Jun 26 10:33:10 UTC 2018
+TEMPOS 1530009190
+TEMPO 20180626103310
+top - 10:33:10 up  7:43,  1 user,  load average: 0.11, 0.19, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8035336 used,   162108 free,    70116 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669540 cached Mem
+10:33:10 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:33:10 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     9.07Kb     9.07Kb     9.07Kb     2.27KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     14.9Kb     14.9Kb     14.9Kb     3.72KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       760b       760b       760b       190B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     3.86Kb     3.86Kb     3.86Kb       989B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       528b       528b       528b       132B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     10.3Kb     10.3Kb     10.3Kb
+Total receive rate:                                  18.9Kb     18.9Kb     18.9Kb
+Total send and receive rate:                         29.2Kb     29.2Kb     29.2Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     10.3Kb     18.9Kb     29.2Kb
+Cumulative (sent/received/total):                    2.58KB     4.73KB     7.31KB
+============================================================================================
+
+Tue Jun 26 10:33:13 UTC 2018
+TEMPOS 1530009193
+TEMPO 20180626103313
+top - 10:33:13 up  7:43,  1 user,  load average: 0.10, 0.18, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8034796 used,   162648 free,    70124 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669556 cached Mem
+10:33:14 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:33:14 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     32.9Kb     32.9Kb     32.9Kb     8.23KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     11.6Kb     11.6Kb     11.6Kb     2.91KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     1.87Kb     1.87Kb     1.87Kb       478B
+     metadata.google.internal                 <=     24.9Kb     24.9Kb     24.9Kb     6.23KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+   4 cluster-again-m.c.ivory-nectar-208109.i  =>         0b         0b         0b         0B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     35.2Kb     35.2Kb     35.2Kb
+Total receive rate:                                  38.8Kb     38.8Kb     38.8Kb
+Total send and receive rate:                         73.9Kb     73.9Kb     73.9Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     35.2Kb     38.8Kb     73.9Kb
+Cumulative (sent/received/total):                    8.79KB     9.69KB     18.5KB
+============================================================================================
+
+Tue Jun 26 10:33:18 UTC 2018
+TEMPOS 1530009198
+TEMPO 20180626103318
+top - 10:33:18 up  7:44,  1 user,  load average: 0.09, 0.18, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8034988 used,   162456 free,    70128 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669564 cached Mem
+10:33:18 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:33:18 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     64.4Kb     64.4Kb     64.4Kb     16.1KB
+     108.177.125.95                           <=     3.19Kb     3.19Kb     3.19Kb       817B
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     4.79Kb     4.79Kb     4.79Kb     1.20KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     6.30Kb     6.30Kb     6.30Kb     1.57KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       528b       528b       528b       132B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     69.8Kb     69.8Kb     69.8Kb
+Total receive rate:                                  9.64Kb     9.64Kb     9.64Kb
+Total send and receive rate:                         79.4Kb     79.4Kb     79.4Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     69.8Kb     9.64Kb     79.4Kb
+Cumulative (sent/received/total):                    17.4KB     2.41KB     19.8KB
+============================================================================================
+
+Tue Jun 26 10:33:21 UTC 2018
+TEMPOS 1530009201
+TEMPO 20180626103321
+top - 10:33:21 up  7:44,  1 user,  load average: 0.09, 0.18, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8035008 used,   162436 free,    70128 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669564 cached Mem
+10:33:21 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:33:21 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     30.2Kb     30.2Kb     30.2Kb     7.56KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     8.80Kb     8.80Kb     8.80Kb     2.20KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     5.69Kb     5.69Kb     5.69Kb     1.42KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     10.5Kb     10.5Kb     10.5Kb     2.64KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       752b       752b       752b       188B
+     metadata.google.internal                 <=     1.14Kb     1.14Kb     1.14Kb       293B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     36.7Kb     36.7Kb     36.7Kb
+Total receive rate:                                  20.5Kb     20.5Kb     20.5Kb
+Total send and receive rate:                         57.2Kb     57.2Kb     57.2Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     36.7Kb     20.5Kb     57.2Kb
+Cumulative (sent/received/total):                    9.17KB     5.12KB     14.3KB
+============================================================================================
+
+Tue Jun 26 10:33:25 UTC 2018
+TEMPOS 1530009205
+TEMPO 20180626103325
+top - 10:33:26 up  7:44,  1 user,  load average: 0.17, 0.19, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8034888 used,   162556 free,    70132 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669580 cached Mem
+10:33:26 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:33:26 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     43.0Kb     43.0Kb     43.0Kb     10.8KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     12.8Kb     12.8Kb     12.8Kb     3.21KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       456b       456b       456b       114B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>     0.99Kb     0.99Kb     0.99Kb       254B
+     108.177.125.95                           <=     1.47Kb     1.47Kb     1.47Kb       377B
+   4 cluster-again-m.c.ivory-nectar-208109.i  =>       528b       528b       528b       132B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     45.0Kb     45.0Kb     45.0Kb
+Total receive rate:                                  16.5Kb     16.5Kb     16.5Kb
+Total send and receive rate:                         61.5Kb     61.5Kb     61.5Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     45.0Kb     16.5Kb     61.5Kb
+Cumulative (sent/received/total):                    11.2KB     4.13KB     15.4KB
+============================================================================================
+
+Tue Jun 26 10:33:30 UTC 2018
+TEMPOS 1530009210
+TEMPO 20180626103330
+top - 10:33:30 up  7:44,  1 user,  load average: 0.15, 0.19, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8034896 used,   162548 free,    70140 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669592 cached Mem
+10:33:30 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:33:30 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     98.0Kb     98.0Kb     98.0Kb     24.5KB
+     108.177.125.95                           <=     1.88Kb     1.88Kb     1.88Kb       481B
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     23.9Kb     23.9Kb     23.9Kb     5.97KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     3.24Kb     3.24Kb     3.24Kb       829B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>     4.79Kb     4.79Kb     4.79Kb     1.20KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     6.30Kb     6.30Kb     6.30Kb     1.58KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                      127Kb      127Kb      127Kb
+Total receive rate:                                  11.4Kb     11.4Kb     11.4Kb
+Total send and receive rate:                          138Kb      138Kb      138Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      127Kb     11.4Kb      138Kb
+Cumulative (sent/received/total):                    31.7KB     2.85KB     34.5KB
+============================================================================================
+
+Tue Jun 26 10:33:34 UTC 2018
+TEMPOS 1530009214
+TEMPO 20180626103334
+top - 10:33:34 up  7:44,  1 user,  load average: 0.14, 0.19, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8034468 used,   162976 free,    70144 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669600 cached Mem
+10:33:34 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:33:34 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     23.9Kb     23.9Kb     23.9Kb     5.97KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     3.24Kb     3.24Kb     3.24Kb       829B
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     5.40Kb     5.40Kb     5.40Kb     1.35KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     8.38Kb     8.38Kb     8.38Kb     2.10KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       568b       568b       568b       142B
+     ti-in-f95.1e100.net                      <=     1.56Kb     1.56Kb     1.56Kb       399B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     29.8Kb     29.8Kb     29.8Kb
+Total receive rate:                                  13.2Kb     13.2Kb     13.2Kb
+Total send and receive rate:                         43.0Kb     43.0Kb     43.0Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     29.8Kb     13.2Kb     43.0Kb
+Cumulative (sent/received/total):                    7.46KB     3.29KB     10.8KB
+============================================================================================
+
+Tue Jun 26 10:33:38 UTC 2018
+TEMPOS 1530009218
+TEMPO 20180626103338
+top - 10:33:39 up  7:44,  1 user,  load average: 0.13, 0.18, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8034616 used,   162828 free,    70148 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669620 cached Mem
+10:33:39 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:33:39 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     9.36Kb     9.36Kb     9.36Kb     2.34KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     10.4Kb     10.4Kb     10.4Kb     2.61KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       912b       912b       912b       228B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     4.07Kb     4.07Kb     4.07Kb     1.02KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       528b       528b       528b       132B
+     189.6.12.181                             <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     10.8Kb     10.8Kb     10.8Kb
+Total receive rate:                                  14.5Kb     14.5Kb     14.5Kb
+Total send and receive rate:                         25.3Kb     25.3Kb     25.3Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     10.8Kb     14.5Kb     25.3Kb
+Cumulative (sent/received/total):                    2.69KB     3.63KB     6.32KB
+============================================================================================
+
+Tue Jun 26 10:33:43 UTC 2018
+TEMPOS 1530009223
+TEMPO 20180626103343
+top - 10:33:43 up  7:44,  1 user,  load average: 0.12, 0.18, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8034200 used,   163244 free,    70156 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669628 cached Mem
+10:33:43 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:33:43 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     4.25Kb     4.25Kb     4.25Kb     1.06KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     10.9Kb     10.9Kb     10.9Kb     2.72KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     6.38Kb     6.38Kb     6.38Kb     1.59KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     5.49Kb     5.49Kb     5.49Kb     1.37KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       528b       528b       528b       132B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     11.1Kb     11.1Kb     11.1Kb
+Total receive rate:                                  16.5Kb     16.5Kb     16.5Kb
+Total send and receive rate:                         27.7Kb     27.7Kb     27.7Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     11.1Kb     16.5Kb     27.6Kb
+Cumulative (sent/received/total):                    2.79KB     4.13KB     6.91KB
+============================================================================================
+
+Tue Jun 26 10:33:47 UTC 2018
+TEMPOS 1530009227
+TEMPO 20180626103347
+top - 10:33:47 up  7:44,  1 user,  load average: 0.27, 0.21, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8034312 used,   163132 free,    70164 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669648 cached Mem
+10:33:47 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:33:47 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     29.9Kb     29.9Kb     29.9Kb     7.47KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     6.88Kb     6.88Kb     6.88Kb     1.72KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     4.87Kb     4.87Kb     4.87Kb     1.22KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     6.64Kb     6.64Kb     6.64Kb     1.66KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     34.7Kb     34.7Kb     34.7Kb
+Total receive rate:                                  13.5Kb     13.5Kb     13.5Kb
+Total send and receive rate:                         48.3Kb     48.3Kb     48.3Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     34.7Kb     13.5Kb     48.3Kb
+Cumulative (sent/received/total):                    8.69KB     3.38KB     12.1KB
+============================================================================================
+
+Tue Jun 26 10:33:52 UTC 2018
+TEMPOS 1530009232
+TEMPO 20180626103352
+top - 10:33:52 up  7:44,  1 user,  load average: 0.25, 0.21, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8034144 used,   163300 free,    70168 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669652 cached Mem
+10:33:52 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:33:52 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     34.7Kb     34.7Kb     34.7Kb     8.67KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     13.8Kb     13.8Kb     13.8Kb     3.44KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       756b       756b       756b       189B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     4.14Kb     4.14Kb     4.14Kb     1.04KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       752b       752b       752b       188B
+     metadata.google.internal                 <=     1.14Kb     1.14Kb     1.14Kb       293B
+   4 cluster-again-m.c.ivory-nectar-208109.i  =>       528b       528b       528b       132B
+     189.6.12.181                             <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     36.7Kb     36.7Kb     36.7Kb
+Total receive rate:                                  19.0Kb     19.0Kb     19.0Kb
+Total send and receive rate:                         55.7Kb     55.7Kb     55.7Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     36.7Kb     19.0Kb     55.7Kb
+Cumulative (sent/received/total):                    9.16KB     4.76KB     13.9KB
+============================================================================================
+
+Tue Jun 26 10:33:56 UTC 2018
+TEMPOS 1530009236
+TEMPO 20180626103356
+top - 10:33:56 up  7:44,  1 user,  load average: 0.25, 0.21, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8033344 used,   164100 free,    70172 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669668 cached Mem
+10:33:56 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:33:56 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     24.3Kb     24.3Kb     24.3Kb     6.08KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     5.25Kb     5.25Kb     5.25Kb     1.31KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     5.32Kb     5.32Kb     5.32Kb     1.33KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     9.12Kb     9.12Kb     9.12Kb     2.28KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     29.6Kb     29.6Kb     29.6Kb
+Total receive rate:                                  14.4Kb     14.4Kb     14.4Kb
+Total send and receive rate:                         44.0Kb     44.0Kb     44.0Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     29.6Kb     14.4Kb     44.0Kb
+Cumulative (sent/received/total):                    7.41KB     3.59KB     11.0KB
+============================================================================================
+
+Tue Jun 26 10:33:59 UTC 2018
+TEMPOS 1530009239
+TEMPO 20180626103359
+top - 10:34:00 up  7:44,  1 user,  load average: 0.31, 0.22, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8033296 used,   164148 free,    70172 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669676 cached Mem
+10:34:00 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:34:00 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     32.7Kb     32.7Kb     32.7Kb     8.18KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     11.6Kb     11.6Kb     11.6Kb     2.91KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     6.01Kb     6.01Kb     6.01Kb     1.50KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     3.44Kb     3.44Kb     3.44Kb       880B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       396b       396b       396b        99B
+     metadata.google.internal                 <=       284b       284b       284b        71B
+   4 cluster-again-m.c.ivory-nectar-208109.i  =>         0b         0b         0b         0B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     39.1Kb     39.1Kb     39.1Kb
+Total receive rate:                                  15.5Kb     15.5Kb     15.5Kb
+Total send and receive rate:                         54.6Kb     54.6Kb     54.6Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     39.1Kb     15.5Kb     54.6Kb
+Cumulative (sent/received/total):                    9.78KB     3.87KB     13.7KB
+============================================================================================
+
+Tue Jun 26 10:34:03 UTC 2018
+TEMPOS 1530009243
+TEMPO 20180626103403
+top - 10:34:03 up  7:44,  1 user,  load average: 0.28, 0.22, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032944 used,   164500 free,    70180 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669692 cached Mem
+10:34:03 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:34:03 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     64.6Kb     64.6Kb     64.6Kb     16.2KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     11.3Kb     11.3Kb     11.3Kb     2.82KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     4.81Kb     4.81Kb     4.81Kb     1.20KB
+     ti-in-f95.1e100.net                      <=       208b       208b       208b        52B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       716b       716b       716b       179B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     3.38Kb     3.38Kb     3.38Kb       866B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     70.1Kb     70.1Kb     70.1Kb
+Total receive rate:                                  14.9Kb     14.9Kb     14.9Kb
+Total send and receive rate:                         85.0Kb     85.0Kb     85.0Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     70.1Kb     14.9Kb     85.0Kb
+Cumulative (sent/received/total):                    17.5KB     3.71KB     21.2KB
+============================================================================================
+
+Tue Jun 26 10:34:06 UTC 2018
+TEMPOS 1530009246
+TEMPO 20180626103406
+top - 10:34:06 up  7:44,  1 user,  load average: 0.28, 0.22, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032748 used,   164696 free,    70180 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669692 cached Mem
+10:34:06 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:34:06 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     14.3Kb     14.3Kb     14.3Kb     3.58KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     11.7Kb     11.7Kb     11.7Kb     2.94KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       832b       832b       832b       208B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     4.14Kb     4.14Kb     4.14Kb     1.04KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     15.2Kb     15.2Kb     15.2Kb
+Total receive rate:                                  15.9Kb     15.9Kb     15.9Kb
+Total send and receive rate:                         31.0Kb     31.0Kb     31.0Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     15.1Kb     15.9Kb     31.0Kb
+Cumulative (sent/received/total):                    3.79KB     3.97KB     7.76KB
+============================================================================================
+
+Tue Jun 26 10:34:10 UTC 2018
+TEMPOS 1530009250
+TEMPO 20180626103410
+top - 10:34:10 up  7:44,  1 user,  load average: 0.26, 0.21, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032952 used,   164492 free,    70188 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669704 cached Mem
+10:34:10 Total DISK READ :       0.00 K/s | Total DISK WRITE :     127.48 K/s
+10:34:10 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+10:34:10  4312 be/4 yarn          0.00 K      4.00 K  0.00 %  0.00 % java -Dproc_resourcemanager -Xmx1000m -Dhadoop.log.dir=/var/log/hadoop-yarn -Dyarn.log.dir=/var/log/hadoop-yarn -Dhadoop.log.file=yarn-yarn-resourcemanager-cluster-again-m.log -Dyarn.log.file=yarn-yarn-resourcemanager-cluster-again-m.log -Dyarn.home.dir= -Dyarn.id.str=yarn -Dhadoop.root.logger=INFO,RFA -Dyarn.root.logger=INFO,RFA -Djava.library.path=/usr/lib/hadoop/lib/native -Dyarn.policy.file=hadoop-policy.xml -Xmx3202m -Dhadoop.log.dir=/var/log/hadoop-yarn -Dyarn.log.dir=/var/log/hadoop-yarn -Dhadoop.log.file=yarn-yarn-resourcemanager-cluster-again-m.log -Dyarn.log.file=yarn-yarn-resourcemanager-cluster-again-m.log -Dyarn.home.dir=/usr/lib/hadoop-yarn -Dhadoop.home.dir=/usr/lib/hadoop -Dhadoop.root.logger=INFO,RFA -Dyarn.root.logger=INFO,RFA -Djava.library.path=/usr/lib/hadoop/lib/native -classpath /etc/hadoop/conf:/etc/hadoop/conf:/etc/hadoop/conf:/usr/lib/hadoop/lib/*:/usr/lib/hadoop/.//*:/usr/lib/hadoop-hdfs/./:/usr/lib/hadoop-hdfs/lib/*:/usr/lib/hadoop-hdfs/.//*:/usr/lib/hadoop-yarn/lib/*:/usr/lib/hadoop-yarn/.//*:/usr/lib/hadoop-mapreduce/lib/*:/usr/lib/hadoop-mapreduce/.//*:/usr/lib/hadoop-yarn/.//*:/usr/lib/hadoop-yarn/lib/*:/usr/lib/spark/yarn/*::/etc/hadoop/conf/rm-config/log4j.properties org.apache.hadoop.yarn.server.resourcemanager.ResourceManager
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     37.2Kb     37.2Kb     37.2Kb     9.30KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     12.0Kb     12.0Kb     12.0Kb     3.00KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     6.67Kb     6.67Kb     6.67Kb     1.67KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     9.12Kb     9.12Kb     9.12Kb     2.28KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       528b       528b       528b       132B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     44.4Kb     44.4Kb     44.4Kb
+Total receive rate:                                  21.3Kb     21.3Kb     21.3Kb
+Total send and receive rate:                         65.7Kb     65.7Kb     65.7Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     44.4Kb     21.3Kb     65.6Kb
+Cumulative (sent/received/total):                    11.1KB     5.32KB     16.4KB
+============================================================================================
+
+Tue Jun 26 10:34:14 UTC 2018
+TEMPOS 1530009254
+TEMPO 20180626103414
+top - 10:34:14 up  7:45,  1 user,  load average: 0.24, 0.21, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032980 used,   164464 free,    70192 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669720 cached Mem
+10:34:14 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:34:14 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     56.4Kb     56.4Kb     56.4Kb     14.1KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     12.1Kb     12.1Kb     12.1Kb     3.03KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     56.7Kb     56.7Kb     56.7Kb
+Total receive rate:                                  14.2Kb     14.2Kb     14.2Kb
+Total send and receive rate:                         70.9Kb     70.9Kb     70.9Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     56.7Kb     14.2Kb     70.9Kb
+Cumulative (sent/received/total):                    14.2KB     3.54KB     17.7KB
+============================================================================================
+
+Tue Jun 26 10:34:18 UTC 2018
+TEMPOS 1530009258
+TEMPO 20180626103418
+top - 10:34:18 up  7:45,  1 user,  load average: 0.22, 0.20, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032476 used,   164968 free,    70200 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669720 cached Mem
+10:34:19 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:34:19 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     6.59Kb     6.59Kb     6.59Kb     1.65KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     14.7Kb     14.7Kb     14.7Kb     3.67KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       756b       756b       756b       189B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     4.18Kb     4.18Kb     4.18Kb     1.04KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     7.33Kb     7.33Kb     7.33Kb
+Total receive rate:                                  18.9Kb     18.9Kb     18.9Kb
+Total send and receive rate:                         26.2Kb     26.2Kb     26.2Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     7.33Kb     18.9Kb     26.2Kb
+Cumulative (sent/received/total):                    1.83KB     4.71KB     6.55KB
+============================================================================================
+
+Tue Jun 26 10:34:23 UTC 2018
+TEMPOS 1530009263
+TEMPO 20180626103423
+top - 10:34:23 up  7:45,  1 user,  load average: 0.20, 0.20, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032236 used,   165208 free,    70200 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669744 cached Mem
+10:34:23 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:34:23 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     7.65Kb     7.65Kb     7.65Kb     1.91KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     11.1Kb     11.1Kb     11.1Kb     2.77KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     4.87Kb     4.87Kb     4.87Kb     1.22KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     7.76Kb     7.76Kb     7.76Kb     1.94KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>         0b         0b         0b         0B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     12.5Kb     12.5Kb     12.5Kb
+Total receive rate:                                  19.0Kb     19.0Kb     19.0Kb
+Total send and receive rate:                         31.5Kb     31.5Kb     31.5Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     12.5Kb     19.0Kb     31.5Kb
+Cumulative (sent/received/total):                    3.13KB     4.75KB     7.88KB
+============================================================================================
+
+Tue Jun 26 10:34:26 UTC 2018
+TEMPOS 1530009266
+TEMPO 20180626103426
+top - 10:34:26 up  7:45,  1 user,  load average: 0.20, 0.20, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032304 used,   165140 free,    70200 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669748 cached Mem
+10:34:26 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:34:26 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>      103Kb      103Kb      103Kb     25.6KB
+     108.177.125.95                           <=       832b       832b       832b       208B
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     32.9Kb     32.9Kb     32.9Kb     8.21KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     10.9Kb     10.9Kb     10.9Kb     2.73KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+--------------------------------------------------------------------------------------------
+Total send rate:                                      136Kb      136Kb      136Kb
+Total receive rate:                                  13.8Kb     13.8Kb     13.8Kb
+Total send and receive rate:                          150Kb      150Kb      150Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      136Kb     13.8Kb      150Kb
+Cumulative (sent/received/total):                    33.9KB     3.45KB     37.4KB
+============================================================================================
+
+Tue Jun 26 10:34:30 UTC 2018
+TEMPOS 1530009270
+TEMPO 20180626103430
+top - 10:34:31 up  7:45,  1 user,  load average: 0.27, 0.21, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032320 used,   165124 free,    70204 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669752 cached Mem
+10:34:31 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:34:31 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     14.7Kb     14.7Kb     14.7Kb     3.68KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     13.7Kb     13.7Kb     13.7Kb     3.43KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       756b       756b       756b       189B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     4.18Kb     4.18Kb     4.18Kb     1.04KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     15.4Kb     15.4Kb     15.4Kb
+Total receive rate:                                  17.9Kb     17.9Kb     17.9Kb
+Total send and receive rate:                         33.4Kb     33.4Kb     33.4Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     15.4Kb     17.9Kb     33.4Kb
+Cumulative (sent/received/total):                    3.86KB     4.48KB     8.34KB
+============================================================================================
+
+Tue Jun 26 10:34:35 UTC 2018
+TEMPOS 1530009275
+TEMPO 20180626103435
+top - 10:34:35 up  7:45,  1 user,  load average: 0.32, 0.23, 0.24
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032548 used,   164896 free,    70212 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669768 cached Mem
+10:34:35 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:34:35 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     26.9Kb     26.9Kb     26.9Kb     6.73KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     8.57Kb     8.57Kb     8.57Kb     2.14KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.02Kb     2.02Kb     2.02Kb       516B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       608b       608b       608b       152B
+     189.6.12.181                             <=       768b       768b       768b       192B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     27.9Kb     27.9Kb     27.9Kb
+Total receive rate:                                  11.3Kb     11.3Kb     11.3Kb
+Total send and receive rate:                         39.2Kb     39.2Kb     39.2Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     27.9Kb     11.3Kb     39.2Kb
+Cumulative (sent/received/total):                    6.97KB     2.83KB     9.81KB
+============================================================================================
+
+Tue Jun 26 10:34:39 UTC 2018
+TEMPOS 1530009279
+TEMPO 20180626103439
+top - 10:34:39 up  7:45,  1 user,  load average: 0.30, 0.22, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8031440 used,   166004 free,    70220 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669788 cached Mem
+10:34:39 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:34:39 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     3.72Kb     3.72Kb     3.72Kb       952B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     9.12Kb     9.12Kb     9.12Kb     2.28KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       832b       832b       832b       208B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     4.18Kb     4.18Kb     4.18Kb     1.04KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     4.53Kb     4.53Kb     4.53Kb
+Total receive rate:                                  13.3Kb     13.3Kb     13.3Kb
+Total send and receive rate:                         17.8Kb     17.8Kb     17.8Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     4.53Kb     13.3Kb     17.8Kb
+Cumulative (sent/received/total):                    1.13KB     3.33KB     4.46KB
+============================================================================================
+
+Tue Jun 26 10:34:44 UTC 2018
+TEMPOS 1530009284
+TEMPO 20180626103444
+top - 10:34:44 up  7:45,  1 user,  load average: 0.27, 0.22, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8033532 used,   163912 free,    70224 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669792 cached Mem
+10:34:44 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:34:44 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     29.9Kb     29.9Kb     29.9Kb     7.47KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     6.68Kb     6.68Kb     6.68Kb     1.67KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     4.92Kb     4.92Kb     4.92Kb     1.23KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     7.63Kb     7.63Kb     7.63Kb     1.91KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       528b       528b       528b       132B
+     189.6.12.181                             <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     35.3Kb     35.3Kb     35.3Kb
+Total receive rate:                                  14.3Kb     14.3Kb     14.3Kb
+Total send and receive rate:                         49.6Kb     49.6Kb     49.6Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     35.3Kb     14.3Kb     49.6Kb
+Cumulative (sent/received/total):                    8.83KB     3.58KB     12.4KB
+============================================================================================
+
+Tue Jun 26 10:34:47 UTC 2018
+TEMPOS 1530009287
+TEMPO 20180626103447
+top - 10:34:47 up  7:45,  1 user,  load average: 0.25, 0.22, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8031784 used,   165660 free,    70228 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669796 cached Mem
+10:34:47 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:34:47 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     4.87Kb     4.87Kb     4.87Kb     1.22KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     7.00Kb     7.00Kb     7.00Kb     1.75KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>         0b         0b         0b         0B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     5.24Kb     5.24Kb     5.24Kb
+Total receive rate:                                  9.21Kb     9.21Kb     9.21Kb
+Total send and receive rate:                         14.4Kb     14.4Kb     14.4Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     5.23Kb     9.20Kb     14.4Kb
+Cumulative (sent/received/total):                    1.31KB     2.30KB     3.61KB
+============================================================================================
+
+Tue Jun 26 10:34:51 UTC 2018
+TEMPOS 1530009291
+TEMPO 20180626103451
+top - 10:34:51 up  7:45,  1 user,  load average: 0.23, 0.21, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8031940 used,   165504 free,    70228 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669804 cached Mem
+10:34:52 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:34:52 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     37.4Kb     37.4Kb     37.4Kb     9.36KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     11.7Kb     11.7Kb     11.7Kb     2.94KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     4.05Kb     4.05Kb     4.05Kb     1.01KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     10.5Kb     10.5Kb     10.5Kb     2.61KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       528b       528b       528b       132B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     42.0Kb     42.0Kb     42.0Kb
+Total receive rate:                                  22.4Kb     22.4Kb     22.4Kb
+Total send and receive rate:                         64.4Kb     64.4Kb     64.4Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     42.0Kb     22.4Kb     64.4Kb
+Cumulative (sent/received/total):                    10.5KB     5.59KB     16.1KB
+============================================================================================
+
+Tue Jun 26 10:34:56 UTC 2018
+TEMPOS 1530009296
+TEMPO 20180626103456
+top - 10:34:56 up  7:45,  1 user,  load average: 0.23, 0.21, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032348 used,   165096 free,    70236 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669824 cached Mem
+10:34:56 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:34:56 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>      104Kb      104Kb      104Kb     25.9KB
+     108.177.125.95                           <=     2.26Kb     2.26Kb     2.26Kb       579B
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     23.9Kb     23.9Kb     23.9Kb     5.97KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     3.24Kb     3.24Kb     3.24Kb       829B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>     6.66Kb     6.66Kb     6.66Kb     1.67KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     10.0Kb     10.0Kb     10.0Kb     2.51KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                      134Kb      134Kb      134Kb
+Total receive rate:                                  15.5Kb     15.5Kb     15.5Kb
+Total send and receive rate:                          150Kb      150Kb      150Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      134Kb     15.5Kb      150Kb
+Cumulative (sent/received/total):                    33.5KB     3.88KB     37.4KB
+============================================================================================
+
+Tue Jun 26 10:34:59 UTC 2018
+TEMPOS 1530009299
+TEMPO 20180626103459
+top - 10:34:59 up  7:45,  1 user,  load average: 0.21, 0.21, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032052 used,   165392 free,    70244 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669828 cached Mem
+10:34:59 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:34:59 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     3.35Kb     3.35Kb     3.35Kb       858B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     6.30Kb     6.30Kb     6.30Kb     1.58KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.05Kb     2.05Kb     2.05Kb       525B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       396b       396b       396b        99B
+     metadata.google.internal                 <=       284b       284b       284b        71B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     4.11Kb     4.11Kb     4.11Kb
+Total receive rate:                                  8.63Kb     8.63Kb     8.63Kb
+Total send and receive rate:                         12.7Kb     12.7Kb     12.7Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     4.11Kb     8.62Kb     12.7Kb
+Cumulative (sent/received/total):                    1.03KB     2.16KB     3.18KB
+============================================================================================
+
+Tue Jun 26 10:35:02 UTC 2018
+TEMPOS 1530009302
+TEMPO 20180626103502
+top - 10:35:03 up  7:45,  1 user,  load average: 0.20, 0.20, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8033032 used,   164412 free,    70248 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669832 cached Mem
+10:35:03 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:35:03 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     3.68Kb     3.68Kb     3.68Kb       942B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     7.63Kb     7.63Kb     7.63Kb     1.91KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     0.98Kb     0.98Kb     0.98Kb       250B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     3.79Kb     3.79Kb     3.79Kb       970B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     4.66Kb     4.66Kb     4.66Kb
+Total receive rate:                                  11.4Kb     11.4Kb     11.4Kb
+Total send and receive rate:                         16.1Kb     16.1Kb     16.1Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     4.66Kb     11.4Kb     16.1Kb
+Cumulative (sent/received/total):                    1.16KB     2.86KB     4.02KB
+============================================================================================
+
+Tue Jun 26 10:35:06 UTC 2018
+TEMPOS 1530009306
+TEMPO 20180626103506
+top - 10:35:06 up  7:45,  1 user,  load average: 0.20, 0.20, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032704 used,   164740 free,    70248 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669848 cached Mem
+10:35:06 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:35:06 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     98.0Kb     98.0Kb     98.0Kb     24.5KB
+     108.177.125.95                           <=     1.88Kb     1.88Kb     1.88Kb       481B
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     30.4Kb     30.4Kb     30.4Kb     7.60KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     8.42Kb     8.42Kb     8.42Kb     2.11KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>     5.78Kb     5.78Kb     5.78Kb     1.44KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     11.5Kb     11.5Kb     11.5Kb     2.88KB
+   4 cluster-again-m.c.ivory-nectar-208109.i  =>       360b       360b       360b        90B
+     ti-in-f95.1e100.net                      <=       360b       360b       360b        90B
+   5 cluster-again-m.c.ivory-nectar-208109.i  =>         0b         0b         0b         0B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                      135Kb      135Kb      135Kb
+Total receive rate:                                  22.3Kb     22.3Kb     22.3Kb
+Total send and receive rate:                          157Kb      157Kb      157Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      135Kb     22.3Kb      157Kb
+Cumulative (sent/received/total):                    33.6KB     5.58KB     39.2KB
+============================================================================================
+
+Tue Jun 26 10:35:10 UTC 2018
+TEMPOS 1530009310
+TEMPO 20180626103510
+top - 10:35:10 up  7:45,  1 user,  load average: 0.18, 0.20, 0.23
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8031712 used,   165732 free,    70256 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669860 cached Mem
+10:35:10 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:35:10 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>      106Kb      106Kb      106Kb     26.5KB
+     108.177.125.95                           <=     2.46Kb     2.46Kb     2.46Kb       631B
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     5.30Kb     5.30Kb     5.30Kb     1.32KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     9.69Kb     9.69Kb     9.69Kb     2.42KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.06Kb     2.06Kb     2.06Kb       528B
+--------------------------------------------------------------------------------------------
+Total send rate:                                      112Kb      112Kb      112Kb
+Total receive rate:                                  14.2Kb     14.2Kb     14.2Kb
+Total send and receive rate:                          126Kb      126Kb      126Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      112Kb     14.2Kb      126Kb
+Cumulative (sent/received/total):                    27.9KB     3.55KB     31.4KB
+============================================================================================
+
+Tue Jun 26 10:35:15 UTC 2018
+TEMPOS 1530009315
+TEMPO 20180626103515
+top - 10:35:15 up  7:46,  1 user,  load average: 0.16, 0.20, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8031732 used,   165712 free,    70260 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669868 cached Mem
+10:35:15 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:35:15 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     4.80Kb     4.80Kb     4.80Kb     1.20KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     6.69Kb     6.69Kb     6.69Kb     1.67KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       760b       760b       760b       190B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     4.09Kb     4.09Kb     4.09Kb     1.02KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     5.54Kb     5.54Kb     5.54Kb
+Total receive rate:                                  10.8Kb     10.8Kb     10.8Kb
+Total send and receive rate:                         16.3Kb     16.3Kb     16.3Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     5.54Kb     10.8Kb     16.3Kb
+Cumulative (sent/received/total):                    1.39KB     2.70KB     4.08KB
+============================================================================================
+
+Tue Jun 26 10:35:19 UTC 2018
+TEMPOS 1530009319
+TEMPO 20180626103519
+top - 10:35:19 up  7:46,  1 user,  load average: 0.15, 0.19, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8031828 used,   165616 free,    70264 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669888 cached Mem
+10:35:19 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:35:19 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     4.41Kb     4.41Kb     4.41Kb     1.10KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     11.6Kb     11.6Kb     11.6Kb     2.89KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     7.16Kb     7.16Kb     7.16Kb     1.79KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     8.63Kb     8.63Kb     8.63Kb     2.16KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>         0b         0b         0b         0B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     11.6Kb     11.6Kb     11.6Kb
+Total receive rate:                                  20.3Kb     20.3Kb     20.3Kb
+Total send and receive rate:                         31.9Kb     31.9Kb     31.9Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     11.6Kb     20.3Kb     31.9Kb
+Cumulative (sent/received/total):                    2.89KB     5.08KB     7.98KB
+============================================================================================
+
+Tue Jun 26 10:35:22 UTC 2018
+TEMPOS 1530009322
+TEMPO 20180626103522
+top - 10:35:22 up  7:46,  1 user,  load average: 0.14, 0.19, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8031720 used,   165724 free,    70272 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669892 cached Mem
+10:35:23 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:35:23 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     32.9Kb     32.9Kb     32.9Kb     8.22KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     10.9Kb     10.9Kb     10.9Kb     2.73KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       460b       460b       460b       115B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.07Kb     2.07Kb     2.07Kb       529B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       752b       752b       752b       188B
+     metadata.google.internal                 <=     1.14Kb     1.14Kb     1.14Kb       293B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     34.0Kb     34.0Kb     34.0Kb
+Total receive rate:                                  14.1Kb     14.1Kb     14.1Kb
+Total send and receive rate:                         48.2Kb     48.2Kb     48.2Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     34.0Kb     14.1Kb     48.2Kb
+Cumulative (sent/received/total):                    8.51KB     3.54KB     12.0KB
+============================================================================================
+
+Tue Jun 26 10:35:27 UTC 2018
+TEMPOS 1530009327
+TEMPO 20180626103527
+top - 10:35:27 up  7:46,  1 user,  load average: 0.13, 0.19, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8031528 used,   165916 free,    70272 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669904 cached Mem
+10:35:27 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:35:27 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     3.68Kb     3.68Kb     3.68Kb       943B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     7.64Kb     7.64Kb     7.64Kb     1.91KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.07Kb     2.07Kb     2.07Kb       529B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     4.05Kb     4.05Kb     4.05Kb
+Total receive rate:                                  9.71Kb     9.71Kb     9.71Kb
+Total send and receive rate:                         13.8Kb     13.8Kb     13.8Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     4.05Kb     9.71Kb     13.8Kb
+Cumulative (sent/received/total):                    1.01KB     2.43KB     3.44KB
+============================================================================================
+
+Tue Jun 26 10:35:31 UTC 2018
+TEMPOS 1530009331
+TEMPO 20180626103531
+top - 10:35:31 up  7:46,  1 user,  load average: 0.13, 0.19, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8031540 used,   165904 free,    70280 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669916 cached Mem
+10:35:31 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:35:31 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     4.89Kb     4.89Kb     4.89Kb     1.22KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     7.01Kb     7.01Kb     7.01Kb     1.75KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       716b       716b       716b       179B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     3.40Kb     3.40Kb     3.40Kb       870B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       528b       528b       528b       132B
+     189.6.12.181                             <=         0b         0b         0b         0B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     6.10Kb     6.10Kb     6.10Kb
+Total receive rate:                                  10.4Kb     10.4Kb     10.4Kb
+Total send and receive rate:                         16.5Kb     16.5Kb     16.5Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     6.10Kb     10.4Kb     16.5Kb
+Cumulative (sent/received/total):                    1.53KB     2.60KB     4.13KB
+============================================================================================
+
+Tue Jun 26 10:35:35 UTC 2018
+TEMPOS 1530009335
+TEMPO 20180626103535
+top - 10:35:36 up  7:46,  1 user,  load average: 0.20, 0.20, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8030944 used,   166500 free,    70288 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669932 cached Mem
+10:35:36 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:35:36 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     48.1Kb     48.1Kb     48.1Kb     12.0KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     14.0Kb     14.0Kb     14.0Kb     3.51KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       460b       460b       460b       115B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.07Kb     2.07Kb     2.07Kb       529B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     48.5Kb     48.5Kb     48.5Kb
+Total receive rate:                                  16.1Kb     16.1Kb     16.1Kb
+Total send and receive rate:                         64.7Kb     64.7Kb     64.7Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     48.5Kb     16.1Kb     64.6Kb
+Cumulative (sent/received/total):                    12.1KB     4.03KB     16.2KB
+============================================================================================
+
+Tue Jun 26 10:35:40 UTC 2018
+TEMPOS 1530009340
+TEMPO 20180626103540
+top - 10:35:40 up  7:46,  1 user,  load average: 0.18, 0.20, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8031312 used,   166132 free,    70292 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669940 cached Mem
+10:35:40 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:35:40 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     28.4Kb     28.4Kb     28.4Kb     7.10KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     4.66Kb     4.66Kb     4.66Kb     1.17KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     3.93Kb     3.93Kb     3.93Kb     0.98KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     9.20Kb     9.20Kb     9.20Kb     2.30KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     32.3Kb     32.3Kb     32.3Kb
+Total receive rate:                                  13.9Kb     13.9Kb     13.9Kb
+Total send and receive rate:                         46.2Kb     46.2Kb     46.2Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     32.3Kb     13.9Kb     46.2Kb
+Cumulative (sent/received/total):                    8.08KB     3.46KB     11.5KB
+============================================================================================
+
+Tue Jun 26 10:35:44 UTC 2018
+TEMPOS 1530009344
+TEMPO 20180626103544
+top - 10:35:44 up  7:46,  1 user,  load average: 0.17, 0.19, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8030948 used,   166496 free,    70300 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669952 cached Mem
+10:35:44 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:35:44 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     2.96Kb     2.96Kb     2.96Kb       759B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     5.26Kb     5.26Kb     5.26Kb     1.32KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     2.07Kb     2.07Kb     2.07Kb       529B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     3.34Kb     3.34Kb     3.34Kb
+Total receive rate:                                  7.33Kb     7.33Kb     7.33Kb
+Total send and receive rate:                         10.7Kb     10.7Kb     10.7Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     3.34Kb     7.33Kb     10.7Kb
+Cumulative (sent/received/total):                      854B     1.83KB     2.67KB
+============================================================================================
+
+Tue Jun 26 10:35:48 UTC 2018
+TEMPOS 1530009348
+TEMPO 20180626103548
+top - 10:35:48 up  7:46,  1 user,  load average: 0.15, 0.19, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8031020 used,   166424 free,    70308 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669952 cached Mem
+10:35:48 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:35:48 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     4.81Kb     4.81Kb     4.81Kb     1.20KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     7.40Kb     7.40Kb     7.40Kb     1.85KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       924b       924b       924b       231B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     3.77Kb     3.77Kb     3.77Kb       965B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     5.71Kb     5.71Kb     5.71Kb
+Total receive rate:                                  11.2Kb     11.2Kb     11.2Kb
+Total send and receive rate:                         16.9Kb     16.9Kb     16.9Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     5.71Kb     11.2Kb     16.9Kb
+Cumulative (sent/received/total):                    1.43KB     2.79KB     4.22KB
+============================================================================================
+
+Tue Jun 26 10:35:52 UTC 2018
+TEMPOS 1530009352
+TEMPO 20180626103552
+top - 10:35:52 up  7:46,  1 user,  load average: 0.14, 0.19, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8030676 used,   166768 free,    70308 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669972 cached Mem
+10:35:52 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:35:52 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:     910.69 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+10:35:52  4539 be/4 root          0.00 K      0.00 K  0.00 %  3.20 % ruby -Eascii-8bit:ascii-8bit /usr/sbin/google-fluentd --log /var/log/google-fluentd/google-fluentd.log --daemon /var/run/google-fluentd/google-fluentd.pid --under-supervisor [thread.rb:70]
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>      176Kb      176Kb      176Kb     44.1KB
+     108.177.125.95                           <=     3.75Kb     3.75Kb     3.75Kb       961B
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     34.4Kb     34.4Kb     34.4Kb     8.60KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     7.66Kb     7.66Kb     7.66Kb     1.91KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>     3.14Kb     3.14Kb     3.14Kb       804B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     5.77Kb     5.77Kb     5.77Kb     1.44KB
+   4 cluster-again-m.c.ivory-nectar-208109.i  =>         0b         0b         0b         0B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                      214Kb      214Kb      214Kb
+Total receive rate:                                  17.3Kb     17.3Kb     17.3Kb
+Total send and receive rate:                          231Kb      231Kb      231Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      214Kb     17.3Kb      231Kb
+Cumulative (sent/received/total):                    53.5KB     4.33KB     57.8KB
+============================================================================================
+
+Tue Jun 26 10:35:55 UTC 2018
+TEMPOS 1530009355
+TEMPO 20180626103555
+top - 10:35:55 up  7:46,  1 user,  load average: 0.14, 0.19, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8030620 used,   166824 free,    70312 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669988 cached Mem
+10:35:55 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:35:55 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     37.5Kb     37.5Kb     37.5Kb     9.36KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     12.7Kb     12.7Kb     12.7Kb     3.17KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     1.89Kb     1.89Kb     1.89Kb       485B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     37.8Kb     37.8Kb     37.8Kb
+Total receive rate:                                  14.6Kb     14.6Kb     14.6Kb
+Total send and receive rate:                         52.4Kb     52.4Kb     52.4Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     37.8Kb     14.6Kb     52.4Kb
+Cumulative (sent/received/total):                    9.46KB     3.64KB     13.1KB
+============================================================================================
+
+Tue Jun 26 10:35:59 UTC 2018
+TEMPOS 1530009359
+TEMPO 20180626103559
+top - 10:35:59 up  7:46,  1 user,  load average: 0.13, 0.18, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8030396 used,   167048 free,    70316 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4670000 cached Mem
+10:35:59 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:35:59 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     5.16Kb     5.16Kb     5.16Kb     1.29KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     6.82Kb     6.82Kb     6.82Kb     1.70KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     1.69Kb     1.69Kb     1.69Kb       432B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       528b       528b       528b       132B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     6.05Kb     6.05Kb     6.05Kb
+Total receive rate:                                  8.66Kb     8.66Kb     8.66Kb
+Total send and receive rate:                         14.7Kb     14.7Kb     14.7Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     6.05Kb     8.66Kb     14.7Kb
+Cumulative (sent/received/total):                    1.51KB     2.17KB     3.68KB
+============================================================================================
+
+Tue Jun 26 10:36:03 UTC 2018
+TEMPOS 1530009363
+TEMPO 20180626103603
+top - 10:36:03 up  7:46,  1 user,  load average: 0.12, 0.18, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8029832 used,   167612 free,    70324 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4670016 cached Mem
+10:36:03 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:36:03 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     35.2Kb     35.2Kb     35.2Kb     8.79KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     69.3Kb     69.3Kb     69.3Kb     17.3KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     11.5Kb     11.5Kb     11.5Kb     2.88KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     33.6Kb     33.6Kb     33.6Kb     8.39KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>         0b         0b         0b         0B
+     189.6.12.181                             <=       160b       160b       160b        40B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     46.7Kb     46.7Kb     46.7Kb
+Total receive rate:                                   103Kb      103Kb      103Kb
+Total send and receive rate:                          150Kb      150Kb      150Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     46.7Kb      103Kb      150Kb
+Cumulative (sent/received/total):                    11.7KB     25.8KB     37.4KB
+============================================================================================
+
+Tue Jun 26 10:36:06 UTC 2018
+TEMPOS 1530009366
+TEMPO 20180626103606
+top - 10:36:06 up  7:46,  1 user,  load average: 0.19, 0.19, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032052 used,   165392 free,    70332 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4670028 cached Mem
+10:36:07 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:36:07 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>      218Kb      218Kb      218Kb     54.6KB
+     108.177.125.95                           <=     3.48Kb     3.48Kb     3.48Kb       891B
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     1.43Kb     1.43Kb     1.43Kb       366B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     3.67Kb     3.67Kb     3.67Kb       940B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       756b       756b       756b       189B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     3.67Kb     3.67Kb     3.67Kb       939B
+--------------------------------------------------------------------------------------------
+Total send rate:                                      220Kb      220Kb      220Kb
+Total receive rate:                                  10.8Kb     10.8Kb     10.8Kb
+Total send and receive rate:                          231Kb      231Kb      231Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      220Kb     10.8Kb      231Kb
+Cumulative (sent/received/total):                    55.1KB     2.71KB     57.8KB
+============================================================================================
+
+Tue Jun 26 10:36:11 UTC 2018
+TEMPOS 1530009371
+TEMPO 20180626103611
+top - 10:36:11 up  7:46,  1 user,  load average: 0.19, 0.19, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032980 used,   164464 free,    70332 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4670068 cached Mem
+10:36:11 Total DISK READ :       0.00 K/s | Total DISK WRITE :     252.48 K/s
+10:36:11 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:     252.48 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+10:36:11  4693 be/4 hdfs          0.00 K      8.00 K  0.00 %  5.69 % java -Dproc_namenode -Xmx1000m -Dhadoop.log.dir=/var/log/hadoop-hdfs -Dhadoop.log.file=hadoop-hdfs-namenode-cluster-again-m.log -Dhadoop.home.dir=/usr/lib/hadoop -Dhadoop.id.str=hdfs -Dhadoop.root.logger=INFO,RFA -Djava.library.path=/usr/lib/hadoop/lib/native -Dhadoop.policy.file=hadoop-policy.xml -Djava.net.preferIPv4Stack=true -Xmx1601m -XX:+UseConcMarkSweepGC -XX:+PrintGCTimeStamps -XX:+PrintGCDateStamps -XX:+PrintGCDetails -Dhadoop.security.logger=INFO,RFAS org.apache.hadoop.hdfs.server.namenode.NameNode
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     6.96Kb     6.96Kb     6.96Kb     1.74KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     13.3Kb     13.3Kb     13.3Kb     3.33KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       840b       840b       840b       210B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     3.62Kb     3.62Kb     3.62Kb       927B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       376b       376b       376b        94B
+     metadata.google.internal                 <=       440b       440b       440b       110B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     8.15Kb     8.15Kb     8.15Kb
+Total receive rate:                                  17.4Kb     17.4Kb     17.4Kb
+Total send and receive rate:                         25.5Kb     25.5Kb     25.5Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     8.15Kb     17.4Kb     25.5Kb
+Cumulative (sent/received/total):                    2.04KB     4.34KB     6.38KB
+============================================================================================
+
+Tue Jun 26 10:36:15 UTC 2018
+TEMPOS 1530009375
+TEMPO 20180626103615
+top - 10:36:15 up  7:47,  1 user,  load average: 0.17, 0.19, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032484 used,   164960 free,    70336 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4670080 cached Mem
+10:36:15 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:36:15 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>      138Kb      138Kb      138Kb     34.5KB
+     108.177.125.95                           <=     2.24Kb     2.24Kb     2.24Kb       574B
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     4.32Kb     4.32Kb     4.32Kb     1.08KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     9.01Kb     9.01Kb     9.01Kb     2.25KB
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       756b       756b       756b       189B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     3.49Kb     3.49Kb     3.49Kb       894B
+--------------------------------------------------------------------------------------------
+Total send rate:                                      143Kb      143Kb      143Kb
+Total receive rate:                                  14.7Kb     14.7Kb     14.7Kb
+Total send and receive rate:                          158Kb      158Kb      158Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      143Kb     14.7Kb      158Kb
+Cumulative (sent/received/total):                    35.8KB     3.69KB     39.5KB
+============================================================================================
+
+Tue Jun 26 10:36:18 UTC 2018
+TEMPOS 1530009378
+TEMPO 20180626103618
+top - 10:36:19 up  7:47,  1 user,  load average: 0.16, 0.19, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8033244 used,   164200 free,    70340 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4670076 cached Mem
+10:36:19 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:36:19 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     14.1Kb     14.1Kb     14.1Kb     3.54KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=     25.3Kb     25.3Kb     25.3Kb     6.33KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     1.07Kb     1.07Kb     1.07Kb       274B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     5.74Kb     5.74Kb     5.74Kb     1.44KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     15.2Kb     15.2Kb     15.2Kb
+Total receive rate:                                  31.1Kb     31.1Kb     31.1Kb
+Total send and receive rate:                         46.3Kb     46.3Kb     46.3Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     15.2Kb     31.1Kb     46.3Kb
+Cumulative (sent/received/total):                    3.80KB     7.77KB     11.6KB
+============================================================================================
+
+Tue Jun 26 10:36:23 UTC 2018
+TEMPOS 1530009383
+TEMPO 20180626103623
+top - 10:36:23 up  7:47,  1 user,  load average: 0.15, 0.18, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8032600 used,   164844 free,    70340 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4670092 cached Mem
+10:36:23 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:36:23 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     3.75Kb     3.75Kb     3.75Kb       961B
+     cluster-again-w-1.c.ivory-nectar-208109  <=     6.59Kb     6.59Kb     6.59Kb     1.65KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>       380b       380b       380b        95B
+     cluster-again-w-0.c.ivory-nectar-208109  <=     1.54Kb     1.54Kb     1.54Kb       395B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>       752b       752b       752b       188B
+     metadata.google.internal                 <=     1.14Kb     1.14Kb     1.14Kb       293B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     4.86Kb     4.86Kb     4.86Kb
+Total receive rate:                                  9.27Kb     9.27Kb     9.27Kb
+Total send and receive rate:                         14.1Kb     14.1Kb     14.1Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     4.86Kb     9.27Kb     14.1Kb
+Cumulative (sent/received/total):                    1.21KB     2.32KB     3.53KB
+============================================================================================
+
+Tue Jun 26 10:36:27 UTC 2018
+TEMPOS 1530009387
+TEMPO 20180626103627
+top - 10:36:27 up  7:47,  1 user,  load average: 0.21, 0.20, 0.22
+Tasks: 129 total,   1 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.6 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  7904540 used,   292904 free,    70348 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4669132 cached Mem
+10:36:27 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+10:36:27 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.7
+MAC address is: 42:01:0a:8c:00:07
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-again-m.c.ivory-nectar-208109.i  =>     41.0Kb     41.0Kb     41.0Kb     10.3KB
+     cluster-again-w-1.c.ivory-nectar-208109  <=      866Kb      866Kb      866Kb      217KB
+   2 cluster-again-m.c.ivory-nectar-208109.i  =>     75.5Kb     75.5Kb     75.5Kb     18.9KB
+     108.177.125.95                           <=     2.49Kb     2.49Kb     2.49Kb       637B
+   3 cluster-again-m.c.ivory-nectar-208109.i  =>     19.3Kb     19.3Kb     19.3Kb     4.82KB
+     cluster-again-w-0.c.ivory-nectar-208109  <=     14.4Kb     14.4Kb     14.4Kb     3.61KB
+   4 cluster-again-m.c.ivory-nectar-208109.i  =>     6.75Kb     6.75Kb     6.75Kb     1.69KB
+     189.6.12.181                             <=       160b       160b       160b        40B
+   5 cluster-again-m.c.ivory-nectar-208109.i  =>     2.16Kb     2.16Kb     2.16Kb       553B
+     metadata.google.internal                 <=     2.03Kb     2.03Kb     2.03Kb       520B
+--------------------------------------------------------------------------------------------
+Total send rate:                                      145Kb      145Kb      145Kb
+Total receive rate:                                   885Kb      885Kb      885Kb
+Total send and receive rate:                         1.01Mb     1.01Mb     1.01Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      145Kb      885Kb     1.01Mb
+Cumulative (sent/received/total):                    36.2KB      221KB      257KB
+============================================================================================
+

@@ -1,0 +1,1518 @@
+Sat Jun 23 11:45:23 UTC 2018
+TEMPOS 1529754323
+TEMPO 20180623114523
+top - 11:45:23 up 50 min,  0 users,  load average: 0.00, 0.06, 0.10
+Tasks:  94 total,   1 running,  93 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.4 sy,  0.0 ni, 98.1 id,  0.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8062228 used,   135216 free,    28740 buffers
+KiB Swap:        0 total,        0 used,        0 free.  6739336 cached Mem
+11:45:23 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:45:23 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     3.38Kb     3.38Kb     3.38Kb       865B
+     unb5-m.c.fresh-yen-165400.internal       <=       748b       748b       748b       187B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     3.38Kb     3.38Kb     3.38Kb
+Total receive rate:                                    748b       748b       748b
+Total send and receive rate:                         4.11Kb     4.11Kb     4.11Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     3.38Kb       744b     4.11Kb
+Cumulative (sent/received/total):                      865B       187B     1.03KB
+============================================================================================
+
+Sat Jun 23 11:45:27 UTC 2018
+TEMPOS 1529754327
+TEMPO 20180623114527
+top - 11:45:27 up 50 min,  0 users,  load average: 0.08, 0.08, 0.11
+Tasks:  94 total,   1 running,  93 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.4 sy,  0.0 ni, 98.1 id,  0.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8068636 used,   128808 free,    28748 buffers
+KiB Swap:        0 total,        0 used,        0 free.  6739872 cached Mem
+11:45:27 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:45:27 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     1.31Kb     1.31Kb     1.31Kb       335B
+     unb5-m.c.fresh-yen-165400.internal       <=       372b       372b       372b        93B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     1.31Kb     1.31Kb     1.31Kb
+Total receive rate:                                    372b       372b       372b
+Total send and receive rate:                         1.67Kb     1.67Kb     1.67Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     1.30Kb       368b     1.67Kb
+Cumulative (sent/received/total):                      335B        93B       428B
+============================================================================================
+
+Sat Jun 23 11:45:31 UTC 2018
+TEMPOS 1529754331
+TEMPO 20180623114531
+top - 11:45:31 up 50 min,  0 users,  load average: 0.07, 0.08, 0.11
+Tasks:  94 total,   1 running,  93 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.4 sy,  0.0 ni, 98.2 id,  0.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8068728 used,   128716 free,    28756 buffers
+KiB Swap:        0 total,        0 used,        0 free.  6739872 cached Mem
+11:45:32 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:45:32 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     3.38Kb     3.38Kb     3.38Kb       865B
+     unb5-m.c.fresh-yen-165400.internal       <=       748b       748b       748b       187B
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>       240b       240b       240b        60B
+     unb5-w-3.c.fresh-yen-165400.internal     <=       448b       448b       448b       112B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     3.61Kb     3.61Kb     3.61Kb
+Total receive rate:                                  1.17Kb     1.17Kb     1.17Kb
+Total send and receive rate:                         4.78Kb     4.78Kb     4.78Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     3.61Kb     1.16Kb     4.78Kb
+Cumulative (sent/received/total):                      925B       299B     1.20KB
+============================================================================================
+
+Sat Jun 23 11:45:36 UTC 2018
+TEMPOS 1529754336
+TEMPO 20180623114536
+top - 11:45:36 up 51 min,  0 users,  load average: 0.07, 0.07, 0.11
+Tasks:  94 total,   1 running,  93 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.4 sy,  0.0 ni, 98.2 id,  0.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8069680 used,   127764 free,    28760 buffers
+KiB Swap:        0 total,        0 used,        0 free.  6740092 cached Mem
+11:45:36 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:45:36 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     1.31Kb     1.31Kb     1.31Kb       335B
+     unb5-m.c.fresh-yen-165400.internal       <=       372b       372b       372b        93B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     1.31Kb     1.31Kb     1.31Kb
+Total receive rate:                                    372b       372b       372b
+Total send and receive rate:                         1.67Kb     1.67Kb     1.67Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     1.30Kb       368b     1.67Kb
+Cumulative (sent/received/total):                      335B        93B       428B
+============================================================================================
+
+Sat Jun 23 11:45:40 UTC 2018
+TEMPOS 1529754340
+TEMPO 20180623114540
+top - 11:45:40 up 51 min,  0 users,  load average: 0.07, 0.07, 0.11
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.4 sy,  0.0 ni, 98.1 id,  0.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8069112 used,   128332 free,    28900 buffers
+KiB Swap:        0 total,        0 used,        0 free.  6619184 cached Mem
+11:45:40 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:45:40 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     4.06Kb     4.06Kb     4.06Kb     1.02KB
+     unb5-m.c.fresh-yen-165400.internal       <=       748b       748b       748b       187B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     4.06Kb     4.06Kb     4.06Kb
+Total receive rate:                                    748b       748b       748b
+Total send and receive rate:                         4.79Kb     4.79Kb     4.79Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     4.06Kb       744b     4.79Kb
+Cumulative (sent/received/total):                    1.02KB       187B     1.20KB
+============================================================================================
+
+Sat Jun 23 11:45:45 UTC 2018
+TEMPOS 1529754345
+TEMPO 20180623114545
+top - 11:45:45 up 51 min,  0 users,  load average: 1.26, 0.32, 0.19
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.4 sy,  0.0 ni, 98.0 id,  0.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8061780 used,   135664 free,    28912 buffers
+KiB Swap:        0 total,        0 used,        0 free.  6134228 cached Mem
+11:45:45 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:45:45 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     15.7Kb     15.7Kb     15.7Kb     3.94KB
+     unb5-m.c.fresh-yen-165400.internal       <=     36.9Kb     36.9Kb     36.9Kb     9.23KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     15.7Kb     15.7Kb     15.7Kb
+Total receive rate:                                  36.9Kb     36.9Kb     36.9Kb
+Total send and receive rate:                         52.7Kb     52.7Kb     52.7Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     15.7Kb     36.9Kb     52.7Kb
+Cumulative (sent/received/total):                    3.94KB     9.23KB     13.2KB
+============================================================================================
+
+Sat Jun 23 11:45:49 UTC 2018
+TEMPOS 1529754349
+TEMPO 20180623114549
+top - 11:45:49 up 51 min,  0 users,  load average: 2.04, 0.50, 0.25
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.9 us,  0.4 sy,  0.0 ni, 97.8 id,  0.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8054304 used,   143140 free,    28920 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4513216 cached Mem
+11:45:49 Total DISK READ :   49517.76 K/s | Total DISK WRITE :       0.00 K/s
+11:45:49 Actual DISK READ:   49517.76 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:45:49  6565 be/4 yarn        600.00 K      0.00 K  0.00 % 63.22 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000011/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000011 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000009_0 11
+11:45:49  6567 be/4 yarn          0.00 K      0.00 K  0.00 % 45.14 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000012/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000012 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000011_0 12
+11:45:49  6566 be/4 yarn        720.00 K      0.00 K  0.00 % 39.05 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000010/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000010 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000006_0 10
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     6.26Kb     6.26Kb     6.26Kb     1.56KB
+     unb5-m.c.fresh-yen-165400.internal       <=     1.06Kb     1.06Kb     1.06Kb       272B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     6.26Kb     6.26Kb     6.26Kb
+Total receive rate:                                  1.06Kb     1.06Kb     1.06Kb
+Total send and receive rate:                         7.32Kb     7.32Kb     7.32Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     6.26Kb     1.06Kb     7.32Kb
+Cumulative (sent/received/total):                    1.56KB       272B     1.83KB
+============================================================================================
+
+Sat Jun 23 11:45:54 UTC 2018
+TEMPOS 1529754354
+TEMPO 20180623114554
+top - 11:45:54 up 51 min,  0 users,  load average: 2.20, 0.56, 0.27
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.9 us,  0.4 sy,  0.0 ni, 97.7 id,  0.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8068144 used,   129300 free,    28932 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4123328 cached Mem
+11:45:54 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:45:54 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     14.8Kb     14.8Kb     14.8Kb     3.69KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=      167Kb      167Kb      167Kb     41.7KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>      114Kb      114Kb      114Kb     28.5KB
+     va-in-f95.1e100.net                      <=     4.03Kb     4.03Kb     4.03Kb     1.01KB
+   3 unb5-w-1.c.fresh-yen-165400.internal     =>     5.48Kb     5.48Kb     5.48Kb     1.37KB
+     unb5-m.c.fresh-yen-165400.internal       <=     1.43Kb     1.43Kb     1.43Kb       365B
+--------------------------------------------------------------------------------------------
+Total send rate:                                      134Kb      134Kb      134Kb
+Total receive rate:                                   172Kb      172Kb      172Kb
+Total send and receive rate:                          306Kb      306Kb      306Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      134Kb      172Kb      306Kb
+Cumulative (sent/received/total):                    33.6KB     43.0KB     76.6KB
+============================================================================================
+
+Sat Jun 23 11:45:57 UTC 2018
+TEMPOS 1529754357
+TEMPO 20180623114557
+top - 11:45:58 up 51 min,  0 users,  load average: 2.58, 0.67, 0.30
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.0 us,  0.4 sy,  0.0 ni, 97.6 id,  0.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  5718128 used,  2479316 free,    29016 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4074080 cached Mem
+11:45:58 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:45:58 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     2.00Kb     2.00Kb     2.00Kb       511B
+     unb5-m.c.fresh-yen-165400.internal       <=       676b       676b       676b       169B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     2.00Kb     2.00Kb     2.00Kb
+Total receive rate:                                    676b       676b       676b
+Total send and receive rate:                         2.66Kb     2.66Kb     2.66Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     1.99Kb       672b     2.66Kb
+Cumulative (sent/received/total):                      511B       169B       680B
+============================================================================================
+
+Sat Jun 23 11:46:02 UTC 2018
+TEMPOS 1529754362
+TEMPO 20180623114602
+top - 11:46:02 up 51 min,  0 users,  load average: 3.02, 0.79, 0.34
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.2 us,  0.4 sy,  0.0 ni, 97.5 id,  0.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  6070328 used,  2127116 free,    29028 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4074380 cached Mem
+11:46:02 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:02 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     22.5Kb     22.5Kb     22.5Kb     5.62KB
+     unb5-m.c.fresh-yen-165400.internal       <=      125Kb      125Kb      125Kb     31.3KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     1.78Kb     1.78Kb     1.78Kb       456B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     55.6Kb     55.6Kb     55.6Kb     13.9KB
+   3 unb5-w-1.c.fresh-yen-165400.internal     =>       552b       552b       552b       138B
+     metadata.google.internal                 <=       944b       944b       944b       236B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     24.8Kb     24.8Kb     24.8Kb
+Total receive rate:                                   182Kb      182Kb      182Kb
+Total send and receive rate:                          207Kb      207Kb      207Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     24.8Kb      182Kb      207Kb
+Cumulative (sent/received/total):                    6.20KB     45.5KB     51.7KB
+============================================================================================
+
+Sat Jun 23 11:46:07 UTC 2018
+TEMPOS 1529754367
+TEMPO 20180623114607
+top - 11:46:07 up 51 min,  0 users,  load average: 3.26, 0.87, 0.37
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.3 us,  0.4 sy,  0.0 ni, 97.3 id,  0.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  7900516 used,   296928 free,    29036 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4320672 cached Mem
+11:46:07 Total DISK READ :   28549.94 K/s | Total DISK WRITE :       0.00 K/s
+11:46:07 Actual DISK READ:   23791.62 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:46:07  6835 be/4 yarn        240.00 K      0.00 K  0.00 % 50.34 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000024/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000024 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000021_0 24
+11:46:07  6870 be/4 yarn          0.00 K      0.00 K  0.00 % 54.88 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000030/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000030 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000026_0 30
+11:46:07  6834 be/4 yarn        240.00 K      0.00 K  0.00 % 40.56 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000027/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000027 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000025_0 27
+11:46:07  6858 be/4 yarn        240.00 K      0.00 K  0.00 % 47.20 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000023/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000023 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000017_0 23
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     2.00Kb     2.00Kb     2.00Kb       511B
+     unb5-m.c.fresh-yen-165400.internal       <=       372b       372b       372b        93B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     2.00Kb     2.00Kb     2.00Kb
+Total receive rate:                                    372b       372b       372b
+Total send and receive rate:                         2.36Kb     2.36Kb     2.36Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     1.99Kb       368b     2.36Kb
+Cumulative (sent/received/total):                      511B        93B       604B
+============================================================================================
+
+Sat Jun 23 11:46:11 UTC 2018
+TEMPOS 1529754371
+TEMPO 20180623114611
+top - 11:46:11 up 51 min,  0 users,  load average: 3.48, 0.96, 0.40
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.4 us,  0.4 sy,  0.0 ni, 97.2 id,  0.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8055520 used,   141924 free,    29048 buffers
+KiB Swap:        0 total,        0 used,        0 free.  3997252 cached Mem
+11:46:12 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:12 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     26.7Kb     26.7Kb     26.7Kb     6.68KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=      246Kb      246Kb      246Kb     61.4KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     8.64Kb     8.64Kb     8.64Kb     2.16KB
+     unb5-m.c.fresh-yen-165400.internal       <=     2.32Kb     2.32Kb     2.32Kb       594B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     35.4Kb     35.4Kb     35.4Kb
+Total receive rate:                                   248Kb      248Kb      248Kb
+Total send and receive rate:                          283Kb      283Kb      283Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     35.4Kb      248Kb      283Kb
+Cumulative (sent/received/total):                    8.84KB     62.0KB     70.9KB
+============================================================================================
+
+Sat Jun 23 11:46:15 UTC 2018
+TEMPOS 1529754375
+TEMPO 20180623114615
+top - 11:46:15 up 51 min,  0 users,  load average: 3.48, 0.96, 0.40
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.5 us,  0.4 sy,  0.0 ni, 97.1 id,  0.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  5733080 used,  2464364 free,    29112 buffers
+KiB Swap:        0 total,        0 used,        0 free.  3996668 cached Mem
+11:46:15 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:15 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     1.93Kb     1.93Kb     1.93Kb       493B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     1.70Kb     1.70Kb     1.70Kb       434B
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     2.00Kb     2.00Kb     2.00Kb       511B
+     unb5-m.c.fresh-yen-165400.internal       <=       372b       372b       372b        93B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     3.92Kb     3.92Kb     3.92Kb
+Total receive rate:                                  2.06Kb     2.06Kb     2.06Kb
+Total send and receive rate:                         5.98Kb     5.98Kb     5.98Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     3.92Kb     2.05Kb     5.98Kb
+Cumulative (sent/received/total):                    0.98KB       527B     1.50KB
+============================================================================================
+
+Sat Jun 23 11:46:19 UTC 2018
+TEMPOS 1529754379
+TEMPO 20180623114619
+top - 11:46:20 up 51 min,  0 users,  load average: 4.08, 1.13, 0.46
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.6 us,  0.4 sy,  0.0 ni, 97.0 id,  0.9 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  6646832 used,  1550612 free,    29112 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4007164 cached Mem
+11:46:20 Total DISK READ :   32384.97 K/s | Total DISK WRITE :       0.00 K/s
+11:46:20 Actual DISK READ:   21589.98 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:46:20  7100 be/4 yarn       1440.00 K      0.00 K  0.00 % 32.59 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000039/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000039 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000035_0 39
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     13.3Kb     13.3Kb     13.3Kb     3.33KB
+     unb5-m.c.fresh-yen-165400.internal       <=     63.1Kb     63.1Kb     63.1Kb     15.8KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     13.3Kb     13.3Kb     13.3Kb
+Total receive rate:                                  63.1Kb     63.1Kb     63.1Kb
+Total send and receive rate:                         76.4Kb     76.4Kb     76.4Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     13.3Kb     63.0Kb     76.4Kb
+Cumulative (sent/received/total):                    3.33KB     15.8KB     19.1KB
+============================================================================================
+
+Sat Jun 23 11:46:24 UTC 2018
+TEMPOS 1529754384
+TEMPO 20180623114624
+top - 11:46:24 up 51 min,  0 users,  load average: 4.23, 1.21, 0.49
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.7 us,  0.4 sy,  0.0 ni, 96.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8063744 used,   133700 free,    29124 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4358560 cached Mem
+11:46:24 Total DISK READ :   52589.66 K/s | Total DISK WRITE :       0.00 K/s
+11:46:24 Actual DISK READ:   47808.78 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:46:24  7100 be/4 yarn        480.00 K      0.00 K  0.00 % 86.05 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000039/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000039 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000035_0 39
+11:46:24  7148 be/4 yarn        360.00 K      0.00 K  0.00 % 85.61 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000041/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000041 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000037_0 41
+11:46:24  7099 be/4 yarn        480.00 K      0.00 K  0.00 % 37.37 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000036/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000036 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000034_0 36
+11:46:24  7156 be/4 yarn          0.00 K      0.00 K  0.00 % 36.51 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000043/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000043 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000043_0 43
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     3.11Kb     3.11Kb     3.11Kb       796B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     28.8Kb     28.8Kb     28.8Kb     7.20KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     2.00Kb     2.00Kb     2.00Kb       511B
+     unb5-m.c.fresh-yen-165400.internal       <=       372b       372b       372b        93B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     5.11Kb     5.11Kb     5.11Kb
+Total receive rate:                                  29.1Kb     29.1Kb     29.1Kb
+Total send and receive rate:                         34.2Kb     34.2Kb     34.2Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     5.10Kb     29.1Kb     34.2Kb
+Cumulative (sent/received/total):                    1.28KB     7.29KB     8.56KB
+============================================================================================
+
+Sat Jun 23 11:46:28 UTC 2018
+TEMPOS 1529754388
+TEMPO 20180623114628
+top - 11:46:28 up 51 min,  0 users,  load average: 4.37, 1.29, 0.52
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.8 us,  0.5 sy,  0.0 ni, 96.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  7015424 used,  1182020 free,    29152 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4179052 cached Mem
+11:46:28 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:28 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>       920b       920b       920b       230B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     27.2Kb     27.2Kb     27.2Kb     6.81KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     4.07Kb     4.07Kb     4.07Kb     1.02KB
+     unb5-m.c.fresh-yen-165400.internal       <=       824b       824b       824b       206B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     4.96Kb     4.96Kb     4.96Kb
+Total receive rate:                                  28.0Kb     28.0Kb     28.0Kb
+Total send and receive rate:                         33.0Kb     33.0Kb     33.0Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     4.96Kb     28.0Kb     33.0Kb
+Cumulative (sent/received/total):                    1.24KB     7.01KB     8.25KB
+============================================================================================
+
+Sat Jun 23 11:46:32 UTC 2018
+TEMPOS 1529754392
+TEMPO 20180623114632
+top - 11:46:33 up 51 min,  0 users,  load average: 4.59, 1.38, 0.56
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.9 us,  0.5 sy,  0.0 ni, 96.6 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  6162792 used,  2034652 free,    29188 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4178952 cached Mem
+11:46:33 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:33 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     5.43Kb     5.43Kb     5.43Kb     1.36KB
+     unb5-m.c.fresh-yen-165400.internal       <=     9.65Kb     9.65Kb     9.65Kb     2.41KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     5.43Kb     5.43Kb     5.43Kb
+Total receive rate:                                  9.65Kb     9.65Kb     9.65Kb
+Total send and receive rate:                         15.1Kb     15.1Kb     15.1Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     5.43Kb     9.65Kb     15.1Kb
+Cumulative (sent/received/total):                    1.36KB     2.41KB     3.77KB
+============================================================================================
+
+Sat Jun 23 11:46:37 UTC 2018
+TEMPOS 1529754397
+TEMPO 20180623114637
+top - 11:46:37 up 52 min,  0 users,  load average: 4.94, 1.51, 0.60
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.1 us,  0.5 sy,  0.0 ni, 96.5 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  7563456 used,   633988 free,    29200 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4327652 cached Mem
+11:46:37 Total DISK READ :   26816.95 K/s | Total DISK WRITE :       0.00 K/s
+11:46:37 Actual DISK READ:   17325.91 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:46:37  7446 be/4 yarn        120.00 K      0.00 K  0.00 % 74.96 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000063/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000063 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000059_0 63
+11:46:37  7366 be/4 yarn       1324.00 K      0.00 K  0.00 % 42.36 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000056/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000056 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000052_0 56
+11:46:37  7430 be/4 yarn        240.00 K      0.00 K  0.00 % 15.98 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000064/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000064 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000063_0 64
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     4.07Kb     4.07Kb     4.07Kb     1.02KB
+     unb5-m.c.fresh-yen-165400.internal       <=       748b       748b       748b       187B
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     1.43Kb     1.43Kb     1.43Kb       367B
+     unb5-w-3.c.fresh-yen-165400.internal     <=       372b       372b       372b        93B
+   3 unb5-w-1.c.fresh-yen-165400.internal     =>       448b       448b       448b       112B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     1.22Kb     1.22Kb     1.22Kb       312B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     5.94Kb     5.94Kb     5.94Kb
+Total receive rate:                                  2.31Kb     2.31Kb     2.31Kb
+Total send and receive rate:                         8.25Kb     8.25Kb     8.25Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     5.94Kb     2.31Kb     8.25Kb
+Cumulative (sent/received/total):                    1.48KB       592B     2.06KB
+============================================================================================
+
+Sat Jun 23 11:46:41 UTC 2018
+TEMPOS 1529754401
+TEMPO 20180623114641
+top - 11:46:41 up 52 min,  0 users,  load average: 5.26, 1.63, 0.65
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.2 us,  0.5 sy,  0.0 ni, 96.4 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8057344 used,   140100 free,    29212 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4243968 cached Mem
+11:46:41 Total DISK READ :   57802.40 K/s | Total DISK WRITE :       0.00 K/s
+11:46:41 Actual DISK READ:   49584.05 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:46:41  7446 be/4 yarn       1320.00 K      0.00 K  0.00 % 10.56 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000063/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000063 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000059_0 63
+11:46:41  7430 be/4 yarn        368.00 K      0.00 K  0.00 %  3.48 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000064/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000064 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000063_0 64
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     7.67Kb     7.67Kb     7.67Kb     1.92KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     81.4Kb     81.4Kb     81.4Kb     20.3KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     8.43Kb     8.43Kb     8.43Kb     2.11KB
+     unb5-m.c.fresh-yen-165400.internal       <=     1.66Kb     1.66Kb     1.66Kb       425B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     16.1Kb     16.1Kb     16.1Kb
+Total receive rate:                                  83.0Kb     83.0Kb     83.0Kb
+Total send and receive rate:                         99.1Kb     99.1Kb     99.1Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     16.1Kb     83.0Kb     99.1Kb
+Cumulative (sent/received/total):                    4.03KB     20.8KB     24.8KB
+============================================================================================
+
+Sat Jun 23 11:46:45 UTC 2018
+TEMPOS 1529754405
+TEMPO 20180623114645
+top - 11:46:45 up 52 min,  0 users,  load average: 5.26, 1.63, 0.65
+Tasks: 103 total,   1 running, 102 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.3 us,  0.5 sy,  0.0 ni, 96.2 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  6688928 used,  1508516 free,    29240 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4293512 cached Mem
+11:46:45 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:45 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     5.47Kb     5.47Kb     5.47Kb     1.37KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     26.4Kb     26.4Kb     26.4Kb     6.60KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     1.79Kb     1.79Kb     1.79Kb       459B
+     unb5-m.c.fresh-yen-165400.internal       <=       372b       372b       372b        93B
+   3 unb5-w-1.c.fresh-yen-165400.internal     =>       640b       640b       640b       160B
+     metadata.google.internal                 <=       768b       768b       768b       192B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     7.89Kb     7.89Kb     7.89Kb
+Total receive rate:                                  27.5Kb     27.5Kb     27.5Kb
+Total send and receive rate:                         35.4Kb     35.4Kb     35.4Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     7.88Kb     27.5Kb     35.4Kb
+Cumulative (sent/received/total):                    1.97KB     6.88KB     8.85KB
+============================================================================================
+
+Sat Jun 23 11:46:50 UTC 2018
+TEMPOS 1529754410
+TEMPO 20180623114650
+top - 11:46:50 up 52 min,  0 users,  load average: 5.72, 1.79, 0.70
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.4 us,  0.5 sy,  0.0 ni, 96.1 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  7135120 used,  1062324 free,    29252 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4365224 cached Mem
+11:46:50 Total DISK READ :    7940.44 K/s | Total DISK WRITE :       0.00 K/s
+11:46:50 Actual DISK READ:    7940.44 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:46:50  7619 be/4 yarn          0.00 K      0.00 K  0.00 %  6.25 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000070/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000070 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000064_0 70
+11:46:50  7611 be/4 yarn        240.00 K      0.00 K  0.00 %  0.00 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000071/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000071 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000068_0 71
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>      453Kb      453Kb      453Kb      113KB
+     va-in-f95.1e100.net                      <=     3.89Kb     3.89Kb     3.89Kb       995B
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     10.9Kb     10.9Kb     10.9Kb     2.74KB
+     unb5-m.c.fresh-yen-165400.internal       <=     19.0Kb     19.0Kb     19.0Kb     4.75KB
+   3 unb5-w-1.c.fresh-yen-165400.internal     =>       640b       640b       640b       160B
+     metadata.google.internal                 <=       768b       768b       768b       192B
+--------------------------------------------------------------------------------------------
+Total send rate:                                      465Kb      465Kb      465Kb
+Total receive rate:                                  23.6Kb     23.6Kb     23.6Kb
+Total send and receive rate:                          489Kb      489Kb      489Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      465Kb     23.6Kb      489Kb
+Cumulative (sent/received/total):                     116KB     5.91KB      122KB
+============================================================================================
+
+Sat Jun 23 11:46:54 UTC 2018
+TEMPOS 1529754414
+TEMPO 20180623114654
+top - 11:46:54 up 52 min,  0 users,  load average: 5.75, 1.86, 0.73
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.5 us,  0.5 sy,  0.0 ni, 96.0 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8053840 used,   143604 free,    29264 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4154532 cached Mem
+11:46:54 Total DISK READ :    8165.32 K/s | Total DISK WRITE :       0.00 K/s
+11:46:54 Actual DISK READ:   12247.98 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:46:54  7709 be/4 yarn        240.00 K      0.00 K  0.00 % 20.35 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000079/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000079 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000076_0 79
+11:46:54  7717 be/4 yarn        240.00 K      0.00 K  0.00 %  0.00 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000078/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000078 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000072_0 78
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     1.03Mb     1.03Mb     1.03Mb      265KB
+     unb5-w-2.c.fresh-yen-165400.internal     <=     3.86Kb     3.86Kb     3.86Kb       987B
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>      472Kb      472Kb      472Kb      118KB
+     va-in-f95.1e100.net                      <=     4.29Kb     4.29Kb     4.29Kb     1.07KB
+   3 unb5-w-1.c.fresh-yen-165400.internal     =>     12.1Kb     12.1Kb     12.1Kb     3.03KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     84.2Kb     84.2Kb     84.2Kb     21.1KB
+   4 unb5-w-1.c.fresh-yen-165400.internal     =>     5.48Kb     5.48Kb     5.48Kb     1.37KB
+     unb5-m.c.fresh-yen-165400.internal       <=     1.43Kb     1.43Kb     1.43Kb       365B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     1.51Mb     1.51Mb     1.51Mb
+Total receive rate:                                  93.8Kb     93.8Kb     93.8Kb
+Total send and receive rate:                         1.60Mb     1.60Mb     1.60Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     1.51Mb     93.8Kb     1.60Mb
+Cumulative (sent/received/total):                     387KB     23.4KB      410KB
+============================================================================================
+
+Sat Jun 23 11:46:59 UTC 2018
+TEMPOS 1529754419
+TEMPO 20180623114659
+top - 11:46:59 up 52 min,  0 users,  load average: 5.77, 1.93, 0.76
+Tasks: 103 total,   1 running, 102 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.6 us,  0.5 sy,  0.0 ni, 95.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  6288072 used,  1909372 free,    29300 buffers
+KiB Swap:        0 total,        0 used,        0 free.  3970024 cached Mem
+11:46:59 Total DISK READ :       0.00 K/s | Total DISK WRITE :      71.68 K/s
+11:46:59 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:46:59  6742 be/4 hdfs          0.00 K      4.00 K  0.00 %  0.00 % java -Dproc_datanode -Xmx1000m -Dhadoop.log.dir=/var/log/hadoop-hdfs -Dhadoop.log.file=hadoop-hdfs-datanode-unb5-w-1.log -Dhadoop.home.dir=/usr/lib/hadoop -Dhadoop.id.str=hdfs -Dhadoop.root.logger=INFO,RFA -Djava.library.path=/usr/lib/hadoop/lib/native -Dhadoop.policy.file=hadoop-policy.xml -Djava.net.preferIPv4Stack=true -server -Dhadoop.security.logger=INFO,RFAS org.apache.hadoop.hdfs.server.datanode.DataNode
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     16.1Kb     16.1Kb     16.1Kb     4.03KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     59.9Kb     59.9Kb     59.9Kb     15.0KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     3.86Kb     3.86Kb     3.86Kb       989B
+     unb5-m.c.fresh-yen-165400.internal       <=       748b       748b       748b       187B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     20.0Kb     20.0Kb     20.0Kb
+Total receive rate:                                  60.6Kb     60.6Kb     60.6Kb
+Total send and receive rate:                         80.6Kb     80.6Kb     80.6Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     20.0Kb     60.6Kb     80.6Kb
+Cumulative (sent/received/total):                    5.00KB     15.1KB     20.1KB
+============================================================================================
+
+Sat Jun 23 11:47:03 UTC 2018
+TEMPOS 1529754423
+TEMPO 20180623114703
+top - 11:47:04 up 52 min,  0 users,  load average: 6.83, 2.21, 0.86
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.8 us,  0.5 sy,  0.0 ni, 95.7 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  6567608 used,  1629836 free,    29348 buffers
+KiB Swap:        0 total,        0 used,        0 free.  3976160 cached Mem
+11:47:04 Total DISK READ :   14932.11 K/s | Total DISK WRITE :       0.00 K/s
+11:47:04 Actual DISK READ:   13574.64 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:47:04  7875 be/4 yarn       1320.00 K      0.00 K  0.00 % 11.76 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000083/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000083 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000077_0 83
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     2.00Kb     2.00Kb     2.00Kb       511B
+     unb5-m.c.fresh-yen-165400.internal       <=       372b       372b       372b        93B
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>       320b       320b       320b        80B
+     metadata.google.internal                 <=       384b       384b       384b        96B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     2.31Kb     2.31Kb     2.31Kb
+Total receive rate:                                    756b       756b       756b
+Total send and receive rate:                         3.05Kb     3.05Kb     3.05Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     2.30Kb       752b     3.05Kb
+Cumulative (sent/received/total):                      591B       189B       780B
+============================================================================================
+
+Sat Jun 23 11:47:07 UTC 2018
+TEMPOS 1529754427
+TEMPO 20180623114707
+top - 11:47:07 up 52 min,  0 users,  load average: 6.84, 2.29, 0.89
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.9 us,  0.5 sy,  0.0 ni, 95.6 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  7879944 used,   317500 free,    29364 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4187516 cached Mem
+11:47:08 Total DISK READ :   66535.40 K/s | Total DISK WRITE :       0.00 K/s
+11:47:08 Actual DISK READ:   79820.34 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:47:08  7975 be/4 yarn        240.00 K      0.00 K  0.00 % 46.59 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000092/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000092 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000084_0 92
+11:47:08  7875 be/4 yarn        720.00 K      0.00 K  0.00 % 34.31 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000083/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000083 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000077_0 83
+11:47:08  7965 be/4 yarn       1204.00 K      0.00 K  0.00 % 12.66 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000094/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000094 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000092_0 94
+11:47:08  7886 be/4 yarn        240.00 K      0.00 K  0.00 %  0.00 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000084/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000084 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000080_0 84
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     3.77Kb     3.77Kb     3.77Kb       964B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     30.1Kb     30.1Kb     30.1Kb     7.51KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     4.07Kb     4.07Kb     4.07Kb     1.02KB
+     unb5-m.c.fresh-yen-165400.internal       <=       748b       748b       748b       187B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     7.83Kb     7.83Kb     7.83Kb
+Total receive rate:                                  30.8Kb     30.8Kb     30.8Kb
+Total send and receive rate:                         38.6Kb     38.6Kb     38.6Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     7.83Kb     30.8Kb     38.6Kb
+Cumulative (sent/received/total):                    1.96KB     7.70KB     9.66KB
+============================================================================================
+
+Sat Jun 23 11:47:11 UTC 2018
+TEMPOS 1529754431
+TEMPO 20180623114711
+top - 11:47:11 up 52 min,  0 users,  load average: 6.69, 2.34, 0.91
+Tasks: 103 total,   1 running, 102 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.0 us,  0.5 sy,  0.0 ni, 95.5 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  7457392 used,   740052 free,    29376 buffers
+KiB Swap:        0 total,        0 used,        0 free.  3954432 cached Mem
+11:47:11 Total DISK READ :   15659.94 K/s | Total DISK WRITE :       0.00 K/s
+11:47:11 Actual DISK READ:   15659.94 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:47:11  7975 be/4 yarn        960.00 K      0.00 K  0.00 %  3.60 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000092/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000092 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000084_0 92
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     6.86Kb     6.86Kb     6.86Kb     1.71KB
+     unb5-w-0.c.fresh-yen-165400.internal     <=     1.26Mb     1.26Mb     1.26Mb      322KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>      191Kb      191Kb      191Kb     47.9KB
+     va-in-f95.1e100.net                      <=     2.67Kb     2.67Kb     2.67Kb       683B
+   3 unb5-w-1.c.fresh-yen-165400.internal     =>     18.3Kb     18.3Kb     18.3Kb     4.58KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=      127Kb      127Kb      127Kb     31.7KB
+   4 unb5-w-1.c.fresh-yen-165400.internal     =>     2.02Kb     2.02Kb     2.02Kb       518B
+     metadata.google.internal                 <=     19.0Kb     19.0Kb     19.0Kb     4.74KB
+   5 unb5-w-1.c.fresh-yen-165400.internal     =>     9.95Kb     9.95Kb     9.95Kb     2.49KB
+     unb5-m.c.fresh-yen-165400.internal       <=     10.3Kb     10.3Kb     10.3Kb     2.58KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                      229Kb      229Kb      229Kb
+Total receive rate:                                  1.41Mb     1.41Mb     1.41Mb
+Total send and receive rate:                         1.63Mb     1.63Mb     1.63Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      229Kb     1.41Mb     1.63Mb
+Cumulative (sent/received/total):                    57.2KB      361KB      419KB
+============================================================================================
+
+Sat Jun 23 11:47:14 UTC 2018
+TEMPOS 1529754434
+TEMPO 20180623114714
+top - 11:47:14 up 52 min,  0 users,  load average: 6.69, 2.34, 0.91
+Tasks: 103 total,   1 running, 102 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.1 us,  0.5 sy,  0.0 ni, 95.4 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  6371568 used,  1825876 free,    29384 buffers
+KiB Swap:        0 total,        0 used,        0 free.  3996528 cached Mem
+11:47:15 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:15 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     13.1Kb     13.1Kb     13.1Kb     3.28KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     63.3Kb     63.3Kb     63.3Kb     15.8KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     5.70Kb     5.70Kb     5.70Kb     1.42KB
+     unb5-m.c.fresh-yen-165400.internal       <=     1.26Kb     1.26Kb     1.26Kb       322B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     18.8Kb     18.8Kb     18.8Kb
+Total receive rate:                                  64.5Kb     64.5Kb     64.5Kb
+Total send and receive rate:                         83.4Kb     83.4Kb     83.4Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     18.8Kb     64.5Kb     83.4Kb
+Cumulative (sent/received/total):                    4.71KB     16.1KB     20.8KB
+============================================================================================
+
+Sat Jun 23 11:47:18 UTC 2018
+TEMPOS 1529754438
+TEMPO 20180623114718
+top - 11:47:18 up 52 min,  0 users,  load average: 6.80, 2.43, 0.95
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.2 us,  0.5 sy,  0.0 ni, 95.3 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  5884384 used,  2313060 free,    29408 buffers
+KiB Swap:        0 total,        0 used,        0 free.  3996712 cached Mem
+11:47:18 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:18 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     7.82Kb     7.82Kb     7.82Kb     1.96KB
+     unb5-m.c.fresh-yen-165400.internal       <=     37.8Kb     37.8Kb     37.8Kb     9.45KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     3.77Kb     3.77Kb     3.77Kb       965B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     2.15Kb     2.15Kb     2.15Kb       550B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     11.6Kb     11.6Kb     11.6Kb
+Total receive rate:                                  40.0Kb     40.0Kb     40.0Kb
+Total send and receive rate:                         51.6Kb     51.6Kb     51.6Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     11.6Kb     40.0Kb     51.6Kb
+Cumulative (sent/received/total):                    2.90KB     9.99KB     12.9KB
+============================================================================================
+
+Sat Jun 23 11:47:21 UTC 2018
+TEMPOS 1529754441
+TEMPO 20180623114721
+top - 11:47:22 up 52 min,  0 users,  load average: 7.06, 2.56, 1.00
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.3 us,  0.5 sy,  0.0 ni, 95.2 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  7138804 used,  1058640 free,    29420 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4085736 cached Mem
+11:47:22 Total DISK READ :   14916.09 K/s | Total DISK WRITE :       0.00 K/s
+11:47:22 Actual DISK READ:   20882.52 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:47:22  8171 be/4 yarn        120.00 K      0.00 K  0.00 % 68.37 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000103/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000103 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000095_0 103
+11:47:22  8139 be/4 yarn        480.00 K      0.00 K  0.00 % 17.88 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000100/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000100 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000094_0 100
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>      676Kb      676Kb      676Kb      169KB
+     va-in-f95.1e100.net                      <=     5.56Kb     5.56Kb     5.56Kb     1.39KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     3.18Kb     3.18Kb     3.18Kb       815B
+     unb5-m.c.fresh-yen-165400.internal       <=     22.4Kb     22.4Kb     22.4Kb     5.60KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                      680Kb      680Kb      680Kb
+Total receive rate:                                  27.9Kb     27.9Kb     27.9Kb
+Total send and receive rate:                          707Kb      707Kb      707Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      680Kb     27.9Kb      707Kb
+Cumulative (sent/received/total):                     170KB     6.99KB      177KB
+============================================================================================
+
+Sat Jun 23 11:47:25 UTC 2018
+TEMPOS 1529754445
+TEMPO 20180623114725
+top - 11:47:26 up 52 min,  0 users,  load average: 7.06, 2.56, 1.00
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.3 us,  0.5 sy,  0.0 ni, 95.1 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8054624 used,   142820 free,    29420 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4131724 cached Mem
+11:47:26 Total DISK READ :   11808.45 K/s | Total DISK WRITE :       0.00 K/s
+11:47:26 Actual DISK READ:    7085.07 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:47:26  8222 be/4 yarn        600.00 K      0.00 K  0.00 % 73.22 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000107/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000107 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000100_0 107
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     5.40Kb     5.40Kb     5.40Kb     1.35KB
+     unb5-m.c.fresh-yen-165400.internal       <=     1.06Kb     1.06Kb     1.06Kb       271B
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     3.64Kb     3.64Kb     3.64Kb       933B
+     unb5-w-3.c.fresh-yen-165400.internal     <=       744b       744b       744b       186B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     9.05Kb     9.05Kb     9.05Kb
+Total receive rate:                                  1.79Kb     1.79Kb     1.79Kb
+Total send and receive rate:                         10.8Kb     10.8Kb     10.8Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     9.05Kb     1.78Kb     10.8Kb
+Cumulative (sent/received/total):                    2.26KB       457B     2.71KB
+============================================================================================
+
+Sat Jun 23 11:47:30 UTC 2018
+TEMPOS 1529754450
+TEMPO 20180623114730
+top - 11:47:30 up 52 min,  0 users,  load average: 7.13, 2.65, 1.04
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.5 us,  0.5 sy,  0.0 ni, 94.9 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  5602960 used,  2594484 free,    29476 buffers
+KiB Swap:        0 total,        0 used,        0 free.  3974480 cached Mem
+11:47:31 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:31 Actual DISK READ:      39.31 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     7.58Kb     7.58Kb     7.58Kb     1.89KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     84.9Kb     84.9Kb     84.9Kb     21.2KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     1.99Kb     1.99Kb     1.99Kb       510B
+     unb5-m.c.fresh-yen-165400.internal       <=       600b       600b       600b       150B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     9.57Kb     9.57Kb     9.57Kb
+Total receive rate:                                  85.4Kb     85.4Kb     85.4Kb
+Total send and receive rate:                         95.0Kb     95.0Kb     95.0Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     9.57Kb     85.4Kb     95.0Kb
+Cumulative (sent/received/total):                    2.39KB     21.4KB     23.8KB
+============================================================================================
+
+Sat Jun 23 11:47:35 UTC 2018
+TEMPOS 1529754455
+TEMPO 20180623114735
+top - 11:47:35 up 53 min,  0 users,  load average: 7.68, 2.84, 1.11
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.6 us,  0.6 sy,  0.0 ni, 94.8 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  6269644 used,  1927800 free,    29492 buffers
+KiB Swap:        0 total,        0 used,        0 free.  3975176 cached Mem
+11:47:36 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:36 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     10.3Kb     10.3Kb     10.3Kb     2.58KB
+     unb5-m.c.fresh-yen-165400.internal       <=     27.4Kb     27.4Kb     27.4Kb     6.86KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     10.3Kb     10.3Kb     10.3Kb
+Total receive rate:                                  27.4Kb     27.4Kb     27.4Kb
+Total send and receive rate:                         37.7Kb     37.7Kb     37.7Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     10.3Kb     27.4Kb     37.7Kb
+Cumulative (sent/received/total):                    2.58KB     6.86KB     9.43KB
+============================================================================================
+
+Sat Jun 23 11:47:39 UTC 2018
+TEMPOS 1529754459
+TEMPO 20180623114739
+top - 11:47:39 up 53 min,  0 users,  load average: 7.95, 2.97, 1.16
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.7 us,  0.6 sy,  0.0 ni, 94.7 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  7755816 used,   441628 free,    29504 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4172236 cached Mem
+11:47:39 Total DISK READ :   99078.05 K/s | Total DISK WRITE :       0.00 K/s
+11:47:39 Actual DISK READ:   75299.32 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:47:39  8488 be/4 yarn        960.00 K      0.00 K  0.00 % 40.65 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000123/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000123 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000130_0 123
+11:47:39  8486 be/4 yarn        960.00 K      0.00 K  0.00 % 22.99 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000122/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000122 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000125_0 122
+11:47:39  8462 be/4 yarn        840.00 K      0.00 K  0.00 % 20.30 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000121/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000121 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000124_0 121
+11:47:39  8418 be/4 yarn        240.00 K      0.00 K  0.00 %  0.00 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000116/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000116 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000103_0 116
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>      518Kb      518Kb      518Kb      129KB
+     va-in-f95.1e100.net                      <=     4.05Kb     4.05Kb     4.05Kb     1.01KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     2.00Kb     2.00Kb     2.00Kb       511B
+     unb5-m.c.fresh-yen-165400.internal       <=       372b       372b       372b        93B
+   3 unb5-w-1.c.fresh-yen-165400.internal     =>     1.43Kb     1.43Kb     1.43Kb       367B
+     unb5-w-3.c.fresh-yen-165400.internal     <=       372b       372b       372b        93B
+--------------------------------------------------------------------------------------------
+Total send rate:                                      521Kb      521Kb      521Kb
+Total receive rate:                                  4.78Kb     4.78Kb     4.78Kb
+Total send and receive rate:                          526Kb      526Kb      526Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      521Kb     4.77Kb      526Kb
+Cumulative (sent/received/total):                     130KB     1.19KB      131KB
+============================================================================================
+
+Sat Jun 23 11:47:43 UTC 2018
+TEMPOS 1529754463
+TEMPO 20180623114743
+top - 11:47:43 up 53 min,  0 users,  load average: 7.63, 2.99, 1.18
+Tasks: 103 total,   1 running, 102 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  0.6 sy,  0.0 ni, 94.6 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  7407188 used,   790256 free,    29512 buffers
+KiB Swap:        0 total,        0 used,        0 free.  3990448 cached Mem
+11:47:44 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:44 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     16.7Kb     16.7Kb     16.7Kb     4.17KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=      157Kb      157Kb      157Kb     39.2KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     7.15Kb     7.15Kb     7.15Kb     1.79KB
+     unb5-m.c.fresh-yen-165400.internal       <=     1.59Kb     1.59Kb     1.59Kb       407B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     23.8Kb     23.8Kb     23.8Kb
+Total receive rate:                                   158Kb      158Kb      158Kb
+Total send and receive rate:                          182Kb      182Kb      182Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     23.8Kb      158Kb      182Kb
+Cumulative (sent/received/total):                    5.95KB     39.6KB     45.5KB
+============================================================================================
+
+Sat Jun 23 11:47:47 UTC 2018
+TEMPOS 1529754467
+TEMPO 20180623114747
+top - 11:47:47 up 53 min,  0 users,  load average: 7.50, 3.04, 1.20
+Tasks: 106 total,   2 running, 104 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  0.6 sy,  0.0 ni, 94.5 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  5697112 used,  2500332 free,    29556 buffers
+KiB Swap:        0 total,        0 used,        0 free.  3990092 cached Mem
+11:47:47 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:47 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     10.3Kb     10.3Kb     10.3Kb     2.58KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     89.4Kb     89.4Kb     89.4Kb     22.3KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     4.02Kb     4.02Kb     4.02Kb     1.01KB
+     unb5-m.c.fresh-yen-165400.internal       <=       820b       820b       820b       205B
+   3 unb5-w-1.c.fresh-yen-165400.internal     =>     1.16Kb     1.16Kb     1.16Kb       298B
+     metadata.google.internal                 <=     1.67Kb     1.67Kb     1.67Kb       428B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     15.5Kb     15.5Kb     15.5Kb
+Total receive rate:                                  91.8Kb     91.8Kb     91.8Kb
+Total send and receive rate:                          107Kb      107Kb      107Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     15.5Kb     91.8Kb      107Kb
+Cumulative (sent/received/total):                    3.88KB     23.0KB     26.8KB
+============================================================================================
+
+Sat Jun 23 11:47:52 UTC 2018
+TEMPOS 1529754472
+TEMPO 20180623114752
+top - 11:47:52 up 53 min,  0 users,  load average: 7.78, 3.17, 1.26
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.0 us,  0.6 sy,  0.0 ni, 94.3 id,  1.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  6707900 used,  1489544 free,    29568 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4002480 cached Mem
+11:47:52 Total DISK READ :   43067.14 K/s | Total DISK WRITE :       0.00 K/s
+11:47:52 Actual DISK READ:   43067.14 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:47:52  8684 be/4 yarn       1920.00 K      0.00 K  0.00 % 13.68 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000131/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000131 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000134_0 131
+11:47:52  8717 be/4 yarn        968.00 K      0.00 K  0.00 % 11.37 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000136/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000136 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000135_0 136
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     8.71Kb     8.71Kb     8.71Kb     2.18KB
+     unb5-m.c.fresh-yen-165400.internal       <=     31.9Kb     31.9Kb     31.9Kb     7.97KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     8.71Kb     8.71Kb     8.71Kb
+Total receive rate:                                  31.9Kb     31.9Kb     31.9Kb
+Total send and receive rate:                         40.6Kb     40.6Kb     40.6Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     8.70Kb     31.9Kb     40.6Kb
+Cumulative (sent/received/total):                    2.18KB     7.97KB     10.1KB
+============================================================================================
+
+Sat Jun 23 11:47:56 UTC 2018
+TEMPOS 1529754476
+TEMPO 20180623114756
+top - 11:47:57 up 53 min,  0 users,  load average: 7.48, 3.19, 1.27
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.1 us,  0.6 sy,  0.0 ni, 94.2 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  8062184 used,   135260 free,    29588 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4165068 cached Mem
+11:47:57 Total DISK READ :   49674.59 K/s | Total DISK WRITE :       0.00 K/s
+11:47:57 Actual DISK READ:   40642.85 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:47:57  8717 be/4 yarn        480.00 K      0.00 K  0.00 % 99.59 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000136/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000136 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000135_0 136
+11:47:57  8684 be/4 yarn        600.00 K      0.00 K  0.00 % 78.83 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000131/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000131 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000134_0 131
+11:47:57  8751 be/4 yarn        240.00 K      0.00 K  0.00 %  0.00 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000139/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000139 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000138_0 139
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     3.45Kb     3.45Kb     3.45Kb       884B
+     unb5-w-0.c.fresh-yen-165400.internal     <=      610Kb      610Kb      610Kb      152KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     3.11Kb     3.11Kb     3.11Kb       796B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     31.1Kb     31.1Kb     31.1Kb     7.78KB
+   3 unb5-w-1.c.fresh-yen-165400.internal     =>     2.99Kb     2.99Kb     2.99Kb       765B
+     unb5-m.c.fresh-yen-165400.internal       <=       824b       824b       824b       206B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     9.55Kb     9.55Kb     9.55Kb
+Total receive rate:                                   642Kb      642Kb      642Kb
+Total send and receive rate:                          651Kb      651Kb      651Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     9.55Kb      642Kb      651Kb
+Cumulative (sent/received/total):                    2.39KB      160KB      163KB
+============================================================================================
+
+Sat Jun 23 11:48:00 UTC 2018
+TEMPOS 1529754480
+TEMPO 20180623114800
+top - 11:48:00 up 53 min,  0 users,  load average: 7.48, 3.19, 1.27
+Tasks: 106 total,   3 running, 103 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.2 us,  0.6 sy,  0.0 ni, 94.1 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  6865064 used,  1332380 free,    29608 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4071176 cached Mem
+11:48:00 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:00 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     11.2Kb     11.2Kb     11.2Kb     2.81KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     55.9Kb     55.9Kb     55.9Kb     14.0KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     7.27Kb     7.27Kb     7.27Kb     1.82KB
+     unb5-m.c.fresh-yen-165400.internal       <=     1.95Kb     1.95Kb     1.95Kb       498B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     18.5Kb     18.5Kb     18.5Kb
+Total receive rate:                                  57.8Kb     57.8Kb     57.8Kb
+Total send and receive rate:                         76.3Kb     76.3Kb     76.3Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     18.5Kb     57.8Kb     76.3Kb
+Cumulative (sent/received/total):                    4.62KB     14.5KB     19.1KB
+============================================================================================
+
+Sat Jun 23 11:48:05 UTC 2018
+TEMPOS 1529754485
+TEMPO 20180623114805
+top - 11:48:05 up 53 min,  0 users,  load average: 7.76, 3.32, 1.32
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.3 us,  0.6 sy,  0.0 ni, 94.0 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  5965084 used,  2232360 free,    29632 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4071396 cached Mem
+11:48:05 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:05 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     13.3Kb     13.3Kb     13.3Kb     3.34KB
+     unb5-m.c.fresh-yen-165400.internal       <=     45.4Kb     45.4Kb     45.4Kb     11.3KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     10.9Kb     10.9Kb     10.9Kb     2.73KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     37.6Kb     37.6Kb     37.6Kb     9.40KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     24.3Kb     24.3Kb     24.3Kb
+Total receive rate:                                  83.0Kb     83.0Kb     83.0Kb
+Total send and receive rate:                          107Kb      107Kb      107Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     24.3Kb     83.0Kb      107Kb
+Cumulative (sent/received/total):                    6.06KB     20.7KB     26.8KB
+============================================================================================
+
+Sat Jun 23 11:48:09 UTC 2018
+TEMPOS 1529754489
+TEMPO 20180623114809
+top - 11:48:09 up 53 min,  0 users,  load average: 7.86, 3.41, 1.37
+Tasks: 106 total,   1 running, 105 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.5 us,  0.6 sy,  0.0 ni, 93.9 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  7600572 used,   596872 free,    29644 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4274528 cached Mem
+11:48:10 Total DISK READ :   49999.98 K/s | Total DISK WRITE :       0.00 K/s
+11:48:10 Actual DISK READ:   49999.98 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:48:10  9038 be/4 yarn        720.00 K      0.00 K  0.00 % 99.99 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000152/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000152 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000149_0 152
+11:48:10  9036 be/4 yarn        120.00 K      0.00 K  0.00 % 97.90 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000153/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000153 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000150_0 153
+11:48:10  8961 be/4 yarn        240.00 K      0.00 K  0.00 %  2.64 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx1228m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000150/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000150 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_m_000146_0 150
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     2.70Kb     2.70Kb     2.70Kb       690B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     81.1Kb     81.1Kb     81.1Kb     20.3KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     2.01Kb     2.01Kb     2.01Kb       515B
+     unb5-m.c.fresh-yen-165400.internal       <=       372b       372b       372b        93B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     4.71Kb     4.71Kb     4.71Kb
+Total receive rate:                                  81.5Kb     81.5Kb     81.5Kb
+Total send and receive rate:                         86.2Kb     86.2Kb     86.2Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     4.70Kb     81.5Kb     86.2Kb
+Cumulative (sent/received/total):                    1.18KB     20.4KB     21.5KB
+============================================================================================
+
+Sat Jun 23 11:48:13 UTC 2018
+TEMPOS 1529754493
+TEMPO 20180623114813
+top - 11:48:13 up 53 min,  0 users,  load average: 7.55, 3.42, 1.38
+Tasks: 103 total,   2 running, 101 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.5 us,  0.6 sy,  0.0 ni, 93.8 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  7485040 used,   712404 free,    29656 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4364800 cached Mem
+11:48:13 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:13 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     44.5Kb     44.5Kb     44.5Kb     11.1KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     91.5Kb     91.5Kb     91.5Kb     22.9KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     5.29Kb     5.29Kb     5.29Kb     1.32KB
+     unb5-m.c.fresh-yen-165400.internal       <=     1.43Kb     1.43Kb     1.43Kb       365B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     49.8Kb     49.8Kb     49.8Kb
+Total receive rate:                                  92.9Kb     92.9Kb     92.9Kb
+Total send and receive rate:                          143Kb      143Kb      143Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     49.8Kb     92.9Kb      143Kb
+Cumulative (sent/received/total):                    12.5KB     23.2KB     35.7KB
+============================================================================================
+
+Sat Jun 23 11:48:17 UTC 2018
+TEMPOS 1529754497
+TEMPO 20180623114817
+top - 11:48:17 up 53 min,  0 users,  load average: 7.43, 3.46, 1.40
+Tasks: 100 total,   1 running,  99 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.6 us,  0.6 sy,  0.0 ni, 93.7 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  6112524 used,  2084920 free,    29680 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4365624 cached Mem
+11:48:17 Total DISK READ :     481.72 K/s | Total DISK WRITE :       0.00 K/s
+11:48:17 Actual DISK READ:     481.72 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:48:17  9225 be/4 yarn         24.00 K      0.00 K  0.00 % 55.77 % java -Djava.net.preferIPv4Stack=true -Dhadoop.metrics.log.level=WARN -Xmx2457m -Djava.io.tmpdir=/hadoop/yarn/nm-local-dir/usercache/alecrim/appcache/application_1529751300785_0001/container_1529751300785_0001_01_000166/tmp -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=/var/log/hadoop-yarn/userlogs/application_1529751300785_0001/container_1529751300785_0001_01_000166 -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA -Dhadoop.root.logfile=syslog -Dyarn.app.mapreduce.shuffle.logger=INFO,shuffleCLA -Dyarn.app.mapreduce.shuffle.logfile=syslog.shuffle -Dyarn.app.mapreduce.shuffle.log.filesize=0 -Dyarn.app.mapreduce.shuffle.log.backups=0 org.apache.hadoop.mapred.YarnChild 10.142.0.3 33988 attempt_1529751300785_0001_r_000005_0 166
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     38.5Kb     38.5Kb     38.5Kb     9.62KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=      118Kb      118Kb      118Kb     29.6KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     22.9Kb     22.9Kb     22.9Kb     5.73KB
+     unb5-w-2.c.fresh-yen-165400.internal     <=     28.4Kb     28.4Kb     28.4Kb     7.09KB
+   3 unb5-w-1.c.fresh-yen-165400.internal     =>     19.7Kb     19.7Kb     19.7Kb     4.94KB
+     unb5-w-0.c.fresh-yen-165400.internal     <=     26.6Kb     26.6Kb     26.6Kb     6.65KB
+   4 unb5-w-1.c.fresh-yen-165400.internal     =>     16.8Kb     16.8Kb     16.8Kb     4.20KB
+     unb5-m.c.fresh-yen-165400.internal       <=     7.17Kb     7.17Kb     7.17Kb     1.79KB
+   5 unb5-w-1.c.fresh-yen-165400.internal     =>     1.27Kb     1.27Kb     1.27Kb       326B
+     metadata.google.internal                 <=     1.52Kb     1.52Kb     1.52Kb       390B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     99.2Kb     99.2Kb     99.2Kb
+Total receive rate:                                   182Kb      182Kb      182Kb
+Total send and receive rate:                          281Kb      281Kb      281Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     99.2Kb      182Kb      281Kb
+Cumulative (sent/received/total):                    24.8KB     45.5KB     70.3KB
+============================================================================================
+
+Sat Jun 23 11:48:21 UTC 2018
+TEMPOS 1529754501
+TEMPO 20180623114821
+top - 11:48:21 up 53 min,  0 users,  load average: 7.07, 3.46, 1.41
+Tasks:  94 total,   1 running,  93 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.7 us,  0.6 sy,  0.0 ni, 93.6 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  5844224 used,  2353220 free,    29684 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4365964 cached Mem
+11:48:21 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:21 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     15.7Kb     15.7Kb     15.7Kb     3.92KB
+     unb5-m.c.fresh-yen-165400.internal       <=     1.71Mb     1.71Mb     1.71Mb      437KB
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     1.16Mb     1.16Mb     1.16Mb      298KB
+     unb5-w-2.c.fresh-yen-165400.internal     <=     4.55Kb     4.55Kb     4.55Kb     1.14KB
+   3 unb5-w-1.c.fresh-yen-165400.internal     =>      552Kb      552Kb      552Kb      138KB
+     unb5-w-0.c.fresh-yen-165400.internal     <=     3.66Kb     3.66Kb     3.66Kb       937B
+   4 unb5-w-1.c.fresh-yen-165400.internal     =>     1.55Kb     1.55Kb     1.55Kb       397B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     5.86Kb     5.86Kb     5.86Kb     1.46KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     1.72Mb     1.72Mb     1.72Mb
+Total receive rate:                                  1.72Mb     1.72Mb     1.72Mb
+Total send and receive rate:                         3.44Mb     3.44Mb     3.44Mb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     1.72Mb     1.72Mb     3.44Mb
+Cumulative (sent/received/total):                     440KB      440KB      881KB
+============================================================================================
+
+Sat Jun 23 11:48:25 UTC 2018
+TEMPOS 1529754505
+TEMPO 20180623114825
+top - 11:48:25 up 53 min,  0 users,  load average: 7.07, 3.46, 1.41
+Tasks:  94 total,   1 running,  93 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.7 us,  0.6 sy,  0.0 ni, 93.6 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  5847632 used,  2349812 free,    29696 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4365336 cached Mem
+11:48:25 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:25 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>         0b         0b         0b         0B
+     23.146.64.90                             <=     2.25Kb     2.25Kb     2.25Kb       576B
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     1.31Kb     1.31Kb     1.31Kb       335B
+     unb5-m.c.fresh-yen-165400.internal       <=       496b       496b       496b       124B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     1.31Kb     1.31Kb     1.31Kb
+Total receive rate:                                  2.73Kb     2.73Kb     2.73Kb
+Total send and receive rate:                         4.04Kb     4.04Kb     4.04Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     1.30Kb     2.73Kb     4.04Kb
+Cumulative (sent/received/total):                      335B       700B     1.01KB
+============================================================================================
+
+Sat Jun 23 11:48:28 UTC 2018
+TEMPOS 1529754508
+TEMPO 20180623114828
+top - 11:48:28 up 53 min,  0 users,  load average: 6.50, 3.40, 1.41
+Tasks:  94 total,   1 running,  93 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.6 us,  0.6 sy,  0.0 ni, 93.6 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  5847532 used,  2349912 free,    29708 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4364860 cached Mem
+11:48:28 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:28 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     3.38Kb     3.38Kb     3.38Kb       865B
+     unb5-m.c.fresh-yen-165400.internal       <=       748b       748b       748b       187B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     3.38Kb     3.38Kb     3.38Kb
+Total receive rate:                                    748b       748b       748b
+Total send and receive rate:                         4.11Kb     4.11Kb     4.11Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     3.38Kb       744b     4.11Kb
+Cumulative (sent/received/total):                      865B       187B     1.03KB
+============================================================================================
+
+Sat Jun 23 11:48:33 UTC 2018
+TEMPOS 1529754513
+TEMPO 20180623114833
+top - 11:48:33 up 53 min,  0 users,  load average: 5.98, 3.34, 1.40
+Tasks:  94 total,   1 running,  93 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.6 us,  0.6 sy,  0.0 ni, 93.6 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  5847900 used,  2349544 free,    29708 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4364880 cached Mem
+11:48:33 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:33 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     1.31Kb     1.31Kb     1.31Kb       335B
+     unb5-m.c.fresh-yen-165400.internal       <=       372b       372b       372b        93B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     1.31Kb     1.31Kb     1.31Kb
+Total receive rate:                                    372b       372b       372b
+Total send and receive rate:                         1.67Kb     1.67Kb     1.67Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     1.30Kb       368b     1.67Kb
+Cumulative (sent/received/total):                      335B        93B       428B
+============================================================================================
+
+Sat Jun 23 11:48:37 UTC 2018
+TEMPOS 1529754517
+TEMPO 20180623114837
+top - 11:48:37 up 54 min,  0 users,  load average: 5.50, 3.29, 1.39
+Tasks:  94 total,   1 running,  93 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.6 us,  0.6 sy,  0.0 ni, 93.6 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  5846880 used,  2350564 free,    29716 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4364880 cached Mem
+11:48:37 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:37 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     3.38Kb     3.38Kb     3.38Kb       865B
+     unb5-m.c.fresh-yen-165400.internal       <=       748b       748b       748b       187B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     3.38Kb     3.38Kb     3.38Kb
+Total receive rate:                                    748b       748b       748b
+Total send and receive rate:                         4.11Kb     4.11Kb     4.11Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     3.38Kb       744b     4.11Kb
+Cumulative (sent/received/total):                      865B       187B     1.03KB
+============================================================================================
+
+Sat Jun 23 11:48:41 UTC 2018
+TEMPOS 1529754521
+TEMPO 20180623114841
+top - 11:48:41 up 54 min,  0 users,  load average: 5.06, 3.23, 1.38
+Tasks:  94 total,   1 running,  93 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.6 us,  0.6 sy,  0.0 ni, 93.7 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  5847028 used,  2350416 free,    29724 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4364884 cached Mem
+11:48:42 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:42 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     2.16Kb     2.16Kb     2.16Kb       553B
+     metadata.google.internal                 <=     2.03Kb     2.03Kb     2.03Kb       520B
+   2 unb5-w-1.c.fresh-yen-165400.internal     =>     1.31Kb     1.31Kb     1.31Kb       335B
+     unb5-m.c.fresh-yen-165400.internal       <=       372b       372b       372b        93B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     3.47Kb     3.47Kb     3.47Kb
+Total receive rate:                                  2.39Kb     2.39Kb     2.39Kb
+Total send and receive rate:                         5.86Kb     5.86Kb     5.86Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     3.47Kb     2.39Kb     5.86Kb
+Cumulative (sent/received/total):                      888B       613B     1.47KB
+============================================================================================
+
+Sat Jun 23 11:48:46 UTC 2018
+TEMPOS 1529754526
+TEMPO 20180623114846
+top - 11:48:46 up 54 min,  0 users,  load average: 4.74, 3.19, 1.38
+Tasks:  96 total,   1 running,  95 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.6 us,  0.6 sy,  0.0 ni, 93.7 id,  1.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   8197444 total,  5848436 used,  2349008 free,    29732 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4364880 cached Mem
+11:48:46 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:46 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.5
+MAC address is: 42:01:0a:8e:00:05
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-w-1.c.fresh-yen-165400.internal     =>     1.31Kb     1.31Kb     1.31Kb       335B
+     unb5-m.c.fresh-yen-165400.internal       <=       372b       372b       372b        93B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     1.31Kb     1.31Kb     1.31Kb
+Total receive rate:                                    372b       372b       372b
+Total send and receive rate:                         1.67Kb     1.67Kb     1.67Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     1.30Kb       368b     1.67Kb
+Cumulative (sent/received/total):                      335B        93B       428B
+============================================================================================
+

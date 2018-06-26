@@ -1,0 +1,1809 @@
+Sat Jun 23 11:45:22 UTC 2018
+TEMPOS 1529754322
+TEMPO 20180623114522
+top - 11:45:22 up 50 min,  2 users,  load average: 0.00, 0.26, 0.91
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.4 sy,  0.0 ni, 87.9 id,  6.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7736912 used,   460532 free,     8524 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4862816 cached Mem
+11:45:24 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:45:24 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+   2 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+   3 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       672b       672b       672b       168B
+     74.125.75.33                             <=       672b       672b       672b       168B
+   6 unb5-m.c.fresh-yen-165400.internal       =>       208b       208b       208b        52B
+     74.125.75.97                             <=       976b       976b       976b       244B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     2.31Kb     2.31Kb     2.31Kb
+Total receive rate:                                  6.84Kb     6.84Kb     6.84Kb
+Total send and receive rate:                         9.16Kb     9.16Kb     9.16Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     2.31Kb     6.84Kb     9.16Kb
+Cumulative (sent/received/total):                      592B     1.71KB     2.29KB
+============================================================================================
+
+Sat Jun 23 11:45:28 UTC 2018
+TEMPOS 1529754328
+TEMPO 20180623114528
+top - 11:45:28 up 50 min,  2 users,  load average: 0.08, 0.28, 0.91
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.4 sy,  0.0 ni, 87.9 id,  6.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7969120 used,   228324 free,     9956 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4875476 cached Mem
+11:45:28 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:45:28 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     2.83Kb     2.83Kb     2.83Kb       725B
+     ua-in-f95.1e100.net                      <=     2.78Kb     2.78Kb     2.78Kb       712B
+   2 unb5-m.c.fresh-yen-165400.internal       =>       956b       956b       956b       239B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     4.13Kb     4.13Kb     4.13Kb     1.03KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     3.38Kb     3.38Kb     3.38Kb       865B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       568b       568b       568b       142B
+     va-in-f95.1e100.net                      <=     1.53Kb     1.53Kb     1.53Kb       391B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+   6 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     5.78Kb     5.78Kb     5.78Kb
+Total receive rate:                                  14.4Kb     14.4Kb     14.4Kb
+Total send and receive rate:                         20.2Kb     20.2Kb     20.2Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     5.77Kb     14.4Kb     20.2Kb
+Cumulative (sent/received/total):                    1.44KB     3.61KB     5.05KB
+============================================================================================
+
+Sat Jun 23 11:45:32 UTC 2018
+TEMPOS 1529754332
+TEMPO 20180623114532
+top - 11:45:32 up 51 min,  2 users,  load average: 0.08, 0.27, 0.91
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.4 sy,  0.0 ni, 87.9 id,  6.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7967164 used,   230280 free,     9964 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4875920 cached Mem
+11:45:32 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:45:32 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     5.63Kb     5.63Kb     5.63Kb     1.41KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     4.98Kb     4.98Kb     4.98Kb     1.25KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     1.36Kb     1.36Kb     1.36Kb       348B
+     74.125.75.33                             <=     1.97Kb     1.97Kb     1.97Kb       504B
+   3 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     8.08Kb     8.08Kb     8.08Kb
+Total receive rate:                                  10.9Kb     10.9Kb     10.9Kb
+Total send and receive rate:                         19.0Kb     19.0Kb     19.0Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     8.08Kb     10.9Kb     19.0Kb
+Cumulative (sent/received/total):                    2.02KB     2.72KB     4.74KB
+============================================================================================
+
+Sat Jun 23 11:45:37 UTC 2018
+TEMPOS 1529754337
+TEMPO 20180623114537
+top - 11:45:37 up 51 min,  2 users,  load average: 0.07, 0.27, 0.90
+Tasks: 137 total,   1 running, 136 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.4 sy,  0.0 ni, 87.9 id,  6.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7967992 used,   229452 free,     9972 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876100 cached Mem
+11:45:37 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:45:37 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     26.4Kb     26.4Kb     26.4Kb     6.61KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     10.5Kb     10.5Kb     10.5Kb     2.62KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+   3 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     27.5Kb     27.5Kb     27.5Kb
+Total receive rate:                                  14.4Kb     14.4Kb     14.4Kb
+Total send and receive rate:                         41.9Kb     41.9Kb     41.9Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     27.5Kb     14.4Kb     41.9Kb
+Cumulative (sent/received/total):                    6.88KB     3.60KB     10.5KB
+============================================================================================
+
+Sat Jun 23 11:45:41 UTC 2018
+TEMPOS 1529754341
+TEMPO 20180623114541
+top - 11:45:41 up 51 min,  2 users,  load average: 0.07, 0.26, 0.90
+Tasks: 137 total,   1 running, 136 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.4 sy,  0.0 ni, 87.9 id,  6.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7970764 used,   226680 free,     9980 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876152 cached Mem
+11:45:41 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:45:41 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     3.34Kb     3.34Kb     3.34Kb       854B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     6.06Kb     6.06Kb     6.06Kb     1.52KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+   3 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     1.99Kb     1.99Kb     1.99Kb       510B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     1.99Kb     1.99Kb     1.99Kb       510B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     4.43Kb     4.43Kb     4.43Kb
+Total receive rate:                                  12.0Kb     12.0Kb     12.0Kb
+Total send and receive rate:                         16.5Kb     16.5Kb     16.5Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     4.42Kb     12.0Kb     16.5Kb
+Cumulative (sent/received/total):                    1.11KB     3.01KB     4.12KB
+============================================================================================
+
+Sat Jun 23 11:45:45 UTC 2018
+TEMPOS 1529754345
+TEMPO 20180623114545
+top - 11:45:45 up 51 min,  2 users,  load average: 0.06, 0.26, 0.89
+Tasks: 137 total,   1 running, 136 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.4 sy,  0.0 ni, 87.9 id,  6.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7970804 used,   226640 free,     9980 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876164 cached Mem
+11:45:46 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:45:46 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>      131Kb      131Kb      131Kb     32.8KB
+     unb5-w-1.c.fresh-yen-165400.internal     <=     21.7Kb     21.7Kb     21.7Kb     5.42KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>      125Kb      125Kb      125Kb     31.3KB
+     unb5-w-2.c.fresh-yen-165400.internal     <=     20.5Kb     20.5Kb     20.5Kb     5.12KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     36.9Kb     36.9Kb     36.9Kb     9.23KB
+     unb5-w-0.c.fresh-yen-165400.internal     <=     15.7Kb     15.7Kb     15.7Kb     3.94KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>     14.4Kb     14.4Kb     14.4Kb     3.61KB
+     vn-in-f95.1e100.net                      <=     2.08Kb     2.08Kb     2.08Kb       533B
+   5 unb5-m.c.fresh-yen-165400.internal       =>     3.34Kb     3.34Kb     3.34Kb       854B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     6.06Kb     6.06Kb     6.06Kb     1.52KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                      311Kb      311Kb      311Kb
+Total receive rate:                                  66.1Kb     66.1Kb     66.1Kb
+Total send and receive rate:                          377Kb      377Kb      377Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      311Kb     66.1Kb      377Kb
+Cumulative (sent/received/total):                    77.8KB     16.5KB     94.3KB
+============================================================================================
+
+Sat Jun 23 11:45:50 UTC 2018
+TEMPOS 1529754350
+TEMPO 20180623114550
+top - 11:45:50 up 51 min,  2 users,  load average: 0.06, 0.25, 0.89
+Tasks: 137 total,   1 running, 136 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.4 sy,  0.0 ni, 87.9 id,  6.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7972292 used,   225152 free,     9988 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876168 cached Mem
+11:45:50 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:45:50 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     5.33Kb     5.33Kb     5.33Kb     1.33KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     10.3Kb     10.3Kb     10.3Kb     2.58KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     1.06Kb     1.06Kb     1.06Kb       272B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     6.26Kb     6.26Kb     6.26Kb     1.56KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     4.07Kb     4.07Kb     4.07Kb     1.02KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     4.07Kb     4.07Kb     4.07Kb     1.02KB
+   5 unb5-m.c.fresh-yen-165400.internal       =>       656b       656b       656b       164B
+     74.125.75.33                             <=       208b       208b       208b        52B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     8.50Kb     8.50Kb     8.50Kb
+Total receive rate:                                  24.9Kb     24.9Kb     24.9Kb
+Total send and receive rate:                         33.4Kb     33.4Kb     33.4Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     8.49Kb     24.9Kb     33.4Kb
+Cumulative (sent/received/total):                    2.12KB     6.23KB     8.35KB
+============================================================================================
+
+Sat Jun 23 11:45:54 UTC 2018
+TEMPOS 1529754354
+TEMPO 20180623114554
+top - 11:45:54 up 51 min,  2 users,  load average: 0.06, 0.25, 0.89
+Tasks: 137 total,   1 running, 136 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.4 sy,  0.0 ni, 88.0 id,  6.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7972168 used,   225276 free,     9996 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876180 cached Mem
+11:45:54 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:45:54 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>      107Kb      107Kb      107Kb     26.8KB
+     vn-in-f95.1e100.net                      <=     3.78Kb     3.78Kb     3.78Kb       967B
+   2 unb5-m.c.fresh-yen-165400.internal       =>     25.0Kb     25.0Kb     25.0Kb     6.24KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     6.55Kb     6.55Kb     6.55Kb     1.64KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     1.96Kb     1.96Kb     1.96Kb       501B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     7.22Kb     7.22Kb     7.22Kb     1.81KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>     1.75Kb     1.75Kb     1.75Kb       449B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     6.82Kb     6.82Kb     6.82Kb     1.70KB
+   5 unb5-m.c.fresh-yen-165400.internal       =>     1.02Kb     1.02Kb     1.02Kb       261B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     4.63Kb     4.63Kb     4.63Kb     1.16KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                      137Kb      137Kb      137Kb
+Total receive rate:                                  29.0Kb     29.0Kb     29.0Kb
+Total send and receive rate:                          166Kb      166Kb      166Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      137Kb     29.0Kb      166Kb
+Cumulative (sent/received/total):                    34.2KB     7.25KB     41.4KB
+============================================================================================
+
+Sat Jun 23 11:45:57 UTC 2018
+TEMPOS 1529754357
+TEMPO 20180623114557
+top - 11:45:58 up 51 min,  2 users,  load average: 0.05, 0.25, 0.88
+Tasks: 137 total,   1 running, 136 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.0 id,  6.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7974320 used,   223124 free,    10008 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876224 cached Mem
+11:45:58 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:45:58 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     3.34Kb     3.34Kb     3.34Kb       854B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     6.68Kb     6.68Kb     6.68Kb     1.67KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>       676b       676b       676b       169B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+   3 unb5-m.c.fresh-yen-165400.internal       =>       676b       676b       676b       169B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       524b       524b       524b       131B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     5.17Kb     5.17Kb     5.17Kb
+Total receive rate:                                  12.7Kb     12.7Kb     12.7Kb
+Total send and receive rate:                         17.8Kb     17.8Kb     17.8Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     5.16Kb     12.7Kb     17.8Kb
+Cumulative (sent/received/total):                    1.29KB     3.17KB     4.46KB
+============================================================================================
+
+Sat Jun 23 11:46:02 UTC 2018
+TEMPOS 1529754362
+TEMPO 20180623114602
+top - 11:46:02 up 51 min,  2 users,  load average: 0.05, 0.24, 0.88
+Tasks: 137 total,   1 running, 136 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.0 id,  6.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7975252 used,   222192 free,    10016 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876228 cached Mem
+11:46:02 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:02 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     19.0Kb     19.0Kb     19.0Kb     4.75KB
+     unb5-w-2.c.fresh-yen-165400.internal     <=     10.9Kb     10.9Kb     10.9Kb     2.74KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     9.87Kb     9.87Kb     9.87Kb     2.47KB
+     unb5-w-0.c.fresh-yen-165400.internal     <=     7.50Kb     7.50Kb     7.50Kb     1.88KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     9.87Kb     9.87Kb     9.87Kb     2.47KB
+     unb5-w-1.c.fresh-yen-165400.internal     <=     7.50Kb     7.50Kb     7.50Kb     1.88KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>     5.86Kb     5.86Kb     5.86Kb     1.46KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     11.2Kb     11.2Kb     11.2Kb     2.81KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     44.6Kb     44.6Kb     44.6Kb
+Total receive rate:                                  37.2Kb     37.2Kb     37.2Kb
+Total send and receive rate:                         81.8Kb     81.8Kb     81.8Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     44.6Kb     37.2Kb     81.8Kb
+Cumulative (sent/received/total):                    11.2KB     9.29KB     20.4KB
+============================================================================================
+
+Sat Jun 23 11:46:06 UTC 2018
+TEMPOS 1529754366
+TEMPO 20180623114606
+top - 11:46:06 up 51 min,  2 users,  load average: 0.04, 0.24, 0.87
+Tasks: 137 total,   1 running, 136 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.0 id,  6.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7975488 used,   221956 free,    10024 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876244 cached Mem
+11:46:06 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:06 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     99.0Kb     99.0Kb     99.0Kb     24.8KB
+     vn-in-f95.1e100.net                      <=     3.57Kb     3.57Kb     3.57Kb       915B
+   2 unb5-m.c.fresh-yen-165400.internal       =>     3.34Kb     3.34Kb     3.34Kb       854B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     6.08Kb     6.08Kb     6.08Kb     1.52KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     1.48Kb     1.48Kb     1.48Kb       380B
+     74.125.75.97                             <=     1.69Kb     1.69Kb     1.69Kb       432B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+   6 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+--------------------------------------------------------------------------------------------
+Total send rate:                                      105Kb      105Kb      105Kb
+Total receive rate:                                  17.3Kb     17.3Kb     17.3Kb
+Total send and receive rate:                          122Kb      122Kb      122Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      105Kb     17.3Kb      122Kb
+Cumulative (sent/received/total):                    26.2KB     4.33KB     30.6KB
+============================================================================================
+
+Sat Jun 23 11:46:10 UTC 2018
+TEMPOS 1529754370
+TEMPO 20180623114610
+top - 11:46:10 up 51 min,  2 users,  load average: 0.04, 0.24, 0.87
+Tasks: 136 total,   2 running, 134 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.0 id,  6.7 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7975208 used,   222236 free,    10024 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876244 cached Mem
+11:46:10 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:10 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     4.63Kb     4.63Kb     4.63Kb     1.16KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     6.08Kb     6.08Kb     6.08Kb     1.52KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>       708b       708b       708b       177B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     3.13Kb     3.13Kb     3.13Kb       801B
+   3 unb5-m.c.fresh-yen-165400.internal       =>       824b       824b       824b       206B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     2.94Kb     2.94Kb     2.94Kb       752B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     6.49Kb     6.49Kb     6.49Kb
+Total receive rate:                                  14.1Kb     14.1Kb     14.1Kb
+Total send and receive rate:                         20.6Kb     20.6Kb     20.6Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     6.49Kb     14.1Kb     20.6Kb
+Cumulative (sent/received/total):                    1.62KB     3.54KB     5.16KB
+============================================================================================
+
+Sat Jun 23 11:46:13 UTC 2018
+TEMPOS 1529754373
+TEMPO 20180623114613
+top - 11:46:13 up 51 min,  2 users,  load average: 0.12, 0.25, 0.87
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.0 id,  6.6 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7976144 used,   221300 free,    10032 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876268 cached Mem
+11:46:13 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:13 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     12.4Kb     12.4Kb     12.4Kb     3.09KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     13.5Kb     13.5Kb     13.5Kb     3.38KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     1.00Kb     1.00Kb     1.00Kb       257B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     4.33Kb     4.33Kb     4.33Kb     1.08KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       900b       900b       900b       225B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     4.07Kb     4.07Kb     4.07Kb     1.02KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>       524b       524b       524b       131B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       656b       656b       656b       164B
+     74.125.75.33                             <=       208b       208b       208b        52B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     15.4Kb     15.4Kb     15.4Kb
+Total receive rate:                                  24.1Kb     24.1Kb     24.1Kb
+Total send and receive rate:                         39.5Kb     39.5Kb     39.5Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     15.4Kb     24.1Kb     39.5Kb
+Cumulative (sent/received/total):                    3.85KB     6.03KB     9.88KB
+============================================================================================
+
+Sat Jun 23 11:46:16 UTC 2018
+TEMPOS 1529754376
+TEMPO 20180623114616
+top - 11:46:16 up 51 min,  2 users,  load average: 0.11, 0.25, 0.87
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.0 id,  6.6 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7976672 used,   220772 free,    10032 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876308 cached Mem
+11:46:17 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:17 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     34.9Kb     34.9Kb     34.9Kb     8.73KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     13.4Kb     13.4Kb     13.4Kb     3.34KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     31.9Kb     31.9Kb     31.9Kb     7.97KB
+     unb5-w-0.c.fresh-yen-165400.internal     <=     8.69Kb     8.69Kb     8.69Kb     2.17KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     4.07Kb     4.07Kb     4.07Kb     1.02KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     4.07Kb     4.07Kb     4.07Kb     1.02KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     68.3Kb     68.3Kb     68.3Kb
+Total receive rate:                                  30.2Kb     30.2Kb     30.2Kb
+Total send and receive rate:                         98.5Kb     98.5Kb     98.5Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     68.3Kb     30.2Kb     98.5Kb
+Cumulative (sent/received/total):                    17.1KB     7.55KB     24.6KB
+============================================================================================
+
+Sat Jun 23 11:46:21 UTC 2018
+TEMPOS 1529754381
+TEMPO 20180623114621
+top - 11:46:21 up 51 min,  2 users,  load average: 0.10, 0.24, 0.86
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.0 id,  6.6 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7976648 used,   220796 free,    10040 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876308 cached Mem
+11:46:21 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:21 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     22.2Kb     22.2Kb     22.2Kb     5.56KB
+     unb5-w-0.c.fresh-yen-165400.internal     <=     1.19Kb     1.19Kb     1.19Kb       304B
+   2 unb5-m.c.fresh-yen-165400.internal       =>     3.34Kb     3.34Kb     3.34Kb       854B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     6.08Kb     6.08Kb     6.08Kb     1.52KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     26.3Kb     26.3Kb     26.3Kb
+Total receive rate:                                  11.3Kb     11.3Kb     11.3Kb
+Total send and receive rate:                         37.5Kb     37.5Kb     37.5Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     26.3Kb     11.3Kb     37.5Kb
+Cumulative (sent/received/total):                    6.57KB     2.81KB     9.39KB
+============================================================================================
+
+Sat Jun 23 11:46:24 UTC 2018
+TEMPOS 1529754384
+TEMPO 20180623114624
+top - 11:46:24 up 51 min,  2 users,  load average: 0.10, 0.24, 0.86
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.1 id,  6.6 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7977244 used,   220200 free,    10048 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876324 cached Mem
+11:46:24 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:24 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     5.16Kb     5.16Kb     5.16Kb     1.29KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     8.15Kb     8.15Kb     8.15Kb     2.04KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     9.06Kb     9.06Kb     9.06Kb     2.27KB
+     unb5-w-2.c.fresh-yen-165400.internal     <=     4.18Kb     4.18Kb     4.18Kb     1.04KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     1.70Kb     1.70Kb     1.70Kb       435B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     6.68Kb     6.68Kb     6.68Kb     1.67KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       656b       656b       656b       164B
+     74.125.75.33                             <=       208b       208b       208b        52B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     16.9Kb     16.9Kb     16.9Kb
+Total receive rate:                                  21.2Kb     21.2Kb     21.2Kb
+Total send and receive rate:                         38.1Kb     38.1Kb     38.1Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     16.9Kb     21.2Kb     38.1Kb
+Cumulative (sent/received/total):                    4.23KB     5.30KB     9.53KB
+============================================================================================
+
+Sat Jun 23 11:46:28 UTC 2018
+TEMPOS 1529754388
+TEMPO 20180623114628
+top - 11:46:28 up 51 min,  2 users,  load average: 0.17, 0.26, 0.87
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.1 id,  6.6 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7977524 used,   219920 free,    10056 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876352 cached Mem
+11:46:29 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:29 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     28.4Kb     28.4Kb     28.4Kb     7.10KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     11.1Kb     11.1Kb     11.1Kb     2.79KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     1.01Kb     1.01Kb     1.01Kb       258B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     4.44Kb     4.44Kb     4.44Kb     1.11KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       824b       824b       824b       206B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     4.07Kb     4.07Kb     4.07Kb     1.02KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>       824b       824b       824b       206B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     3.90Kb     3.90Kb     3.90Kb       998B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       656b       656b       656b       164B
+     74.125.75.33                             <=       208b       208b       208b        52B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     31.6Kb     31.6Kb     31.6Kb
+Total receive rate:                                  23.8Kb     23.8Kb     23.8Kb
+Total send and receive rate:                         55.4Kb     55.4Kb     55.4Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     31.6Kb     23.8Kb     55.4Kb
+Cumulative (sent/received/total):                    7.91KB     5.94KB     13.9KB
+============================================================================================
+
+Sat Jun 23 11:46:33 UTC 2018
+TEMPOS 1529754393
+TEMPO 20180623114633
+top - 11:46:33 up 52 min,  2 users,  load average: 0.16, 0.25, 0.86
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.1 id,  6.6 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7978136 used,   219308 free,    10064 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876368 cached Mem
+11:46:33 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:33 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     53.5Kb     53.5Kb     53.5Kb     13.4KB
+     unb5-w-2.c.fresh-yen-165400.internal     <=     7.81Kb     7.81Kb     7.81Kb     1.95KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     31.7Kb     31.7Kb     31.7Kb     7.92KB
+     unb5-w-1.c.fresh-yen-165400.internal     <=     6.62Kb     6.62Kb     6.62Kb     1.66KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     3.78Kb     3.78Kb     3.78Kb       968B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     7.05Kb     7.05Kb     7.05Kb     1.76KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     89.4Kb     89.4Kb     89.4Kb
+Total receive rate:                                  23.5Kb     23.5Kb     23.5Kb
+Total send and receive rate:                          113Kb      113Kb      113Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     89.4Kb     23.5Kb      113Kb
+Cumulative (sent/received/total):                    22.3KB     5.87KB     28.2KB
+============================================================================================
+
+Sat Jun 23 11:46:37 UTC 2018
+TEMPOS 1529754397
+TEMPO 20180623114637
+top - 11:46:37 up 52 min,  2 users,  load average: 0.15, 0.25, 0.86
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.1 id,  6.6 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7979040 used,   218404 free,    10064 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876380 cached Mem
+11:46:37 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:37 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     3.98Kb     3.98Kb     3.98Kb     1.00KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     9.46Kb     9.46Kb     9.46Kb     2.36KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     4.07Kb     4.07Kb     4.07Kb     1.02KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     4.07Kb     4.07Kb     4.07Kb     1.02KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>       376b       376b       376b        94B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     2.07Kb     2.07Kb     2.07Kb       530B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     5.81Kb     5.81Kb     5.81Kb
+Total receive rate:                                  19.7Kb     19.7Kb     19.7Kb
+Total send and receive rate:                         25.5Kb     25.5Kb     25.5Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     5.81Kb     19.7Kb     25.5Kb
+Cumulative (sent/received/total):                    1.45KB     4.92KB     6.37KB
+============================================================================================
+
+Sat Jun 23 11:46:40 UTC 2018
+TEMPOS 1529754400
+TEMPO 20180623114640
+top - 11:46:41 up 52 min,  2 users,  load average: 0.13, 0.24, 0.85
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.1 id,  6.6 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7977900 used,   219544 free,    10072 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876388 cached Mem
+11:46:41 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:41 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     41.3Kb     41.3Kb     41.3Kb     10.3KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     14.1Kb     14.1Kb     14.1Kb     3.53KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     2.19Kb     2.19Kb     2.19Kb       561B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     9.97Kb     9.97Kb     9.97Kb     2.49KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     1.30Kb     1.30Kb     1.30Kb       332B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     6.43Kb     6.43Kb     6.43Kb     1.61KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>     1.46Kb     1.46Kb     1.46Kb       375B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     6.01Kb     6.01Kb     6.01Kb     1.50KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     46.3Kb     46.3Kb     46.3Kb
+Total receive rate:                                  36.5Kb     36.5Kb     36.5Kb
+Total send and receive rate:                         82.8Kb     82.8Kb     82.8Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     46.3Kb     36.5Kb     82.8Kb
+Cumulative (sent/received/total):                    11.6KB     9.13KB     20.7KB
+============================================================================================
+
+Sat Jun 23 11:46:45 UTC 2018
+TEMPOS 1529754405
+TEMPO 20180623114645
+top - 11:46:45 up 52 min,  2 users,  load average: 0.20, 0.26, 0.85
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.1 id,  6.6 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7978564 used,   218880 free,    10080 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876412 cached Mem
+11:46:45 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:45 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     6.66Kb     6.66Kb     6.66Kb     1.67KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     9.67Kb     9.67Kb     9.67Kb     2.42KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     1.28Kb     1.28Kb     1.28Kb       328B
+     metadata.google.internal                 <=     2.10Kb     2.10Kb     2.10Kb       538B
+   3 unb5-m.c.fresh-yen-165400.internal       =>       448b       448b       448b       112B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     1.99Kb     1.99Kb     1.99Kb       510B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     1.79Kb     1.79Kb     1.79Kb       459B
+   6 unb5-m.c.fresh-yen-165400.internal       =>       656b       656b       656b       164B
+     74.125.75.33                             <=       208b       208b       208b        52B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     9.75Kb     9.75Kb     9.75Kb
+Total receive rate:                                  17.8Kb     17.8Kb     17.8Kb
+Total send and receive rate:                         27.5Kb     27.5Kb     27.5Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     9.75Kb     17.8Kb     27.5Kb
+Cumulative (sent/received/total):                    2.44KB     4.44KB     6.88KB
+============================================================================================
+
+Sat Jun 23 11:46:49 UTC 2018
+TEMPOS 1529754409
+TEMPO 20180623114649
+top - 11:46:49 up 52 min,  2 users,  load average: 0.20, 0.26, 0.85
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.1 id,  6.6 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7978780 used,   218664 free,    10088 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876432 cached Mem
+11:46:49 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:49 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     31.9Kb     31.9Kb     31.9Kb     7.97KB
+     unb5-w-2.c.fresh-yen-165400.internal     <=     8.69Kb     8.69Kb     8.69Kb     2.17KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     14.1Kb     14.1Kb     14.1Kb     3.54KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     11.6Kb     11.6Kb     11.6Kb     2.90KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     4.07Kb     4.07Kb     4.07Kb     1.02KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     4.07Kb     4.07Kb     4.07Kb     1.02KB
+   5 unb5-m.c.fresh-yen-165400.internal       =>       656b       656b       656b       164B
+     74.125.75.33                             <=       208b       208b       208b        52B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     48.1Kb     48.1Kb     48.1Kb
+Total receive rate:                                  28.6Kb     28.6Kb     28.6Kb
+Total send and receive rate:                         76.8Kb     76.8Kb     76.8Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     48.1Kb     28.6Kb     76.8Kb
+Cumulative (sent/received/total):                    12.0KB     7.15KB     19.2KB
+============================================================================================
+
+Sat Jun 23 11:46:53 UTC 2018
+TEMPOS 1529754413
+TEMPO 20180623114653
+top - 11:46:54 up 52 min,  2 users,  load average: 0.19, 0.25, 0.85
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.1 id,  6.6 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7978292 used,   219152 free,    10096 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876444 cached Mem
+11:46:54 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:54 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     7.54Kb     7.54Kb     7.54Kb     1.88KB
+     unb5-w-2.c.fresh-yen-165400.internal     <=     5.15Kb     5.15Kb     5.15Kb     1.29KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     3.34Kb     3.34Kb     3.34Kb       855B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     6.08Kb     6.08Kb     6.08Kb     1.52KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     11.6Kb     11.6Kb     11.6Kb
+Total receive rate:                                  15.2Kb     15.2Kb     15.2Kb
+Total send and receive rate:                         26.8Kb     26.8Kb     26.8Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     11.6Kb     15.2Kb     26.8Kb
+Cumulative (sent/received/total):                    2.90KB     3.81KB     6.71KB
+============================================================================================
+
+Sat Jun 23 11:46:58 UTC 2018
+TEMPOS 1529754418
+TEMPO 20180623114658
+top - 11:46:58 up 52 min,  2 users,  load average: 0.17, 0.25, 0.84
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.2 id,  6.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7978544 used,   218900 free,    10096 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876476 cached Mem
+11:46:58 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:46:58 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     4.64Kb     4.64Kb     4.64Kb     1.16KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     8.10Kb     8.10Kb     8.10Kb     2.02KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     1.66Kb     1.66Kb     1.66Kb       425B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     7.04Kb     7.04Kb     7.04Kb     1.76KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       916b       916b       916b       229B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     3.70Kb     3.70Kb     3.70Kb       948B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       448b       448b       448b       112B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     1.83Kb     1.83Kb     1.83Kb       468B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       656b       656b       656b       164B
+     74.125.75.33                             <=       208b       208b       208b        52B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     8.27Kb     8.27Kb     8.27Kb
+Total receive rate:                                  20.9Kb     20.9Kb     20.9Kb
+Total send and receive rate:                         29.1Kb     29.1Kb     29.1Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     8.27Kb     20.9Kb     29.1Kb
+Cumulative (sent/received/total):                    2.07KB     5.22KB     7.28KB
+============================================================================================
+
+Sat Jun 23 11:47:01 UTC 2018
+TEMPOS 1529754421
+TEMPO 20180623114701
+top - 11:47:01 up 52 min,  2 users,  load average: 0.16, 0.24, 0.84
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.2 id,  6.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7979532 used,   217912 free,    10104 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876500 cached Mem
+11:47:01 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:01 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     19.0Kb     19.0Kb     19.0Kb     4.75KB
+     unb5-w-1.c.fresh-yen-165400.internal     <=     10.9Kb     10.9Kb     10.9Kb     2.74KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     9.87Kb     9.87Kb     9.87Kb     2.47KB
+     unb5-w-2.c.fresh-yen-165400.internal     <=     7.50Kb     7.50Kb     7.50Kb     1.88KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     5.00Kb     5.00Kb     5.00Kb     1.25KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     9.05Kb     9.05Kb     9.05Kb     2.26KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>       824b       824b       824b       206B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     4.07Kb     4.07Kb     4.07Kb     1.02KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     34.7Kb     34.7Kb     34.7Kb
+Total receive rate:                                  31.6Kb     31.6Kb     31.6Kb
+Total send and receive rate:                         66.3Kb     66.3Kb     66.3Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     34.7Kb     31.6Kb     66.2Kb
+Cumulative (sent/received/total):                    8.67KB     7.89KB     16.6KB
+============================================================================================
+
+Sat Jun 23 11:47:06 UTC 2018
+TEMPOS 1529754426
+TEMPO 20180623114706
+top - 11:47:06 up 52 min,  2 users,  load average: 0.14, 0.24, 0.83
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.2 id,  6.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7980300 used,   217144 free,    10112 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876508 cached Mem
+11:47:06 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:06 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     53.5Kb     53.5Kb     53.5Kb     13.4KB
+     unb5-w-0.c.fresh-yen-165400.internal     <=     7.81Kb     7.81Kb     7.81Kb     1.95KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     44.4Kb     44.4Kb     44.4Kb     11.1KB
+     unb5-w-1.c.fresh-yen-165400.internal     <=     4.37Kb     4.37Kb     4.37Kb     1.09KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     36.8Kb     36.8Kb     36.8Kb     9.20KB
+     vn-in-f95.1e100.net                      <=     2.06Kb     2.06Kb     2.06Kb       527B
+   4 unb5-m.c.fresh-yen-165400.internal       =>     3.34Kb     3.34Kb     3.34Kb       855B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     6.08Kb     6.08Kb     6.08Kb     1.52KB
+   5 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+--------------------------------------------------------------------------------------------
+Total send rate:                                      138Kb      138Kb      138Kb
+Total receive rate:                                  22.3Kb     22.3Kb     22.3Kb
+Total send and receive rate:                          161Kb      161Kb      161Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      138Kb     22.3Kb      161Kb
+Cumulative (sent/received/total):                    34.6KB     5.58KB     40.2KB
+============================================================================================
+
+Sat Jun 23 11:47:10 UTC 2018
+TEMPOS 1529754430
+TEMPO 20180623114710
+top - 11:47:10 up 52 min,  2 users,  load average: 0.13, 0.23, 0.83
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.2 id,  6.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7980656 used,   216788 free,    10124 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876512 cached Mem
+11:47:10 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:10 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     4.04Kb     4.04Kb     4.04Kb     1.01KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     10.4Kb     10.4Kb     10.4Kb     2.61KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     1.26Kb     1.26Kb     1.26Kb       323B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     5.81Kb     5.81Kb     5.81Kb     1.45KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     1.26Kb     1.26Kb     1.26Kb       322B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     5.70Kb     5.70Kb     5.70Kb     1.42KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>       824b       824b       824b       206B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     2.97Kb     2.97Kb     2.97Kb       761B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     7.36Kb     7.36Kb     7.36Kb
+Total receive rate:                                  24.9Kb     24.9Kb     24.9Kb
+Total send and receive rate:                         32.3Kb     32.3Kb     32.3Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     7.36Kb     24.9Kb     32.3Kb
+Cumulative (sent/received/total):                    1.84KB     6.23KB     8.07KB
+============================================================================================
+
+Sat Jun 23 11:47:14 UTC 2018
+TEMPOS 1529754434
+TEMPO 20180623114714
+top - 11:47:14 up 52 min,  2 users,  load average: 0.13, 0.23, 0.83
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.2 id,  6.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7981604 used,   215840 free,    10124 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876560 cached Mem
+11:47:15 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:15 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     4.84Kb     4.84Kb     4.84Kb     1.21KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     7.49Kb     7.49Kb     7.49Kb     1.87KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     1.82Kb     1.82Kb     1.82Kb       467B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     7.53Kb     7.53Kb     7.53Kb     1.88KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       916b       916b       916b       229B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     3.74Kb     3.74Kb     3.74Kb       957B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       676b       676b       676b       169B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       656b       656b       656b       164B
+     74.125.75.33                             <=       208b       208b       208b        52B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     8.86Kb     8.86Kb     8.86Kb
+Total receive rate:                                  21.0Kb     21.0Kb     21.0Kb
+Total send and receive rate:                         29.8Kb     29.8Kb     29.8Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     8.86Kb     21.0Kb     29.8Kb
+Cumulative (sent/received/total):                    2.21KB     5.24KB     7.45KB
+============================================================================================
+
+Sat Jun 23 11:47:18 UTC 2018
+TEMPOS 1529754438
+TEMPO 20180623114718
+top - 11:47:18 up 52 min,  2 users,  load average: 0.12, 0.23, 0.82
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.3 sy,  0.0 ni, 88.2 id,  6.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7983220 used,   214224 free,    10132 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876584 cached Mem
+11:47:18 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:18 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     37.8Kb     37.8Kb     37.8Kb     9.45KB
+     unb5-w-1.c.fresh-yen-165400.internal     <=     7.82Kb     7.82Kb     7.82Kb     1.96KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     3.34Kb     3.34Kb     3.34Kb       855B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     6.08Kb     6.08Kb     6.08Kb     1.52KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       448b       448b       448b       112B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     42.0Kb     42.0Kb     42.0Kb
+Total receive rate:                                  17.9Kb     17.9Kb     17.9Kb
+Total send and receive rate:                         59.8Kb     59.8Kb     59.8Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     42.0Kb     17.9Kb     59.8Kb
+Cumulative (sent/received/total):                    10.5KB     4.47KB     15.0KB
+============================================================================================
+
+Sat Jun 23 11:47:22 UTC 2018
+TEMPOS 1529754442
+TEMPO 20180623114722
+top - 11:47:22 up 52 min,  2 users,  load average: 0.11, 0.23, 0.82
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.2 id,  6.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7984164 used,   213280 free,    10140 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876588 cached Mem
+11:47:22 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:22 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     94.2Kb     94.2Kb     94.2Kb     23.6KB
+     unb5-w-0.c.fresh-yen-165400.internal     <=     17.9Kb     17.9Kb     17.9Kb     4.49KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     3.86Kb     3.86Kb     3.86Kb       987B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     8.15Kb     8.15Kb     8.15Kb     2.04KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     4.07Kb     4.07Kb     4.07Kb     1.02KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     4.07Kb     4.07Kb     4.07Kb     1.02KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     99.5Kb     99.5Kb     99.5Kb
+Total receive rate:                                  34.2Kb     34.2Kb     34.2Kb
+Total send and receive rate:                          134Kb      134Kb      134Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     99.5Kb     34.2Kb      134Kb
+Cumulative (sent/received/total):                    24.9KB     8.56KB     33.4KB
+============================================================================================
+
+Sat Jun 23 11:47:25 UTC 2018
+TEMPOS 1529754445
+TEMPO 20180623114725
+top - 11:47:26 up 52 min,  2 users,  load average: 0.10, 0.22, 0.81
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.2 id,  6.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7983952 used,   213492 free,    10148 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876588 cached Mem
+11:47:26 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:26 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     47.7Kb     47.7Kb     47.7Kb     11.9KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     11.1Kb     11.1Kb     11.1Kb     2.78KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     1.17Kb     1.17Kb     1.17Kb       300B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     5.04Kb     5.04Kb     5.04Kb     1.26KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     1.17Kb     1.17Kb     1.17Kb       300B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     5.04Kb     5.04Kb     5.04Kb     1.26KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     4.07Kb     4.07Kb     4.07Kb     1.02KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     50.8Kb     50.8Kb     50.8Kb
+Total receive rate:                                  25.3Kb     25.3Kb     25.3Kb
+Total send and receive rate:                         76.1Kb     76.1Kb     76.1Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     50.8Kb     25.3Kb     76.1Kb
+Cumulative (sent/received/total):                    12.7KB     6.32KB     19.0KB
+============================================================================================
+
+Sat Jun 23 11:47:30 UTC 2018
+TEMPOS 1529754450
+TEMPO 20180623114730
+top - 11:47:30 up 52 min,  2 users,  load average: 0.10, 0.22, 0.81
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.3 id,  6.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7984744 used,   212700 free,    10148 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876612 cached Mem
+11:47:30 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:30 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     3.78Kb     3.78Kb     3.78Kb       968B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     8.54Kb     8.54Kb     8.54Kb     2.13KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     1.43Kb     1.43Kb     1.43Kb       365B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     5.48Kb     5.48Kb     5.48Kb     1.37KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       676b       676b       676b       169B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       448b       448b       448b       112B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     1.99Kb     1.99Kb     1.99Kb       510B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       656b       656b       656b       164B
+     74.125.75.33                             <=       208b       208b       208b        52B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     6.95Kb     6.95Kb     6.95Kb
+Total receive rate:                                  18.2Kb     18.2Kb     18.2Kb
+Total send and receive rate:                         25.2Kb     25.2Kb     25.2Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     6.95Kb     18.2Kb     25.1Kb
+Cumulative (sent/received/total):                    1.74KB     4.55KB     6.29KB
+============================================================================================
+
+Sat Jun 23 11:47:33 UTC 2018
+TEMPOS 1529754453
+TEMPO 20180623114733
+top - 11:47:33 up 53 min,  2 users,  load average: 0.09, 0.22, 0.81
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.3 id,  6.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7985060 used,   212384 free,    10156 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876640 cached Mem
+11:47:33 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:33 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     9.50Kb     9.50Kb     9.50Kb     2.38KB
+     unb5-w-1.c.fresh-yen-165400.internal     <=     5.43Kb     5.43Kb     5.43Kb     1.36KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     3.34Kb     3.34Kb     3.34Kb       855B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     6.89Kb     6.89Kb     6.89Kb     1.72KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       524b       524b       524b       131B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       512B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       656b       656b       656b       164B
+     74.125.75.33                             <=       208b       208b       208b        52B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     14.4Kb     14.4Kb     14.4Kb
+Total receive rate:                                  16.5Kb     16.5Kb     16.5Kb
+Total send and receive rate:                         30.9Kb     30.9Kb     30.9Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     14.4Kb     16.5Kb     30.9Kb
+Cumulative (sent/received/total):                    3.59KB     4.13KB     7.72KB
+============================================================================================
+
+Sat Jun 23 11:47:37 UTC 2018
+TEMPOS 1529754457
+TEMPO 20180623114737
+top - 11:47:38 up 53 min,  2 users,  load average: 0.09, 0.21, 0.80
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.3 id,  6.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7986316 used,   211128 free,    10164 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876656 cached Mem
+11:47:38 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:38 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     41.0Kb     41.0Kb     41.0Kb     10.3KB
+     unb5-w-0.c.fresh-yen-165400.internal     <=     12.1Kb     12.1Kb     12.1Kb     3.03KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     25.8Kb     25.8Kb     25.8Kb     6.45KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     9.95Kb     9.95Kb     9.95Kb     2.49KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     1.98Kb     1.98Kb     1.98Kb       506B
+     metadata.google.internal                 <=     3.32Kb     3.32Kb     3.32Kb       850B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     4.07Kb     4.07Kb     4.07Kb     1.02KB
+   5 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     4.07Kb     4.07Kb     4.07Kb     1.02KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     70.3Kb     70.3Kb     70.3Kb
+Total receive rate:                                  33.5Kb     33.5Kb     33.5Kb
+Total send and receive rate:                          104Kb      104Kb      104Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     70.3Kb     33.5Kb      104Kb
+Cumulative (sent/received/total):                    17.6KB     8.38KB     26.0KB
+============================================================================================
+
+Sat Jun 23 11:47:42 UTC 2018
+TEMPOS 1529754462
+TEMPO 20180623114742
+top - 11:47:42 up 53 min,  2 users,  load average: 0.08, 0.21, 0.80
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.3 id,  6.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7986368 used,   211076 free,    10172 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876656 cached Mem
+11:47:42 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:42 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     8.62Kb     8.62Kb     8.62Kb     2.16KB
+     unb5-w-2.c.fresh-yen-165400.internal     <=     3.20Kb     3.20Kb     3.20Kb       819B
+   2 unb5-m.c.fresh-yen-165400.internal       =>     3.58Kb     3.58Kb     3.58Kb       916B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     7.39Kb     7.39Kb     7.39Kb     1.85KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     1.70Kb     1.70Kb     1.70Kb       435B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     6.68Kb     6.68Kb     6.68Kb     1.67KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>     2.16Kb     2.16Kb     2.16Kb       553B
+     metadata.google.internal                 <=     2.03Kb     2.03Kb     2.03Kb       520B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       512B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     16.4Kb     16.4Kb     16.4Kb
+Total receive rate:                                  21.3Kb     21.3Kb     21.3Kb
+Total send and receive rate:                         37.7Kb     37.7Kb     37.7Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     16.4Kb     21.3Kb     37.7Kb
+Cumulative (sent/received/total):                    4.11KB     5.33KB     9.43KB
+============================================================================================
+
+Sat Jun 23 11:47:45 UTC 2018
+TEMPOS 1529754465
+TEMPO 20180623114745
+top - 11:47:45 up 53 min,  2 users,  load average: 0.15, 0.22, 0.80
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.3 id,  6.5 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7987340 used,   210104 free,    10172 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876684 cached Mem
+11:47:45 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:45 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     6.03Kb     6.03Kb     6.03Kb     1.51KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     7.45Kb     7.45Kb     7.45Kb     1.86KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>       824b       824b       824b       206B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     2.98Kb     2.98Kb     2.98Kb       762B
+   3 unb5-m.c.fresh-yen-165400.internal       =>     1.28Kb     1.28Kb     1.28Kb       328B
+     metadata.google.internal                 <=     2.10Kb     2.10Kb     2.10Kb       538B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       656b       656b       656b       164B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     2.38Kb     2.38Kb     2.38Kb       609B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     2.01Kb     2.01Kb     2.01Kb       514B
+   6 unb5-m.c.fresh-yen-165400.internal       =>       656b       656b       656b       164B
+     74.125.75.33                             <=       208b       208b       208b        52B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     9.76Kb     9.76Kb     9.76Kb
+Total receive rate:                                  17.1Kb     17.1Kb     17.1Kb
+Total send and receive rate:                         26.9Kb     26.9Kb     26.9Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     9.76Kb     17.1Kb     26.9Kb
+Cumulative (sent/received/total):                    2.44KB     4.28KB     6.72KB
+============================================================================================
+
+Sat Jun 23 11:47:50 UTC 2018
+TEMPOS 1529754470
+TEMPO 20180623114750
+top - 11:47:50 up 53 min,  2 users,  load average: 0.15, 0.22, 0.80
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.3 id,  6.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7988516 used,   208928 free,    10180 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876708 cached Mem
+11:47:50 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:50 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     41.0Kb     41.0Kb     41.0Kb     10.3KB
+     unb5-w-1.c.fresh-yen-165400.internal     <=     12.1Kb     12.1Kb     12.1Kb     3.04KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     34.9Kb     34.9Kb     34.9Kb     8.72KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     11.9Kb     11.9Kb     11.9Kb     2.99KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       980b       980b       980b       245B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     4.08Kb     4.08Kb     4.08Kb     1.02KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     4.08Kb     4.08Kb     4.08Kb     1.02KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     77.6Kb     77.6Kb     77.6Kb
+Total receive rate:                                  32.2Kb     32.2Kb     32.2Kb
+Total send and receive rate:                          110Kb      110Kb      110Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     77.6Kb     32.2Kb      110Kb
+Cumulative (sent/received/total):                    19.4KB     8.06KB     27.5KB
+============================================================================================
+
+Sat Jun 23 11:47:53 UTC 2018
+TEMPOS 1529754473
+TEMPO 20180623114753
+top - 11:47:53 up 53 min,  2 users,  load average: 0.22, 0.24, 0.80
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.3 id,  6.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7995376 used,   202068 free,    10188 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876716 cached Mem
+11:47:53 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:53 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     30.6Kb     30.6Kb     30.6Kb     7.66KB
+     unb5-w-1.c.fresh-yen-165400.internal     <=     4.40Kb     4.40Kb     4.40Kb     1.10KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     9.50Kb     9.50Kb     9.50Kb     2.38KB
+     unb5-w-0.c.fresh-yen-165400.internal     <=     5.45Kb     5.45Kb     5.45Kb     1.36KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     3.35Kb     3.35Kb     3.35Kb       857B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     6.09Kb     6.09Kb     6.09Kb     1.52KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     2.01Kb     2.01Kb     2.01Kb       515B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     43.9Kb     43.9Kb     43.9Kb
+Total receive rate:                                  18.0Kb     18.0Kb     18.0Kb
+Total send and receive rate:                         61.8Kb     61.8Kb     61.8Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     43.9Kb     18.0Kb     61.8Kb
+Cumulative (sent/received/total):                    11.0KB     4.49KB     15.5KB
+============================================================================================
+
+Sat Jun 23 11:47:57 UTC 2018
+TEMPOS 1529754477
+TEMPO 20180623114757
+top - 11:47:57 up 53 min,  2 users,  load average: 0.20, 0.23, 0.80
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.3 id,  6.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7996488 used,   200956 free,    10196 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876728 cached Mem
+11:47:58 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:47:58 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     3.99Kb     3.99Kb     3.99Kb     1.00KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     9.42Kb     9.42Kb     9.42Kb     2.35KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     1.66Kb     1.66Kb     1.66Kb       426B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     6.07Kb     6.07Kb     6.07Kb     1.52KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     5.32Kb     5.32Kb     5.32Kb     1.33KB
+     va-in-f95.1e100.net                      <=     1.73Kb     1.73Kb     1.73Kb       443B
+   4 unb5-m.c.fresh-yen-165400.internal       =>     1.25Kb     1.25Kb     1.25Kb       319B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     3.96Kb     3.96Kb     3.96Kb     0.99KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     12.2Kb     12.2Kb     12.2Kb
+Total receive rate:                                  21.2Kb     21.2Kb     21.2Kb
+Total send and receive rate:                         33.4Kb     33.4Kb     33.4Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     12.2Kb     21.2Kb     33.4Kb
+Cumulative (sent/received/total):                    3.05KB     5.29KB     8.35KB
+============================================================================================
+
+Sat Jun 23 11:48:01 UTC 2018
+TEMPOS 1529754481
+TEMPO 20180623114801
+top - 11:48:01 up 53 min,  2 users,  load average: 0.19, 0.23, 0.79
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.3 id,  6.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7996756 used,   200688 free,    10204 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876728 cached Mem
+11:48:01 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:01 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     41.4Kb     41.4Kb     41.4Kb     10.4KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     13.2Kb     13.2Kb     13.2Kb     3.30KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     1.22Kb     1.22Kb     1.22Kb       313B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     5.09Kb     5.09Kb     5.09Kb     1.27KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       904b       904b       904b       226B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     3.78Kb     3.78Kb     3.78Kb       968B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       916b       916b       916b       229B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     3.75Kb     3.75Kb     3.75Kb       961B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       656b       656b       656b       164B
+     74.125.75.33                             <=       208b       208b       208b        52B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     45.1Kb     45.1Kb     45.1Kb
+Total receive rate:                                  26.0Kb     26.0Kb     26.0Kb
+Total send and receive rate:                         71.1Kb     71.1Kb     71.1Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     45.1Kb     26.0Kb     71.1Kb
+Cumulative (sent/received/total):                    11.3KB     6.51KB     17.8KB
+============================================================================================
+
+Sat Jun 23 11:48:05 UTC 2018
+TEMPOS 1529754485
+TEMPO 20180623114805
+top - 11:48:05 up 53 min,  2 users,  load average: 0.17, 0.22, 0.79
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.4 id,  6.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  8001540 used,   195904 free,    10204 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876768 cached Mem
+11:48:05 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:05 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     71.3Kb     71.3Kb     71.3Kb     17.8KB
+     unb5-w-1.c.fresh-yen-165400.internal     <=     13.7Kb     13.7Kb     13.7Kb     3.42KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     36.1Kb     36.1Kb     36.1Kb     9.02KB
+     unb5-w-0.c.fresh-yen-165400.internal     <=     7.32Kb     7.32Kb     7.32Kb     1.83KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     26.8Kb     26.8Kb     26.8Kb     6.70KB
+     unb5-w-2.c.fresh-yen-165400.internal     <=     4.23Kb     4.23Kb     4.23Kb     1.06KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>     5.42Kb     5.42Kb     5.42Kb     1.35KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     10.8Kb     10.8Kb     10.8Kb     2.69KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                      140Kb      140Kb      140Kb
+Total receive rate:                                  36.0Kb     36.0Kb     36.0Kb
+Total send and receive rate:                          176Kb      176Kb      176Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      140Kb     36.0Kb      176Kb
+Cumulative (sent/received/total):                    34.9KB     8.99KB     43.9KB
+============================================================================================
+
+Sat Jun 23 11:48:08 UTC 2018
+TEMPOS 1529754488
+TEMPO 20180623114808
+top - 11:48:09 up 53 min,  2 users,  load average: 0.17, 0.22, 0.79
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.4 id,  6.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  8001700 used,   195744 free,    10212 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876784 cached Mem
+11:48:09 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:09 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     3.51Kb     3.51Kb     3.51Kb       898B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     5.92Kb     5.92Kb     5.92Kb     1.48KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     4.68Kb     4.68Kb     4.68Kb     1.17KB
+     unb5-w-1.c.fresh-yen-165400.internal     <=     3.21Kb     3.21Kb     3.21Kb       823B
+   3 unb5-m.c.fresh-yen-165400.internal       =>       708b       708b       708b       177B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     3.18Kb     3.18Kb     3.18Kb       813B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     1.46Kb     1.46Kb     1.46Kb       373B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     9.25Kb     9.25Kb     9.25Kb
+Total receive rate:                                  13.8Kb     13.8Kb     13.8Kb
+Total send and receive rate:                         23.0Kb     23.0Kb     23.0Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     9.24Kb     13.8Kb     23.0Kb
+Cumulative (sent/received/total):                    2.31KB     3.44KB     5.75KB
+============================================================================================
+
+Sat Jun 23 11:48:12 UTC 2018
+TEMPOS 1529754492
+TEMPO 20180623114812
+top - 11:48:12 up 53 min,  2 users,  load average: 0.16, 0.22, 0.79
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.4 id,  6.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  8001716 used,   195728 free,    10220 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876796 cached Mem
+11:48:12 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:12 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     3.48Kb     3.48Kb     3.48Kb       892B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     5.82Kb     5.82Kb     5.82Kb     1.46KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     1.46Kb     1.46Kb     1.46Kb       374B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     6.14Kb     6.14Kb     6.14Kb     1.53KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       612b       612b       612b       153B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     1.67Kb     1.67Kb     1.67Kb       427B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     1.67Kb     1.67Kb     1.67Kb       427B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     5.91Kb     5.91Kb     5.91Kb
+Total receive rate:                                  15.3Kb     15.3Kb     15.3Kb
+Total send and receive rate:                         21.2Kb     21.2Kb     21.2Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     5.91Kb     15.3Kb     21.2Kb
+Cumulative (sent/received/total):                    1.48KB     3.82KB     5.30KB
+============================================================================================
+
+Sat Jun 23 11:48:16 UTC 2018
+TEMPOS 1529754496
+TEMPO 20180623114816
+top - 11:48:16 up 53 min,  2 users,  load average: 0.14, 0.22, 0.78
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.4 id,  6.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  8002312 used,   195132 free,    10228 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876824 cached Mem
+11:48:16 Total DISK READ :       0.00 K/s | Total DISK WRITE :     128.63 K/s
+11:48:16 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+11:48:16  4031 be/4 yarn          0.00 K      4.00 K  0.00 %  0.00 % java -Dproc_resourcemanager -Xmx1000m -Dhadoop.log.dir=/var/log/hadoop-yarn -Dyarn.log.dir=/var/log/hadoop-yarn -Dhadoop.log.file=yarn-yarn-resourcemanager-unb5-m.log -Dyarn.log.file=yarn-yarn-resourcemanager-unb5-m.log -Dyarn.home.dir= -Dyarn.id.str=yarn -Dhadoop.root.logger=INFO,RFA -Dyarn.root.logger=INFO,RFA -Djava.library.path=/usr/lib/hadoop/lib/native -Dyarn.policy.file=hadoop-policy.xml -Xmx3202m -Dhadoop.log.dir=/var/log/hadoop-yarn -Dyarn.log.dir=/var/log/hadoop-yarn -Dhadoop.log.file=yarn-yarn-resourcemanager-unb5-m.log -Dyarn.log.file=yarn-yarn-resourcemanager-unb5-m.log -Dyarn.home.dir=/usr/lib/hadoop-yarn -Dhadoop.home.dir=/usr/lib/hadoop -Dhadoop.root.logger=INFO,RFA -Dyarn.root.logger=INFO,RFA -Djava.library.path=/usr/lib/hadoop/lib/native -classpath /etc/hadoop/conf:/etc/hadoop/conf:/etc/hadoop/conf:/usr/lib/hadoop/lib/*:/usr/lib/hadoop/.//*:/usr/lib/hadoop-hdfs/./:/usr/lib/hadoop-hdfs/lib/*:/usr/lib/hadoop-hdfs/.//*:/usr/lib/hadoop-yarn/lib/*:/usr/lib/hadoop-yarn/.//*:/usr/lib/hadoop-mapreduce/lib/*:/usr/lib/hadoop-mapreduce/.//*:/usr/lib/hadoop-yarn/.//*:/usr/lib/hadoop-yarn/lib/*:/usr/lib/spark/yarn/*::/etc/hadoop/conf/rm-config/log4j.properties org.apache.hadoop.yarn.server.resourcemanager.ResourceManager
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     4.29Kb     4.29Kb     4.29Kb     1.07KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     7.73Kb     7.73Kb     7.73Kb     1.93KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>       828b       828b       828b       207B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     3.39Kb     3.39Kb     3.39Kb       868B
+   3 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     3.39Kb     3.39Kb     3.39Kb       868B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       376b       376b       376b        94B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     2.07Kb     2.07Kb     2.07Kb       530B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       656b       656b       656b       164B
+     74.125.75.33                             <=       208b       208b       208b        52B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     6.84Kb     6.84Kb     6.84Kb
+Total receive rate:                                  16.8Kb     16.8Kb     16.8Kb
+Total send and receive rate:                         23.6Kb     23.6Kb     23.6Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     6.84Kb     16.8Kb     23.6Kb
+Cumulative (sent/received/total):                    1.71KB     4.20KB     5.90KB
+============================================================================================
+
+Sat Jun 23 11:48:20 UTC 2018
+TEMPOS 1529754500
+TEMPO 20180623114820
+top - 11:48:20 up 53 min,  2 users,  load average: 0.14, 0.22, 0.78
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.4 id,  6.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  8002152 used,   195292 free,    10228 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876848 cached Mem
+11:48:20 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:20 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>      159Kb      159Kb      159Kb     39.9KB
+     vn-in-f95.1e100.net                      <=     2.08Kb     2.08Kb     2.08Kb       533B
+   2 unb5-m.c.fresh-yen-165400.internal       =>     4.21Kb     4.21Kb     4.21Kb     1.05KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     9.19Kb     9.19Kb     9.19Kb     2.30KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     3.39Kb     3.39Kb     3.39Kb       868B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     3.38Kb     3.38Kb     3.38Kb       865B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     3.38Kb     3.38Kb     3.38Kb       865B
+   6 unb5-m.c.fresh-yen-165400.internal       =>       656b       656b       656b       164B
+     74.125.75.33                             <=       208b       208b       208b        52B
+--------------------------------------------------------------------------------------------
+Total send rate:                                      167Kb      167Kb      167Kb
+Total receive rate:                                  21.6Kb     21.6Kb     21.6Kb
+Total send and receive rate:                          188Kb      188Kb      188Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                      167Kb     21.6Kb      188Kb
+Cumulative (sent/received/total):                    41.6KB     5.41KB     47.0KB
+============================================================================================
+
+Sat Jun 23 11:48:24 UTC 2018
+TEMPOS 1529754504
+TEMPO 20180623114824
+top - 11:48:24 up 53 min,  2 users,  load average: 0.13, 0.21, 0.78
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.4 id,  6.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  8003712 used,   193732 free,    10244 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876952 cached Mem
+11:48:24 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:24 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     8.21Kb     8.21Kb     8.21Kb     2.05KB
+     unb5-w-2.c.fresh-yen-165400.internal     <=     12.1Kb     12.1Kb     12.1Kb     3.04KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     1.49Kb     1.49Kb     1.49Kb       382B
+   3 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     9.30Kb     9.30Kb     9.30Kb
+Total receive rate:                                  16.3Kb     16.3Kb     16.3Kb
+Total send and receive rate:                         25.6Kb     25.6Kb     25.6Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     9.30Kb     16.2Kb     25.5Kb
+Cumulative (sent/received/total):                    2.32KB     4.06KB     6.39KB
+============================================================================================
+
+Sat Jun 23 11:48:28 UTC 2018
+TEMPOS 1529754508
+TEMPO 20180623114828
+top - 11:48:28 up 53 min,  2 users,  load average: 0.12, 0.21, 0.77
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.4 id,  6.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  8005128 used,   192316 free,    10252 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4877092 cached Mem
+11:48:28 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:28 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     4.41Kb     4.41Kb     4.41Kb     1.10KB
+     unb5-w-2.c.fresh-yen-165400.internal     <=     9.99Kb     9.99Kb     9.99Kb     2.50KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     3.38Kb     3.38Kb     3.38Kb       865B
+   3 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     3.38Kb     3.38Kb     3.38Kb       865B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     3.38Kb     3.38Kb     3.38Kb       865B
+   5 unb5-m.c.fresh-yen-165400.internal       =>     1.47Kb     1.47Kb     1.47Kb       376B
+     74.125.75.33                             <=       416b       416b       416b       104B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     8.07Kb     8.07Kb     8.07Kb
+Total receive rate:                                  20.5Kb     20.5Kb     20.5Kb
+Total send and receive rate:                         28.6Kb     28.6Kb     28.6Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     8.07Kb     20.5Kb     28.6Kb
+Cumulative (sent/received/total):                    2.02KB     5.13KB     7.15KB
+============================================================================================
+
+Sat Jun 23 11:48:33 UTC 2018
+TEMPOS 1529754513
+TEMPO 20180623114833
+top - 11:48:33 up 54 min,  2 users,  load average: 0.11, 0.20, 0.77
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.4 id,  6.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  8005400 used,   192044 free,    10260 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4877112 cached Mem
+11:48:33 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:33 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     3.34Kb     3.34Kb     3.34Kb       855B
+     unb5-w-2.c.fresh-yen-165400.internal     <=     6.06Kb     6.06Kb     6.06Kb     1.51KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     2.00Kb     2.00Kb     2.00Kb       511B
+   3 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     4.43Kb     4.43Kb     4.43Kb
+Total receive rate:                                  10.7Kb     10.7Kb     10.7Kb
+Total send and receive rate:                         15.1Kb     15.1Kb     15.1Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     4.43Kb     10.7Kb     15.1Kb
+Cumulative (sent/received/total):                    1.11KB     2.67KB     3.78KB
+============================================================================================
+
+Sat Jun 23 11:48:36 UTC 2018
+TEMPOS 1529754516
+TEMPO 20180623114836
+top - 11:48:36 up 54 min,  2 users,  load average: 0.10, 0.20, 0.76
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.4 id,  6.4 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  8005568 used,   191876 free,    10268 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4877108 cached Mem
+11:48:36 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:36 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     4.14Kb     4.14Kb     4.14Kb     1.04KB
+     unb5-w-2.c.fresh-yen-165400.internal     <=     7.49Kb     7.49Kb     7.49Kb     1.87KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     1.98Kb     1.98Kb     1.98Kb       508B
+     unb5-w-3.c.fresh-yen-165400.internal     <=     8.51Kb     8.51Kb     8.51Kb     2.13KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+   4 unb5-m.c.fresh-yen-165400.internal       =>       372b       372b       372b        93B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     1.31Kb     1.31Kb     1.31Kb       335B
+   5 unb5-m.c.fresh-yen-165400.internal       =>       656b       656b       656b       164B
+     74.125.75.33                             <=       208b       208b       208b        52B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     7.50Kb     7.50Kb     7.50Kb
+Total receive rate:                                  18.8Kb     18.8Kb     18.8Kb
+Total send and receive rate:                         26.3Kb     26.3Kb     26.3Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     7.49Kb     18.8Kb     26.3Kb
+Cumulative (sent/received/total):                    1.87KB     4.71KB     6.58KB
+============================================================================================
+
+Sat Jun 23 11:48:40 UTC 2018
+TEMPOS 1529754520
+TEMPO 20180623114840
+top - 11:48:41 up 54 min,  2 users,  load average: 0.17, 0.22, 0.77
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.5 id,  6.3 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  8005512 used,   191932 free,    10268 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4877124 cached Mem
+11:48:41 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:41 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     32.7Kb     32.7Kb     32.7Kb     8.18KB
+     unb5-w-2.c.fresh-yen-165400.internal     <=     65.4Kb     65.4Kb     65.4Kb     16.3KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     10.3Kb     10.3Kb     10.3Kb     2.58KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     25.8Kb     25.8Kb     25.8Kb     6.46KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     1.73Kb     1.73Kb     1.73Kb       442B
+     unb5-w-0.c.fresh-yen-165400.internal     <=     9.94Kb     9.94Kb     9.94Kb     2.49KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>       748b       748b       748b       187B
+     unb5-w-1.c.fresh-yen-165400.internal     <=     3.38Kb     3.38Kb     3.38Kb       865B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     45.5Kb     45.5Kb     45.5Kb
+Total receive rate:                                   105Kb      105Kb      105Kb
+Total send and receive rate:                          150Kb      150Kb      150Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     45.5Kb      105Kb      150Kb
+Cumulative (sent/received/total):                    11.4KB     26.1KB     37.5KB
+============================================================================================
+
+Sat Jun 23 11:48:45 UTC 2018
+TEMPOS 1529754525
+TEMPO 20180623114845
+top - 11:48:45 up 54 min,  2 users,  load average: 0.17, 0.22, 0.77
+Tasks: 136 total,   1 running, 135 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.4 id,  6.3 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7900560 used,   296884 free,    10276 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876204 cached Mem
+11:48:45 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+11:48:45 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.142.0.6
+MAC address is: 42:01:0a:8e:00:06
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 unb5-m.c.fresh-yen-165400.internal       =>     20.6Kb     20.6Kb     20.6Kb     5.15KB
+     unb5-w-0.c.fresh-yen-165400.internal     <=     15.3Kb     15.3Kb     15.3Kb     3.83KB
+   2 unb5-m.c.fresh-yen-165400.internal       =>     12.8Kb     12.8Kb     12.8Kb     3.20KB
+     unb5-w-2.c.fresh-yen-165400.internal     <=     11.7Kb     11.7Kb     11.7Kb     2.93KB
+   3 unb5-m.c.fresh-yen-165400.internal       =>     10.5Kb     10.5Kb     10.5Kb     2.62KB
+     unb5-w-3.c.fresh-yen-165400.internal     <=     8.51Kb     8.51Kb     8.51Kb     2.13KB
+   4 unb5-m.c.fresh-yen-165400.internal       =>     10.5Kb     10.5Kb     10.5Kb     2.62KB
+     unb5-w-1.c.fresh-yen-165400.internal     <=     8.51Kb     8.51Kb     8.51Kb     2.13KB
+   5 unb5-m.c.fresh-yen-165400.internal       =>     5.53Kb     5.53Kb     5.53Kb     1.38KB
+     74.125.75.33                             <=     1.22Kb     1.22Kb     1.22Kb       312B
+   6 unb5-m.c.fresh-yen-165400.internal       =>     3.03Kb     3.03Kb     3.03Kb       776B
+     74.125.75.97                             <=     1.47Kb     1.47Kb     1.47Kb       376B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     62.9Kb     62.9Kb     62.9Kb
+Total receive rate:                                  46.7Kb     46.7Kb     46.7Kb
+Total send and receive rate:                          110Kb      110Kb      110Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     62.9Kb     46.7Kb      110Kb
+Cumulative (sent/received/total):                    15.7KB     11.7KB     27.4KB
+============================================================================================
+
+Sat Jun 23 11:48:49 UTC 2018
+TEMPOS 1529754529
+TEMPO 20180623114849
+top - 11:48:49 up 54 min,  2 users,  load average: 0.40, 0.26, 0.78
+Tasks: 130 total,   2 running, 128 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.8 us,  1.3 sy,  0.0 ni, 88.4 id,  6.3 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7757652 used,   439792 free,    10296 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4876788 cached Mem
