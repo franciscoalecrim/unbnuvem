@@ -1,13 +1,16 @@
 tempoinicial=""
 resultado_csv="analisando_cpu_mem_io_net.csv" 
-echo "nuvem;execucao;workload;maquina;ordem;data em segundos;data YYYYMMDDhhmmss;CPU US;CPU SY;CPU NI;CPU ID;CPU WA;CPU HI;CPU SI;CPU ST;MEM TOTAL;MEM USED;MEM FREE;MEM BUFFER;SWAP TOTAL;SWAP USED;DISK TOTAL READ;DISK TOTAL WRITE;DISK CURRENT READ;DISK CURRENT WRITE;NET SEND 2SECS;NET RECEIVE 2SEC; NET SEND RECEIVE 2S;"  > $resultado_csv
+echo "configuracao;nuvem;execucao;workload;maquina;ordem;data em segundos;data YYYYMMDDhhmmss;CPU US;CPU SY;CPU NI;CPU ID;CPU WA;CPU HI;CPU SI;CPU ST;MEM TOTAL;MEM USED;MEM FREE;MEM BUFFER;SWAP TOTAL;SWAP USED;DISK TOTAL READ;DISK TOTAL WRITE;DISK CURRENT READ;DISK CURRENT WRITE;NET SEND 2SECS;NET RECEIVE 2SEC; NET SEND RECEIVE 2S;"  > $resultado_csv
 for file in $(find | grep monitoramento |  grep "cpu_mem" | grep -v "pid" | sort -u ); do 
 	echo $file
-	nuvem=$(echo $file | cut -f 2 -d\/ )
-	execucao=$(echo $file | cut -f 3 -d\/ )
-	workload=$(echo $file | cut -f 5 -d\/ )
-	tipo=$(echo $file | cut -f 7 -d\/ )
-	maquina=$(echo $file | cut -f 4 -d\/ )
+
+	tipo=$(echo $file | cut -f 8 -d\/ )
+	maquina=$(echo $file | cut -f 5 -d\/ )
+	configuracao=$(echo $file | cut -f 2 -d\/ )
+	nuvem=$(echo $file | cut -f 3 -d\/ )
+	execucao=$(echo $file | cut -f 4 -d\/ )
+	workload=$(echo $file | cut -f 6 -d\/ )
+
 	line_5="";	
 	line_4="";	
 	line_3="";	
@@ -36,7 +39,7 @@ for file in $(find | grep monitoramento |  grep "cpu_mem" | grep -v "pid" | sort
 	for line in $(cat $file); do
 		if [ "$atual" == "TEMPOS"  ]; then
 			ordem=$((ordem + 1))
-			echo "$nuvem;$execucao;$workload;$maquina;$ordem;$datas;$data;$cpu_us;$cpu_sy;$cpu_ni;$cpu_id;$cpu_wa;$CPU_HI;$CPU_SI;$CPU_ST;$MEM_TOTAL;$MEM_USED;$MEM_FREE;$MEM_BUFFER;$SWAP_TOTAL;$SWAP_USED;$DISK_TOTAL_READ;$DISK_TOTAL_WRITE;$DISK_CURRENT_READ;$DISK_CURRENT_WRITE;$NET_SEND_2SECS;$NET_RECEIVE_2SEC;$NET_SEND_RECEIVE_2S;" >> $resultado_csv 
+			echo "$configuracao;$nuvem;$execucao;$workload;$maquina;$ordem;$datas;$data;$cpu_us;$cpu_sy;$cpu_ni;$cpu_id;$cpu_wa;$CPU_HI;$CPU_SI;$CPU_ST;$MEM_TOTAL;$MEM_USED;$MEM_FREE;$MEM_BUFFER;$SWAP_TOTAL;$SWAP_USED;$DISK_TOTAL_READ;$DISK_TOTAL_WRITE;$DISK_CURRENT_READ;$DISK_CURRENT_WRITE;$NET_SEND_2SECS;$NET_RECEIVE_2SEC;$NET_SEND_RECEIVE_2S;" >> $resultado_csv 
 		fi
 		line_5=$line_4;
 		line_4=$line_3;
@@ -77,5 +80,5 @@ for file in $(find | grep monitoramento |  grep "cpu_mem" | grep -v "pid" | sort
 		fi
 	done;
 	ordem=$((ordem + 1))
-	echo "$nuvem;$execucao;$workload;$maquina;$ordem;$datas;$data;$cpu_us;$cpu_sy;$cpu_ni;$cpu_id;$cpu_wa;$CPU_HI;$CPU_SI;$CPU_ST;$MEM_TOTAL;$MEM_USED;$MEM_FREE;$MEM_BUFFER;$SWAP_TOTAL;$SWAP_USED;$DISK_TOTAL_READ;$DISK_TOTAL_WRITE;$DISK_CURRENT_READ;$DISK_CURRENT_WRITE;$NET_SEND_2SECS;$NET_RECEIVE_2SEC;$NET_SEND_RECEIVE_2S;" >> $resultado_csv 
+	echo "$configuracao;$nuvem;$execucao;$workload;$maquina;$ordem;$datas;$data;$cpu_us;$cpu_sy;$cpu_ni;$cpu_id;$cpu_wa;$CPU_HI;$CPU_SI;$CPU_ST;$MEM_TOTAL;$MEM_USED;$MEM_FREE;$MEM_BUFFER;$SWAP_TOTAL;$SWAP_USED;$DISK_TOTAL_READ;$DISK_TOTAL_WRITE;$DISK_CURRENT_READ;$DISK_CURRENT_WRITE;$NET_SEND_2SECS;$NET_RECEIVE_2SEC;$NET_SEND_RECEIVE_2S;" >> $resultado_csv 
 done
