@@ -147,10 +147,14 @@ CONFIGURAÇÃO 3 - Configuração utilizada durante coleta  dos scripts(1 master
 - Baixar este projeto
 
   ```
+  git clone https://github.com/leonardoreboucas/projetonuvem.git
+  ou
   git clone https://github.com/franciscoalecrim/unbnuvem.git
   ```
 
   ```
+  cd projetonuvem
+  ou
   cd unbnuvem
   ```
 
