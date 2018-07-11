@@ -1,5 +1,6 @@
 #!/bin/bash
 WORKLOAD=$1
+date > ${WORKLOAD}/monitoramento/cpu_mem_io_net.txt
 while [ true ]; do
   date  >> ${WORKLOAD}/monitoramento/cpu_mem_io_net.txt 2>&1
   echo "TEMPOS $(date +%s)" >> ${WORKLOAD}/monitoramento/cpu_mem_io_net.txt 2>&1

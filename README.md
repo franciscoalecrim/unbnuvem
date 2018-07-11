@@ -14,7 +14,7 @@
 - Executar workloads hadoop em diferentes provedores de núvem
 
 ##### Workloads
-- Workload 1 - Calcular a quantidade de bolsas família pagos em 2017 por estado
+- Workload 1 - Calcular a quantidade de bolsas família pagos em 2017 por estado (FIXME - O resultado do workload precisa ser revalidado após nova base de dados.)
   
   ```
   Qtde de bolsas  Estado
@@ -47,7 +47,7 @@
   548550  RR
   ```
   
-- Workload 2 - Calcular a frequência de recebimentos de bolsa familia por NIS agrupado pela quantidade
+- Workload 2 - Calcular a frequência de recebimentos de bolsa familia por NIS agrupado pela quantidade (FIXME - O resultado do workload precisa ser revalidado após nova base de dados.)
   
   *Nesse caso **11220885** pessoas receberam o bolsa família **12** vezes em 2017 e **12180822** apenas **uma** vez. Observe que **819** pessoas receberam o benefício **23** vezes*
   
@@ -101,32 +101,45 @@ CONFIGURAÇÃO 0 - Configuração utilizada durante a criação dos scripts:
     - Master: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
     - Workers: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
 
-CONFIGURAÇÃO 1 - Configuração utilizada durante coleta dos scripts(1 master e 2 workers) - será chamado de COLETA 5 :
+CONFIGURAÇÃO 1 - Configuração utilizada durante coleta  dos scripts(1 master e 4 workers) - será chamado de COLETA 1 :
 - Google Cloud - Região (us-east1-b - Carolina do Sul/US)
   - Serviço: Dataproc  
-    - Master: 1 x 2 Cores 8 RAM HD 32Gb
-    - Workers: 2 x 2 Cores 8 RAM HD 32Gb
+    - Master: 1 x 4 Cores 8 RAM HD 120Gb
+    - Workers: 4 x 4 Cores 8 RAM HD 120Gb
   
 - AWS - Região (Carolina do Norte/US)
   - Criação de KeyPair (para acessar às máquinas)
   - Criação de Grupo de Segurança (para liberar acesso à porta 22 SSH)
   - Serviço: EMR
-    - Master: 1 x m4.large (2 Cores 8 RAM HD 32Gb)
-    - Workers: 2 x m4.large (2 Cores 8 RAM HD 32Gb)
- 
- 
-CONFIGURAÇÃO 2 - Configuração utilizada durante coleta  dos scripts(1 master e 4 workers) - será chamado de COLETA 2 :
+    - Master: 1 x m4.large (4 Cores 8 RAM HD 120Gb)
+    - Workers: 4 x m4.large (4 Cores 8 RAM HD 120Gb)
+
+
+CONFIGURAÇÃO 2 - Configuração utilizada durante coleta  dos scripts(1 master e 8 workers) - será chamado de COLETA 2 :
 - Google Cloud - Região (us-east1-b - Carolina do Sul/US)
   - Serviço: Dataproc  
-    - Master: 1 x 4 Cores 8 RAM HD 32Gb
-    - Workers: 4 x 4 Cores 8 RAM HD 32Gb
+    - Master: 1 x 4 Cores 8 RAM HD 120Gb
+    - Workers: 8 x 4 Cores 8 RAM HD 120Gb
   
 - AWS - Região (Carolina do Norte/US)
   - Criação de KeyPair (para acessar às máquinas)
   - Criação de Grupo de Segurança (para liberar acesso à porta 22 SSH)
   - Serviço: EMR
-    - Master: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
-    - Workers: 4 x m4.large (4 Cores 8 RAM HD 32Gb)
+    - Master: 1 x m4.large (4 Cores 8 RAM HD 120Gb)
+    - Workers: 8 x m4.large (4 Cores 8 RAM HD 120Gb)
+
+CONFIGURAÇÃO 3 - Configuração utilizada durante coleta  dos scripts(1 master e 16 workers) - será chamado de COLETA 3 :
+- Google Cloud - Região (us-east1-b - Carolina do Sul/US)
+  - Serviço: Dataproc  
+    - Master: 1 x 4 Cores 8 RAM HD 120Gb
+    - Workers: 8 x 4 Cores 8 RAM HD 120Gb
+  
+- AWS - Região (Carolina do Norte/US)
+  - Criação de KeyPair (para acessar às máquinas)
+  - Criação de Grupo de Segurança (para liberar acesso à porta 22 SSH)
+  - Serviço: EMR
+    - Master: 1 x m4.large (4 Cores 8 RAM HD 120Gb)
+    - Workers: 8 x m4.large (4 Cores 8 RAM HD 120Gb)
  
 ##### Utilização
 - Aprovisionar a núvem
@@ -134,46 +147,60 @@ CONFIGURAÇÃO 2 - Configuração utilizada durante coleta  dos scripts(1 master
 - Baixar este projeto
 
   ```
-  git clone https://github.com/leonardoreboucas/projetonuvem.git
-	ou 
-
   git clone https://github.com/franciscoalecrim/unbnuvem.git
   ```
 
   ```
-  cd projetonuvem
+  cd unbnuvem
   ```
 
 - Baixar os dados do Portal da transparência
   ```
-  ./baixar_dados.sh
+  ./baixar_dados.sh (FIXME - script precisa ser ajustado para baixar dados do site próximo do google via SSH ou WGET http://35.237.211.40/unbnuvem/dados/ )
   ```
-- Se AWS 
+
+- Se o provedor de nuvem for Amazon AWS 
   ```
    sudo -u hdfs hdfs dfsadmin -safemode leave
    ```
-- Copiar dados para o Hadoop
+
+- Depois do download finalizado, copiar dados para o Hadoop utilizando script abaixo. 
   ```
   ./copiar_para_hadoop.sh
   ```
 
-- Mexer no arquivo nodes_IPs
+- Enquanto o download é realizado, prosseguir com configuração do ambiente. 
+
+- A coleta no master e nodes é controlada pelo master, portanto para o master conseguir controlar a coleta nos nodes ele precisa conseguir realizar o SSH sem senha do master para dentro dos nodes. 
+
+- Coleta no arquivo nodes_IPs os IPs internos dos nodes. Não precisa colocar o IP do master, somente os IPs internos dos nodes.
   ```
   vim nodes_IPs
   ```
-- Se Google Cloud realizar a troca de chaves SSH sem senha
+- Gerar o par de chave pública e privada no master e distribuir essas chaves para os nodes. 
   ```
   ssh-keygen -t rsa 
   ```
-- Testar script de coletas multiplas 
+- Copiar a chave pública para cada um dos nodes: 
+  ```
+  #executar no master - copiar o valor da chave inteiro
+  cat ~/.ssh/id_rsa.pub 
+  
+  #executar em cada node - copiando a chave pública do master no arquivo de autorizações do node
+  vim ~/.ssh/authorized_keys
+  ```
+
+- Testar script de coletas multiplas para ver se está conseguindo fazer SSH sem senha. O script vai entrar em cada uma das máquinas nodes e executar o comando "hostname" apresentando o nome de cada node. 
   ```
   ./nodes_configurar_monitorar.sh
   ```
-- Realizar configuração caso consiga fazer os SSHs sem senha
+
+- Realizar configuração caso consiga fazer os SSHs sem senha. O script vai entrar em cada um dos nodes e fazer a instalação dos softwares necessários para coleta e monitoramento do SO.
   ```
   ./nodes_configurar_monitorar.sh configurar
   ```
-- Múltiplas execuções podem ser feitas utilizando o script abaixo que realiza 5 execuções
+  
+- O script de múltiplas execuções realizará 5 execuções dos scripts workload1.sh e workload2.sh e irá organizar os resultados em pastas com nome execucao<N>. 
   ```
   ./multiplas_execucoes.sh
   ```
@@ -181,93 +208,43 @@ CONFIGURAÇÃO 2 - Configuração utilizada durante coleta  dos scripts(1 master
 
 
 ##### Monitoramento
-Os dados de monitoramentos serão gerados nos diretórios: [workload]/monitoramento
+Os dados de monitoramentos serão gerados nos diretórios: [workload]/monitoramento e [workload]/<node name>
 Monitores:
- CPU (top)
+ CPU e Memória são coletados por meio do top. IO de disco coletado por meio do iotop. Taxa de rede coletao por meio do iftop. Gerando um arquivo com a coleta abaixo repetidas vezes. 
  ```
- echo `date +'%s'` `sudo top -bc -d 1 -n 1 | grep -m1 -e '%Cpu'`
- ```
- CPU (saída)
- ```
-1529085524 %Cpu(s): 24.3 us, 18.6 sy, 0.0 ni, 50.2 id, 6.4 wa, 0.0 hi, 0.5 si, 0.0 st
-1529085525 %Cpu(s): 24.3 us, 18.6 sy, 0.0 ni, 50.2 id, 6.4 wa, 0.0 hi, 0.5 si, 0.0 st
-1529085526 %Cpu(s): 24.3 us, 18.6 sy, 0.0 ni, 50.1 id, 6.4 wa, 0.0 hi, 0.5 si, 0.0 st
-1529085528 %Cpu(s): 24.3 us, 18.6 sy, 0.0 ni, 50.1 id, 6.4 wa, 0.0 hi, 0.5 si, 0.0 st
-1529085529 %Cpu(s): 24.3 us, 18.6 sy, 0.0 ni, 50.1 id, 6.4 wa, 0.0 hi, 0.5 si, 0.0 st
-1529085530 %Cpu(s): 24.3 us, 18.6 sy, 0.0 ni, 50.1 id, 6.4 wa, 0.0 hi, 0.5 si, 0.0 st
-1529085531 %Cpu(s): 24.3 us, 18.6 sy, 0.0 ni, 50.1 id, 6.4 wa, 0.0 hi, 0.5 si, 0.0 st
-1529085532 %Cpu(s): 24.3 us, 18.6 sy, 0.0 ni, 50.1 id, 6.4 wa, 0.0 hi, 0.5 si, 0.0 st
-1529085534 %Cpu(s): 24.3 us, 18.6 sy, 0.0 ni, 50.1 id, 6.3 wa, 0.0 hi, 0.5 si, 0.0 st
-1529085535 %Cpu(s): 24.3 us, 18.6 sy, 0.0 ni, 50.1 id, 6.3 wa, 0.0 hi, 0.5 si, 0.0 st
-1529085536 %Cpu(s): 24.4 us, 18.6 sy, 0.0 ni, 50.1 id, 6.3 wa, 0.0 hi, 0.5 si, 0.0 st
-1529085537 %Cpu(s): 24.4 us, 18.6 sy, 0.0 ni, 50.1 id, 6.3 wa, 0.0 hi, 0.5 si, 0.0 st
-1529085538 %Cpu(s): 24.4 us, 18.6 sy, 0.0 ni, 50.1 id, 6.3 wa, 0.0 hi, 0.5 si, 0.0 st
-1529085540 %Cpu(s): 24.4 us, 18.6 sy, 0.0 ni, 50.1 id, 6.3 wa, 0.0 hi, 0.5 si, 0.0 st
- ```
- 
- 
- 
- IO (iotop)
- ```
- echo `date +'%s'` `sudo iotop -b -a -k -t -o -n 1 -d 1 | grep "Actual DISK"` `sudo iotop -b -a -k -t -o -n 1 -d 1 | grep "Total DISK"` 
- ```
- 
- IO (saída)
- ```
-1529085963 18:06:03 Actual DISK READ: 0.00 K/s | Actual DISK WRITE: 0.00 K/s 18:06:04 Total DISK READ : 0.00 K/s | Total DISK WRITE : 0.00 K/s
-1529085965 18:06:05 Actual DISK READ: 0.00 K/s | Actual DISK WRITE: 0.00 K/s 18:06:05 Total DISK READ : 0.00 K/s | Total DISK WRITE : 59.95 K/s
-1529085966 18:06:06 Actual DISK READ: 0.00 K/s | Actual DISK WRITE: 0.00 K/s 18:06:06 Total DISK READ : 0.00 K/s | Total DISK WRITE : 0.00 K/s
-1529085967 18:06:08 Actual DISK READ: 0.00 K/s | Actual DISK WRITE: 0.00 K/s 18:06:08 Total DISK READ : 0.00 K/s | Total DISK WRITE : 0.00 K/s
-1529085969 18:06:09 Actual DISK READ: 0.00 K/s | Actual DISK WRITE: 76.12 K/s 18:06:09 Total DISK READ : 0.00 K/s | Total DISK WRITE : 161.47 K/s
-1529085970 18:06:11 Actual DISK READ: 0.00 K/s | Actual DISK WRITE: 0.00 K/s 18:06:11 Total DISK READ : 0.00 K/s | Total DISK WRITE : 0.00 K/s
-1529085972 18:06:12 Actual DISK READ: 0.00 K/s | Actual DISK WRITE: 0.00 K/s 18:06:12 Total DISK READ : 0.00 K/s | Total DISK WRITE : 0.00 K/s
-1529085973 18:06:14 Actual DISK READ: 0.00 K/s | Actual DISK WRITE: 0.00 K/s 18:06:14 Total DISK READ : 0.00 K/s | Total DISK WRITE : 0.00 K/s  
+Mon Jun 25 16:19:43 UTC 2018
+TEMPOS 1529943583
+TEMPO 20180625161943
+top - 16:19:43 up  1:35,  3 users,  load average: 0.42, 0.18, 0.20
+Tasks: 141 total,   1 running, 133 sleeping,   7 stopped,   0 zombie
+%Cpu(s):  3.1 us,  1.1 sy,  0.0 ni, 92.1 id,  3.6 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   8197444 total,  7540068 used,   657376 free,    15128 buffers
+KiB Swap:        0 total,        0 used,        0 free.  4282200 cached Mem
+16:19:43 Total DISK READ :       0.00 K/s | Total DISK WRITE :       0.00 K/s
+16:19:43 Actual DISK READ:       0.00 K/s | Actual DISK WRITE:       0.00 K/s
+    TIME  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+interface: eth0
+IP address is: 10.140.0.4
+MAC address is: 42:01:0a:8c:00:04
+Listening on eth0
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 cluster-e948-m.c.ivory-nectar-208109.in  =>     3.64Kb     3.64Kb     3.64Kb       932B
+     189.6.12.181                             <=       480b       480b       480b       120B
+   2 cluster-e948-m.c.ivory-nectar-208109.in  =>       788b       788b       788b       197B
+     cluster-e948-w-0.c.ivory-nectar-208109.  <=     1.72Kb     1.72Kb     1.72Kb       440B
+   3 cluster-e948-m.c.ivory-nectar-208109.in  =>       372b       372b       372b        93B
+     cluster-e948-w-1.c.ivory-nectar-208109.  <=     1.34Kb     1.34Kb     1.34Kb       342B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     4.77Kb     4.77Kb     4.77Kb
+Total receive rate:                                  3.52Kb     3.52Kb     3.52Kb
+Total send and receive rate:                         8.30Kb     8.30Kb     8.30Kb
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     4.77Kb     3.52Kb     8.30Kb
+Cumulative (sent/received/total):                    1.19KB       902B     2.07KB
+============================================================================================
+
  ```
  
- 
- Memória (top)
- ```
- echo `date +'%s'` `sudo top -bc -d 1 -n 1 | grep -m1 -e 'KiB Mem'`
- ```
- 
- Memória (saída)
- ```
-1529085945 KiB Mem: 3800612 total, 3583308 used, 217304 free, 9372 buffers
-1529085946 KiB Mem: 3800612 total, 3567392 used, 233220 free, 9372 buffers
-1529085947 KiB Mem: 3800612 total, 3566340 used, 234272 free, 9372 buffers
-1529085948 KiB Mem: 3800612 total, 3567408 used, 233204 free, 9372 buffers
-1529085949 KiB Mem: 3800612 total, 3564536 used, 236076 free, 9372 buffers
-1529085950 KiB Mem: 3800612 total, 3567580 used, 233032 free, 9380 buffers
-1529085952 KiB Mem: 3800612 total, 3568128 used, 232484 free, 9380 buffers
-1529085953 KiB Mem: 3800612 total, 3578440 used, 222172 free, 9380 buffers
-1529085954 KiB Mem: 3800612 total, 3572576 used, 228036 free, 9380 buffers
-1529085955 KiB Mem: 3800612 total, 3580352 used, 220260 free, 9388 buffers
-1529085956 KiB Mem: 3800612 total, 3575640 used, 224972 free, 9388 buffers
-1529085958 KiB Mem: 3800612 total, 3579748 used, 220864 free, 9388 buffers
-1529085959 KiB Mem: 3800612 total, 3569808 used, 230804 free, 9388 buffers
-1529085960 KiB Mem: 3800612 total, 3569636 used, 230976 free, 9396 buffers
-1529085961 KiB Mem: 3800612 total, 3570148 used, 230464 free, 9396 buffers
-1529085962 KiB Mem: 3800612 total, 3566556 used, 234056 free, 9396 buffers
-1529085964 KiB Mem: 3800612 total, 3569828 used, 230784 free, 9396 buffers
- ```
-  
- Rede (iftop)
- ```
- echo `date +"%s"` `sudo iftop -t -p -s 1 | grep "send rate"` `sudo iftop -t -p -s 1 | grep "receive rate"`
- ```
- 
-  Rede (saída)
- ``` 
-1529085653 Total send rate: 33.7Kb 33.7Kb 33.7Kb Total receive rate: 20.7Kb 20.7Kb 20.7Kb Total send and receive rate: 105Kb 105Kb 105Kb
-1529085661 Total send rate: 42.4Kb 42.4Kb 42.4Kb Total receive rate: 13.4Kb 13.4Kb 13.4Kb Total send and receive rate: 62.6Kb 62.6Kb 62.6Kb
-1529085667 Total send rate: 6.25Kb 6.25Kb 6.25Kb Total receive rate: 16.1Kb 16.1Kb 16.1Kb Total send and receive rate: 106Kb 106Kb 106Kb
-1529085673 Total send rate: 85.9Kb 85.9Kb 85.9Kb Total receive rate: 22.4Kb 22.4Kb 22.4Kb Total send and receive rate: 34.9Kb 34.9Kb 34.9Kb
-1529085680 Total send rate: 5.21Kb 5.21Kb 5.21Kb Total receive rate: 21.1Kb 21.1Kb 21.1Kb Total send and receive rate: 57.1Kb 57.1Kb 57.1Kb
-1529085687 Total send rate: 55.6Kb 55.6Kb 55.6Kb Total receive rate: 16.1Kb 16.1Kb 16.1Kb Total send and receive rate: 21.3Kb 21.3Kb 21.3Kb
-1529085693 Total send rate: 4.55Kb 4.55Kb 4.55Kb Total receive rate: 17.9Kb 17.9Kb 17.9Kb Total send and receive rate: 39.3Kb 39.3Kb 39.3Kb
-1529085700 Total send rate: 16.9Kb 16.9Kb 16.9Kb Total receive rate: 15.9Kb 15.9Kb 15.9Kb Total send and receive rate: 215Kb 215Kb 215Kb
-1529085707 Total send rate: 220Kb 220Kb 220Kb Total receive rate: 14.8Kb 14.8Kb 14.8Kb Total send and receive rate: 49.5Kb 49.5Kb 49.5Kb
-1529085714 Total send rate: 26.4Kb 26.4Kb 26.4Kb Total receive rate: 15.0Kb 15.0Kb 15.0Kb Total send and receive rate: 20.8Kb 20.8Kb 20.8Kb
-1529085721 Total send rate: 85.9Kb 85.9Kb 85.9Kb Total receive rate: 14.7Kb 14.7Kb 14.7Kb Total send and receive rate: 24.1Kb 24.1Kb 24.1Kb
-1529085728 Total send rate: 145Kb 145Kb 145Kb Total receive rate: 17.3Kb 17.3Kb 17.3Kb Total send and receive rate: 152Kb 152Kb 152Kb
-```
+
+ O script de pós-processamento dos dados está na pasta resultados_organizados. Seguir a organização dos resultados conforme pasta já criada e utilizar scripts disponíveis na pasta. 

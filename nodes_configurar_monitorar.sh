@@ -15,7 +15,7 @@ execute_cluster () {
 	done 
 }
 
-execute_cluster_background () {
+e/xecute_cluster_background () {
 	for server in $(cat nodes_IPs); do 
 		echo "executing on server: 	 	$server  command $1"
 		ssh -i chave.pem $server "$1"  &
@@ -70,9 +70,12 @@ if [ "$1" == "monitorar" ]; then
 	exit 0
 fi 
 
-
+if [ "$1" == "limpar" ]; then 
 	execute_cluster "ps aux | grep monitor | grep -v heartbeat  "
-execute_cluster "rm -rf teste teste1 workload1 workload2"
+	execute_cluster "rm -rf teste teste1 workload1 workload2"
+fi 
+
+execute_cluster "hostname"
 
 echo "escolher entra as opcoes: monitorar e configurar "
 
