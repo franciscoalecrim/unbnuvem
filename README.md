@@ -147,20 +147,18 @@ CONFIGURAÇÃO 3 - Configuração utilizada durante coleta  dos scripts(1 master
 - Baixar este projeto
 
   ```
-  git clone https://github.com/leonardoreboucas/projetonuvem.git
-  ou
   git clone https://github.com/franciscoalecrim/unbnuvem.git
   ```
 
   ```
-  cd projetonuvem
-  ou
   cd unbnuvem
   ```
 
-- Baixar os dados do Portal da transparência
+- Baixar os dados do Portal da transparência ou de um repositório do Google localizado em us-east
   ```
-  ./baixar_dados.sh (FIXME - script precisa ser ajustado para baixar dados do site próximo do google via SSH ou WGET http://35.237.211.40/unbnuvem/dados/ )
+  ./baixar_dados_google.sh 
+  ou 
+  ./baixar_dados_GOV_BR.sh 
   ```
 
 - Se o provedor de nuvem for Amazon AWS 
