@@ -2,10 +2,24 @@
 ###
 #  Parametros
 ###
-ANO=2017
 MESES=12
 mkdir dados
 mkdir dados/pids
+
+
+#####
+#  INstalando pre requisitos
+#####
+echo "Instalando pre requisitos"
+sudo apt-get install -y iotop
+sudo apt-get install -y unzip
+sudo apt-get install -y iftop
+sudo sed -i 's/enabled=0/enabled=1/g'  /etc/yum.repos.d/epel.repo
+sudo yum repolist 
+sudo yum install -y iotop
+sudo yum install -y unzip
+sudo yum install -y iftop
+
 
 #####
 #  Baixando arquivos do portal da transparência
@@ -31,6 +45,7 @@ for ANO in $(seq 2013 2018); do
 		CONT=$(($CONT + 1))
 	done
 done 
+
 echo "Aguardando"
 sleep 5
 cd dados/pids
@@ -67,12 +82,12 @@ for ANO in $(seq 2013 2018); do
 		else
 			CONT_S=$CONT
 		fi
-		if [ "`ls dados | grep ${ANO}${CONT_S}_BolsaFamiliaFolhaPagamento.csv`" == "" ]; then
+		if [ "`ls dados | grep ${ANO}${CONT_S}_BolsaFamilia_Pagamentos.csv`" == "" ]; then
 			echo "\nDescompactando dados/${ANO}$CONT_S.zip"
 			unzip -o "dados/${ANO}${CONT_S}.zip" -d dados &
 			echo $! > dados/pids/$!
 		else
-			echo "${ANO}${CONT_S}_BolsaFamiliaFolhaPagamento.csv já existe"
+			echo "${ANO}${CONT_S}_BolsaFamilia_Pagamentos.csv já existe"
 		fi
 		CONT=$(($CONT + 1))
 	done

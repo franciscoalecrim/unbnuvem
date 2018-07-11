@@ -2,8 +2,7 @@
 ###
 #  Parametros
 ###
-ANO=2017
-MESES=12
+ANO=201
 HADOOP_JAR=/usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
 WORKLOAD=workload2
 
@@ -20,7 +19,7 @@ hdfs dfs -rm -r -f /output*
 ###
 #  Execução do Workload
 ###
-echo "Executando WORKLOAD 2 - Contando as ocorrencias de NIS em 2017"
+echo "Executando WORKLOAD 2 - Contando as ocorrencias de NIS em 201*"
 hadoop jar $HADOOP_JAR grep /input/${ANO}*.csv /output/$WORKLOAD "\t\d\d\d\d\d\d\d\d\d\d\d\d\d\d\t"
 hdfs dfs -cat /output/$WORKLOAD/part-r-00000 > $WORKLOAD/resultado.txt
 echo "Consolidando os dados"

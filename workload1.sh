@@ -2,8 +2,7 @@
 ###
 #  Parametros
 ###
-ANO=2017
-MESES=12
+ANO=201
 HADOOP_JAR=/usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
 WORKLOAD=workload1
 

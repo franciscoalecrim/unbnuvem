@@ -91,15 +91,15 @@
 CONFIGURAÇÃO 0 - Configuração utilizada durante a criação dos scripts:
 - Google Cloud - Região (us-east1-b - Carolina do Sul/US)
   - Serviço: Dataproc  
-    - Master: 1 x 4 Cores 8 RAM HD 32Gb
-    - Workers: 1 x 4 Cores 8 RAM HD 32Gb
+    - Master: 1 x 4 Cores 8 RAM HD 120Gb
+    - Workers: 1 x 4 Cores 8 RAM HD 120Gb
   
 - AWS - Região (Carolina do Norte/US)
   - Criação de KeyPair (para acessar às máquinas)
   - Criação de Grupo de Segurança (para liberar acesso à porta 22 SSH)
   - Serviço: EMR
-    - Master: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
-    - Workers: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
+    - Master: 1 x m4.large (4 Cores 8 RAM HD 120Gb)
+    - Workers: 1 x m4.large (4 Cores 8 RAM HD 120Gb)
 
 CONFIGURAÇÃO 1 - Configuração utilizada durante coleta  dos scripts(1 master e 4 workers) - será chamado de COLETA 1 :
 - Google Cloud - Região (us-east1-b - Carolina do Sul/US)

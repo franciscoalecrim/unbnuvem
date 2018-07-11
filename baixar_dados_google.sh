@@ -24,22 +24,26 @@ sudo yum install -y iftop
 #  Baixando arquivos do portal da transparência
 #####
 echo "Baixando arquivos do portal da transparência\n"
-CONT=1
-while [ "$CONT" -le $MESES ]; do
-  if [ "$CONT" -le 9 ]; then
-    CONT_S=0$CONT
-  else
-    CONT_S=$CONT
-  fi
-  if [ "`ls dados | grep ${ANO}$CONT_S.zip`" == "" ]; then
-    echo "\nBaixando ${ANO}${CONT_S}.zip"
-    wget -q -O "dados/${ANO}$CONT_S.zip" "http://arquivos.portaldatransparencia.gov.br/downloads.asp?a=${ANO}&m=${CONT_S}&consulta=BolsaFamiliaFolhaPagamento" & 
-    echo $! > dados/pids/$!
-  else
-    echo -e "\n${ANO}$CONT_S.zip já existe"
-  fi
-  CONT=$(($CONT + 1))
-done
+for ANO in $(seq 2013 2018); do 
+  CONT=1
+  while [ "$CONT" -le $MESES ]; do
+    if [ "$CONT" -le 9 ]; then
+      CONT_S=0$CONT
+    else
+      CONT_S=$CONT
+    fi
+    if [ "`ls dados | grep ${ANO}$CONT_S.zip`" == "" ]; then
+      echo "\nBaixando ${ANO}${CONT_S}.zip"
+      #wget -q -O "dados/${ANO}$CONT_S.zip" "http://arquivos.portaldatransparencia.gov.br/downloads.asp?a=${ANO}&m=${CONT_S}&consulta=BolsaFamiliaFolhaPagamento" & 
+      wget -q -O "dados/${ANO}$CONT_S.zip" "http://35.237.211.40/unbnuvem/dados/${ANO}${CONT_S}.zip" & 
+      echo $! > dados/pids/$!
+    else
+      echo -e "\n${ANO}$CONT_S.zip já existe"
+    fi
+    CONT=$(($CONT + 1))
+  done
+done 
+
 echo "Aguardando"
 sleep 5
 cd dados/pids
@@ -75,12 +79,12 @@ while [ "$CONT" -le $MESES ]; do
   else
     CONT_S=$CONT
   fi
-  if [ "`ls dados | grep ${ANO}${CONT_S}_BolsaFamiliaFolhaPagamento.csv`" == "" ]; then
+  if [ "`ls dados | grep ${ANO}${CONT_S}_BolsaFamilia_Pagamentos.csv`" == "" ]; then
     echo "\nDescompactando dados/${ANO}$CONT_S.zip"
     unzip -o "dados/${ANO}${CONT_S}.zip" -d dados &
     echo $! > dados/pids/$!
   else
-    echo "${ANO}${CONT_S}_BolsaFamiliaFolhaPagamento.csv já existe"
+    echo "${ANO}${CONT_S}_BolsaFamilia_Pagamentos.csv já existe"
   fi
   CONT=$(($CONT + 1))
 done
