@@ -187,6 +187,7 @@ CONFIGURAÇÃO 3 - Configuração utilizada durante coleta  dos scripts(1 master
   ```
   #executar no master - copiar o valor da chave inteiro
   cat ~/.ssh/id_rsa.pub 
+  cp ~/.ssh/id_rsa chave.pem 
   
   #executar em cada node - copiando a chave pública do master no arquivo de autorizações do node
   vim ~/.ssh/authorized_keys

@@ -6,6 +6,7 @@ ANO=2017
 MESES=12
 mkdir dados
 mkdir dados/pids
+date
 
 #####
 #  INstalando pre requisitos
@@ -72,21 +73,23 @@ done
 #####
 echo "Descompactando arquivos"
 cd ../..
-CONT=1
-while [ "$CONT" -le $MESES ]; do
-  if [ "$CONT" -le 9 ]; then
-    CONT_S=0$CONT
-  else
-    CONT_S=$CONT
-  fi
-  if [ "`ls dados | grep ${ANO}${CONT_S}_BolsaFamilia_Pagamentos.csv`" == "" ]; then
-    echo "\nDescompactando dados/${ANO}$CONT_S.zip"
-    unzip -o "dados/${ANO}${CONT_S}.zip" -d dados &
-    echo $! > dados/pids/$!
-  else
-    echo "${ANO}${CONT_S}_BolsaFamilia_Pagamentos.csv já existe"
-  fi
-  CONT=$(($CONT + 1))
+for ANO in $(seq 2013 2018); do 
+  CONT=1
+  while [ "$CONT" -le $MESES ]; do
+    if [ "$CONT" -le 9 ]; then
+      CONT_S=0$CONT
+    else
+      CONT_S=$CONT
+    fi
+    if [ "`ls dados | grep ${ANO}${CONT_S}_BolsaFamilia_Pagamentos.csv`" == "" ]; then
+      echo "\nDescompactando dados/${ANO}$CONT_S.zip"
+      unzip -o "dados/${ANO}${CONT_S}.zip" -d dados &
+      echo $! > dados/pids/$!
+    else
+      echo "${ANO}${CONT_S}_BolsaFamilia_Pagamentos.csv já existe"
+    fi
+    CONT=$(($CONT + 1))
+  done
 done
 
 echo "Aguardando"
@@ -111,3 +114,4 @@ while [ true ]; do
 done
 
 echo "Processo de copia Finalizado"
+date

@@ -3,7 +3,7 @@
 #  Parametros
 ###
 MESES=12
-
+date
 ###
 #  Limpando os dados no hadoop (caso hajam) 
 ###
@@ -30,3 +30,4 @@ for ANO in $(seq 2013 2018); do
   done
 done
 echo "Copia para o hadoop finalizada"
+date
