@@ -26,32 +26,10 @@ for ANO in $(seq 2013 2018); do
       CONT_S=$CONT
     fi
     echo "Copiando ${ANO}${CONT_S}_BolsaFamilia_Pagamentos.csv"
-    hdfs dfs -copyFromLocal dados/${ANO}${CONT_S}_BolsaFamilia_Pagamentos.csv /input & 
-    echo $! > dados/pids/$!
+    hdfs dfs -copyFromLocal dados/${ANO}${CONT_S}_BolsaFamilia_Pagamentos.csv /input 
+    
     CONT=$(($CONT + 1))
   done
-
-  echo "Aguardando ano de ${ANO}"
-  cd dados/pids
-  while [ true ]; do
-    echo "Verificando processos ativos..."
-    for x in *; do
-      echo $x
-      if [ "$(ps -aux | grep $x | wc -l)" == "1" ]; then
-        #echo "Removendo $x"
-        rm $x
-      #else
-        #echo "N remover $x"
-      fi
-    done
-    if [ "$(ls)" == "" ]; then
-      break
-    else
-    echo "."
-    sleep 5
-    fi
-  done
-
 done
 
 
